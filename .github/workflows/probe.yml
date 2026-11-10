@@ -1,0 +1,17 @@
+name: Probe sources
+on:
+  push:
+    paths: ['.probe/**']
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe
+        run: |
+          bash .probe/probe.sh > /tmp/probe.txt 2>&1 || true
+          git config user.name build-bot; git config user.email build-bot@users.noreply.github.com
+          git checkout --orphan probe-tmp; git rm -rf --cached . >/dev/null; find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp /tmp/probe.txt .; git add probe.txt; git commit -m probe; git push -f origin HEAD:probe-report
