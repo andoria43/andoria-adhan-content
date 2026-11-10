@@ -1,3 +1,3 @@
-ok: khalaf_fajr, malmo_fajr, aaqib_azeez, khalaf_1, khalaf_2, short_adhan, historic_mecca
+ok: khalaf_fajr, malmo_fajr, aaqib_azeez, khalaf_1, khalaf_2, short_adhan
 failed:
 

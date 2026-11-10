@@ -84,20 +84,6 @@
    "license": "CC BY-SA 2.5",
    "license_url": "https://creativecommons.org/licenses/by-sa/2.5/",
    "page": "https://commons.wikimedia.org/wiki/File:Adhan_wiki.oga"
-  },
-  {
-   "id": "historic_mecca",
-   "ar": "تسجيل تاريخي من مكة (حوالي سنة 1900)",
-   "en": "Historic recording from Makkah (around 1900)",
-   "fajr": false,
-   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/historic_mecca.mp3",
-   "seconds": 90,
-   "note_ar": "1:30 · Christiaan Snouck Hurgronje collection · Public domain",
-   "note_en": "1:30 · Christiaan Snouck Hurgronje collection · Public domain",
-   "author": "Christiaan Snouck Hurgronje collection",
-   "license": "Public domain",
-   "license_url": "https://commons.wikimedia.org/wiki/File:Oldest_recording_of_the_Quran_1885.oga",
-   "page": "https://commons.wikimedia.org/wiki/File:Oldest_recording_of_the_Quran_1885.oga"
   }
  ]
 }

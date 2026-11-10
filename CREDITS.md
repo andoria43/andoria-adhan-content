@@ -9,4 +9,3 @@ nothing else was changed except where a trim is noted.
 - **Ahmed Khalaf (1)** (أحمد خلف (1)): Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
 - **Ahmed Khalaf (2)** (أحمد خلف (2)): Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
 - **Short adhan** (أذان قصير): Jarih, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/). Source: https://commons.wikimedia.org/wiki/File:Adhan_wiki.oga.
-- **Historic recording from Makkah (around 1900)** (تسجيل تاريخي من مكة (حوالي سنة 1900)): Christiaan Snouck Hurgronje collection, [Public domain](https://commons.wikimedia.org/wiki/File:Oldest_recording_of_the_Quran_1885.oga). Source: https://commons.wikimedia.org/wiki/File:Oldest_recording_of_the_Quran_1885.oga.
