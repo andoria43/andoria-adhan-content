@@ -1,0 +1,103 @@
+{
+ "version": 1,
+ "adhans": [
+  {
+   "id": "khalaf_fajr",
+   "ar": "أذان الفجر · أحمد خلف",
+   "en": "Fajr adhan · Ahmed Khalaf",
+   "fajr": true,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/khalaf_fajr.mp3",
+   "seconds": 99,
+   "note_ar": "1:39 · Ahmed Khalaf · CC BY 4.0",
+   "note_en": "1:39 · Ahmed Khalaf · CC BY 4.0",
+   "author": "Ahmed Khalaf",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "page": "https://github.com/nandxorandor/Athan"
+  },
+  {
+   "id": "malmo_fajr",
+   "ar": "أذان الفجر · مسجد مالمو (بسيم عزمي)",
+   "en": "Fajr adhan · Malmö Mosque (Besim Azemi)",
+   "fajr": true,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/malmo_fajr.mp3",
+   "seconds": 224,
+   "note_ar": "3:44 · Islamic Center Malmö · CC BY 3.0",
+   "note_en": "3:44 · Islamic Center Malmö · CC BY 3.0",
+   "author": "Islamic Center Malmö",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Eid_al-Fitr_Fajr_azan_at_Malm%C3%B6_Mosque_-_19_August_2012.webm"
+  },
+  {
+   "id": "aaqib_azeez",
+   "ar": "عاقب عزيز",
+   "en": "Aaqib Azeez",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/aaqib_azeez.mp3",
+   "seconds": 87,
+   "note_ar": "1:27 · Aaqib Azeez (Atcovi) · CC BY-SA 4.0",
+   "note_en": "1:27 · Aaqib Azeez (Atcovi) · CC BY-SA 4.0",
+   "author": "Aaqib Azeez (Atcovi)",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Adhan_-_Muslim_Call_to_Prayer_-_Aaqib_Azeez.mp3"
+  },
+  {
+   "id": "khalaf_1",
+   "ar": "أحمد خلف (1)",
+   "en": "Ahmed Khalaf (1)",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/khalaf_1.mp3",
+   "seconds": 145,
+   "note_ar": "2:25 · Ahmed Khalaf · CC BY 4.0",
+   "note_en": "2:25 · Ahmed Khalaf · CC BY 4.0",
+   "author": "Ahmed Khalaf",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "page": "https://github.com/nandxorandor/Athan"
+  },
+  {
+   "id": "khalaf_2",
+   "ar": "أحمد خلف (2)",
+   "en": "Ahmed Khalaf (2)",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/khalaf_2.mp3",
+   "seconds": 132,
+   "note_ar": "2:12 · Ahmed Khalaf · CC BY 4.0",
+   "note_en": "2:12 · Ahmed Khalaf · CC BY 4.0",
+   "author": "Ahmed Khalaf",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "page": "https://github.com/nandxorandor/Athan"
+  },
+  {
+   "id": "short_adhan",
+   "ar": "أذان قصير",
+   "en": "Short adhan",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/short_adhan.mp3",
+   "seconds": 27,
+   "note_ar": "0:27 · Jarih · CC BY-SA 2.5",
+   "note_en": "0:27 · Jarih · CC BY-SA 2.5",
+   "author": "Jarih",
+   "license": "CC BY-SA 2.5",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.5/",
+   "page": "https://commons.wikimedia.org/wiki/File:Adhan_wiki.oga"
+  },
+  {
+   "id": "historic_mecca",
+   "ar": "تسجيل تاريخي من مكة (حوالي سنة 1900)",
+   "en": "Historic recording from Makkah (around 1900)",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/historic_mecca.mp3",
+   "seconds": 90,
+   "note_ar": "1:30 · Christiaan Snouck Hurgronje collection · Public domain",
+   "note_en": "1:30 · Christiaan Snouck Hurgronje collection · Public domain",
+   "author": "Christiaan Snouck Hurgronje collection",
+   "license": "Public domain",
+   "license_url": "https://commons.wikimedia.org/wiki/File:Oldest_recording_of_the_Quran_1885.oga",
+   "page": "https://commons.wikimedia.org/wiki/File:Oldest_recording_of_the_Quran_1885.oga"
+  }
+ ]
+}
