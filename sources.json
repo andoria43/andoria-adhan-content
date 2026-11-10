@@ -1,0 +1,82 @@
+{
+  "adhans": [
+    {
+      "id": "khalaf_fajr",
+      "ar": "أذان الفجر · أحمد خلف",
+      "en": "Fajr adhan · Ahmed Khalaf",
+      "fajr": true,
+      "source": "github:nandxorandor/Athan:Developer_Athan-*:fajr",
+      "page": "https://github.com/nandxorandor/Athan",
+      "author": "Ahmed Khalaf",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "malmo_fajr",
+      "ar": "أذان الفجر · مسجد مالمو (بسيم عزمي)",
+      "en": "Fajr adhan · Malmö Mosque (Besim Azemi)",
+      "fajr": true,
+      "source": "commons:Eid al-Fitr Fajr azan at Malmö Mosque - 19 August 2012.webm",
+      "trim_end": 224,
+      "page": "https://commons.wikimedia.org/wiki/File:Eid_al-Fitr_Fajr_azan_at_Malm%C3%B6_Mosque_-_19_August_2012.webm",
+      "author": "Islamic Center Malmö",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "id": "aaqib_azeez",
+      "ar": "عاقب عزيز",
+      "en": "Aaqib Azeez",
+      "fajr": false,
+      "source": "commons:The Adhan - Muslim Call to Prayer - Aaqib Azeez.mp3",
+      "page": "https://commons.wikimedia.org/wiki/File:The_Adhan_-_Muslim_Call_to_Prayer_-_Aaqib_Azeez.mp3",
+      "author": "Aaqib Azeez (Atcovi)",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "khalaf_1",
+      "ar": "أحمد خلف (1)",
+      "en": "Ahmed Khalaf (1)",
+      "fajr": false,
+      "source": "github:nandxorandor/Athan:Developer_Athan-*:regular1",
+      "page": "https://github.com/nandxorandor/Athan",
+      "author": "Ahmed Khalaf",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "khalaf_2",
+      "ar": "أحمد خلف (2)",
+      "en": "Ahmed Khalaf (2)",
+      "fajr": false,
+      "source": "github:nandxorandor/Athan:Developer_Athan-*:regular2",
+      "page": "https://github.com/nandxorandor/Athan",
+      "author": "Ahmed Khalaf",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "short_adhan",
+      "ar": "أذان قصير",
+      "en": "Short adhan",
+      "fajr": false,
+      "source": "commons:Adhan wiki.oga",
+      "page": "https://commons.wikimedia.org/wiki/File:Adhan_wiki.oga",
+      "author": "Jarih",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5/"
+    },
+    {
+      "id": "historic_mecca",
+      "ar": "تسجيل تاريخي من مكة (حوالي سنة 1900)",
+      "en": "Historic recording from Makkah (around 1900)",
+      "fajr": false,
+      "source": "commons:Oldest recording of the Quran 1885.oga",
+      "page": "https://commons.wikimedia.org/wiki/File:Oldest_recording_of_the_Quran_1885.oga",
+      "author": "Christiaan Snouck Hurgronje collection",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Oldest_recording_of_the_Quran_1885.oga"
+    }
+  ]
+}
