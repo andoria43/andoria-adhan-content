@@ -1,6 +1,160 @@
 {
   "adhans": [
     {
+      "id": "makkah",
+      "ar": "أذان مكة المكرمة",
+      "en": "Makkah adhan",
+      "fajr": false,
+      "source": "ghfile:abodehq/Athan-MP3:Sounds/Athan Makkah.mp3",
+      "page": "https://github.com/abodehq/Athan-MP3",
+      "author": "Makkah adhan",
+      "license": "No licence stated; shared publicly by the repository author",
+      "license_url": "https://github.com/abodehq/Athan-MP3"
+    },
+    {
+      "id": "abdulbasit",
+      "ar": "عبد الباسط عبد الصمد",
+      "en": "Abdul Basit Abdul Samad",
+      "fajr": false,
+      "source": "ghfile:abodehq/Athan-MP3:Sounds/Athan Abed Albase6.mp3",
+      "page": "https://github.com/abodehq/Athan-MP3",
+      "author": "Abdul Basit Abdul Samad",
+      "license": "No licence stated; shared publicly by the repository author",
+      "license_url": "https://github.com/abodehq/Athan-MP3"
+    },
+    {
+      "id": "alafasy",
+      "ar": "مشاري العفاسي",
+      "en": "Mishary Alafasy",
+      "fajr": false,
+      "source": "ghfile:abodehq/Athan-MP3:Sounds/Athan Mishary Alafasi.mp3",
+      "page": "https://github.com/abodehq/Athan-MP3",
+      "author": "Mishary Alafasy",
+      "license": "No licence stated; shared publicly by the repository author",
+      "license_url": "https://github.com/abodehq/Athan-MP3"
+    },
+    {
+      "id": "minshawi",
+      "ar": "محمد صديق المنشاوي",
+      "en": "Mohamed Siddiq Al-Minshawi",
+      "fajr": false,
+      "source": "ghfile:abodehq/Athan-MP3:Sounds/Athan Mohammad Almenshawy.mp3",
+      "page": "https://github.com/abodehq/Athan-MP3",
+      "author": "Mohamed Siddiq Al-Minshawi",
+      "license": "No licence stated; shared publicly by the repository author",
+      "license_url": "https://github.com/abodehq/Athan-MP3"
+    },
+    {
+      "id": "refaat",
+      "ar": "محمد رفعت",
+      "en": "Mohamed Refaat",
+      "fajr": false,
+      "source": "ghfile:abodehq/Athan-MP3:Sounds/Athan Mohammad Ref3at.mp3",
+      "page": "https://github.com/abodehq/Athan-MP3",
+      "author": "Mohamed Refaat",
+      "license": "No licence stated; shared publicly by the repository author",
+      "license_url": "https://github.com/abodehq/Athan-MP3"
+    },
+    {
+      "id": "nuaina",
+      "ar": "أحمد نعينع",
+      "en": "Ahmed Nuaina",
+      "fajr": false,
+      "source": "ghfile:abodehq/Athan-MP3:Sounds/Athan Ahmad Nuyne3.mp3",
+      "page": "https://github.com/abodehq/Athan-MP3",
+      "author": "Ahmed Nuaina",
+      "license": "No licence stated; shared publicly by the repository author",
+      "license_url": "https://github.com/abodehq/Athan-MP3"
+    },
+    {
+      "id": "qatami",
+      "ar": "ناصر القطامي",
+      "en": "Nasser Al-Qatami",
+      "fajr": false,
+      "source": "ghfile:abodehq/Athan-MP3:Sounds/Athan Nasser Alqatami.mp3",
+      "page": "https://github.com/abodehq/Athan-MP3",
+      "author": "Nasser Al-Qatami",
+      "license": "No licence stated; shared publicly by the repository author",
+      "license_url": "https://github.com/abodehq/Athan-MP3"
+    },
+    {
+      "id": "zahrani",
+      "ar": "منصور الزهراني",
+      "en": "Mansour Al-Zahrani",
+      "fajr": false,
+      "source": "ghfile:abodehq/Athan-MP3:Sounds/Athan Mansoor Az-Zahrani.mp3",
+      "page": "https://github.com/abodehq/Athan-MP3",
+      "author": "Mansour Al-Zahrani",
+      "license": "No licence stated; shared publicly by the repository author",
+      "license_url": "https://github.com/abodehq/Athan-MP3"
+    },
+    {
+      "id": "arkani",
+      "ar": "إبراهيم الأركاني",
+      "en": "Ibrahim Al-Arkani",
+      "fajr": false,
+      "source": "ghfile:abodehq/Athan-MP3:Sounds/Athan Ibrahim Al-Arkani.mp3",
+      "page": "https://github.com/abodehq/Athan-MP3",
+      "author": "Ibrahim Al-Arkani",
+      "license": "No licence stated; shared publicly by the repository author",
+      "license_url": "https://github.com/abodehq/Athan-MP3"
+    },
+    {
+      "id": "malki",
+      "ar": "حمدان المالكي",
+      "en": "Hamdan Al-Malki",
+      "fajr": false,
+      "source": "ghfile:abodehq/Athan-MP3:Sounds/Athan Hamdan Almalki.mp3",
+      "page": "https://github.com/abodehq/Athan-MP3",
+      "author": "Hamdan Al-Malki",
+      "license": "No licence stated; shared publicly by the repository author",
+      "license_url": "https://github.com/abodehq/Athan-MP3"
+    },
+    {
+      "id": "hamathani",
+      "ar": "ماجد الحمذاني",
+      "en": "Majed Al-Hamathani",
+      "fajr": false,
+      "source": "ghfile:abodehq/Athan-MP3:Sounds/Athan Majed Al-hamathani.mp3",
+      "page": "https://github.com/abodehq/Athan-MP3",
+      "author": "Majed Al-Hamathani",
+      "license": "No licence stated; shared publicly by the repository author",
+      "license_url": "https://github.com/abodehq/Athan-MP3"
+    },
+    {
+      "id": "deghreri",
+      "ar": "حمد الدغريري",
+      "en": "Hamad Al-Deghreri",
+      "fajr": false,
+      "source": "ghfile:abodehq/Athan-MP3:Sounds/Athan Hamad Deghreri.mp3",
+      "page": "https://github.com/abodehq/Athan-MP3",
+      "author": "Hamad Al-Deghreri",
+      "license": "No licence stated; shared publicly by the repository author",
+      "license_url": "https://github.com/abodehq/Athan-MP3"
+    },
+    {
+      "id": "suhaib",
+      "ar": "صهيب خطبة",
+      "en": "Suhaib Khatba",
+      "fajr": false,
+      "source": "ghfile:abodehq/Athan-MP3:Sounds/Athan Suhaib Khatba.mp3",
+      "page": "https://github.com/abodehq/Athan-MP3",
+      "author": "Suhaib Khatba",
+      "license": "No licence stated; shared publicly by the repository author",
+      "license_url": "https://github.com/abodehq/Athan-MP3"
+    },
+    {
+      "id": "malek_fajr",
+      "ar": "أذان الفجر · مالك شبعي",
+      "en": "Fajr adhan · Malek Chebae",
+      "fajr": true,
+      "source": "ghfile:abodehq/Athan-MP3:Sounds/Athan Al-fajer - Malek chebae.mp3",
+      "page": "https://github.com/abodehq/Athan-MP3",
+      "author": "Malek Chebae",
+      "license": "No licence stated; shared publicly by the repository author",
+      "license_url": "https://github.com/abodehq/Athan-MP3"
+    },
+    {
       "id": "khalaf_fajr",
       "ar": "أذان الفجر · أحمد خلف",
       "en": "Fajr adhan · Ahmed Khalaf",

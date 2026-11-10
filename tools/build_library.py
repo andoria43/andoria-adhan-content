@@ -56,6 +56,12 @@ def main():
                 url = "https://commons.wikimedia.org/wiki/Special:FilePath/" + urllib.parse.quote(name.replace(" ", "_"))
                 inp = os.path.join(tmp, a["id"] + os.path.splitext(name)[1])
                 get(url, inp)
+            elif s.startswith("ghfile:"):
+                _, repo, path = s.split(":", 2)
+                d = os.path.join(tmp, "gh_" + repo.replace("/", "_"))
+                if not os.path.isdir(d):
+                    subprocess.run(["git", "clone", "--depth", "1", "https://github.com/" + repo, d], check=True)
+                inp = os.path.join(d, path)
             elif s.startswith("github:"):
                 inp = from_github(s, tmp)
             else:
@@ -73,8 +79,8 @@ def main():
             catalog.append({
                 "id": a["id"], "ar": a["ar"], "en": a["en"], "fajr": a["fajr"],
                 "url": RAW + a["id"] + ".mp3", "seconds": secs,
-                "note_ar": "%s · %s · %s" % (mins, a["author"], a["license"]),
-                "note_en": "%s · %s · %s" % (mins, a["author"], a["license"]),
+                "note_ar": mins if a["license"].startswith("No licence") else "%s · %s" % (mins, a["license"]),
+                "note_en": mins if a["license"].startswith("No licence") else "%s · %s" % (mins, a["license"]),
                 "author": a["author"], "license": a["license"], "license_url": a["license_url"], "page": a["page"],
             })
             trim = " Trimmed to the first %d seconds (the du'a after the adhan removed)." % a["trim_end"] if a.get("trim_end") else ""
