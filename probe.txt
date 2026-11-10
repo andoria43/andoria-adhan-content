@@ -1,0 +1,133 @@
++ git clone -q --depth 1 https://github.com/abodehq/Athan-MP3 /tmp/a1
++ find /tmp/a1 -type f -not -path '*/.git/*' -printf '%s %P\n'
+19199932 Athan.zip
+403584 Sounds/Athan Abed Albase6.mp3
+1532448 Sounds/Athan Mansoor Az-Zahrani.mp3
+1930973 Sounds/Athan Mishary Alafasi.mp3
+1931182 Sounds/Athan Ibrahim Al-Arkani.mp3
+4269539 Sounds/Athan Hamdan Almalki.mp3
+503264 Sounds/Athan Mohammad Almenshawy.mp3
+1119975 Sounds/Athan Nasser Alqatami.mp3
+733312 Sounds/Athan Suhaib Khatba.mp3
+1814571 Sounds/Athan Majed Al-hamathani.mp3
+422016 Sounds/Athan Ahmad Nuyne3.mp3
+407680 Sounds/Athan Mohammad Ref3at.mp3
+405632 Sounds/Athan Makkah.mp3
+2008922 Sounds/Athan Al-fajer - Malek chebae.mp3
+1295675 Sounds/Athan Hamad Deghreri.mp3
+1135 README.md
++ cat /tmp/a1/README.md
+Athan-MP3
+=========
+
+The Adhan, is the Islamic call to prayer, recited by the muezzin at prescribed times of the day.
+
+you can choose other islamic services by visiting our web site : https://mos7af.com
+
+you can download the complete collection by click GodNames.zip or one by one as .PNG format !!
+
+
+Athan, الاذان
+
+الله أكبر ، الله أكبر God is Great, God is Great
+
+الله أكبر ، الله أكبر God is Great, God is Great
+
+أشهد ألا إله إلا الله I bear witness that there is no God But Allah
+
+أشهد ألا إله إلا الله I bear witness that there is no God But Allah 
+
+أشهد أن محمداً رسول الله I bear witness that Muhammad is the Messenger of Allah
+
+أشهد أن محمداً رسول الله I bear witness that Muhammad is the Messenger of Allah 
+
+حي على الصلاة، حي على الصلاة Come to the prayer, Come to Prayer
+
+حي على الفلاح، حي على الفلاح Come to the Success, Come to Success
+
+الله أكبر ، الله أكبر Allah is Great, Allah is Great
+
+لا إله إلا الله There is no God But Allah + for f in /tmp/a1/Sounds/*
++ ffprobe -v error -show_entries format=duration -of csv=p=0 '/tmp/a1/Sounds/Athan Abed Albase6.mp3'
+.probe/probe.sh: line 4: ffprobe: command not found
++ tr '\n' ' '
++ echo '/tmp/a1/Sounds/Athan Abed Albase6.mp3'
+/tmp/a1/Sounds/Athan Abed Albase6.mp3
++ for f in /tmp/a1/Sounds/*
++ ffprobe -v error -show_entries format=duration -of csv=p=0 '/tmp/a1/Sounds/Athan Ahmad Nuyne3.mp3'
+.probe/probe.sh: line 4: ffprobe: command not found
++ tr '\n' ' '
++ echo '/tmp/a1/Sounds/Athan Ahmad Nuyne3.mp3'
+/tmp/a1/Sounds/Athan Ahmad Nuyne3.mp3
++ for f in /tmp/a1/Sounds/*
++ ffprobe -v error -show_entries format=duration -of csv=p=0 '/tmp/a1/Sounds/Athan Al-fajer - Malek chebae.mp3'
+.probe/probe.sh: line 4: ffprobe: command not found
++ tr '\n' ' '
++ echo '/tmp/a1/Sounds/Athan Al-fajer - Malek chebae.mp3'
+/tmp/a1/Sounds/Athan Al-fajer - Malek chebae.mp3
++ for f in /tmp/a1/Sounds/*
++ ffprobe -v error -show_entries format=duration -of csv=p=0 '/tmp/a1/Sounds/Athan Hamad Deghreri.mp3'
+.probe/probe.sh: line 4: ffprobe: command not found
++ tr '\n' ' '
++ echo '/tmp/a1/Sounds/Athan Hamad Deghreri.mp3'
+/tmp/a1/Sounds/Athan Hamad Deghreri.mp3
++ for f in /tmp/a1/Sounds/*
++ ffprobe -v error -show_entries format=duration -of csv=p=0 '/tmp/a1/Sounds/Athan Hamdan Almalki.mp3'
+.probe/probe.sh: line 4: ffprobe: command not found
++ tr '\n' ' '
++ echo '/tmp/a1/Sounds/Athan Hamdan Almalki.mp3'
+/tmp/a1/Sounds/Athan Hamdan Almalki.mp3
++ for f in /tmp/a1/Sounds/*
++ ffprobe -v error -show_entries format=duration -of csv=p=0 '/tmp/a1/Sounds/Athan Ibrahim Al-Arkani.mp3'
+.probe/probe.sh: line 4: ffprobe: command not found
++ tr '\n' ' '
++ echo '/tmp/a1/Sounds/Athan Ibrahim Al-Arkani.mp3'
+/tmp/a1/Sounds/Athan Ibrahim Al-Arkani.mp3
++ for f in /tmp/a1/Sounds/*
++ ffprobe -v error -show_entries format=duration -of csv=p=0 '/tmp/a1/Sounds/Athan Majed Al-hamathani.mp3'
+.probe/probe.sh: line 4: ffprobe: command not found
++ tr '\n' ' '
++ echo '/tmp/a1/Sounds/Athan Majed Al-hamathani.mp3'
+/tmp/a1/Sounds/Athan Majed Al-hamathani.mp3
++ for f in /tmp/a1/Sounds/*
++ ffprobe -v error -show_entries format=duration -of csv=p=0 '/tmp/a1/Sounds/Athan Makkah.mp3'
+.probe/probe.sh: line 4: ffprobe: command not found
++ tr '\n' ' '
++ echo '/tmp/a1/Sounds/Athan Makkah.mp3'
+/tmp/a1/Sounds/Athan Makkah.mp3
++ for f in /tmp/a1/Sounds/*
++ ffprobe -v error -show_entries format=duration -of csv=p=0 '/tmp/a1/Sounds/Athan Mansoor Az-Zahrani.mp3'
+.probe/probe.sh: line 4: ffprobe: command not found
++ tr '\n' ' '
++ echo '/tmp/a1/Sounds/Athan Mansoor Az-Zahrani.mp3'
+/tmp/a1/Sounds/Athan Mansoor Az-Zahrani.mp3
++ for f in /tmp/a1/Sounds/*
++ ffprobe -v error -show_entries format=duration -of csv=p=0 '/tmp/a1/Sounds/Athan Mishary Alafasi.mp3'
+.probe/probe.sh: line 4: ffprobe: command not found
++ tr '\n' ' '
++ echo '/tmp/a1/Sounds/Athan Mishary Alafasi.mp3'
+/tmp/a1/Sounds/Athan Mishary Alafasi.mp3
++ for f in /tmp/a1/Sounds/*
++ ffprobe -v error -show_entries format=duration -of csv=p=0 '/tmp/a1/Sounds/Athan Mohammad Almenshawy.mp3'
+.probe/probe.sh: line 4: ffprobe: command not found
++ tr '\n' ' '
++ echo '/tmp/a1/Sounds/Athan Mohammad Almenshawy.mp3'
+/tmp/a1/Sounds/Athan Mohammad Almenshawy.mp3
++ for f in /tmp/a1/Sounds/*
++ ffprobe -v error -show_entries format=duration -of csv=p=0 '/tmp/a1/Sounds/Athan Mohammad Ref3at.mp3'
+.probe/probe.sh: line 4: ffprobe: command not found
++ tr '\n' ' '
++ echo '/tmp/a1/Sounds/Athan Mohammad Ref3at.mp3'
+/tmp/a1/Sounds/Athan Mohammad Ref3at.mp3
++ for f in /tmp/a1/Sounds/*
++ ffprobe -v error -show_entries format=duration -of csv=p=0 '/tmp/a1/Sounds/Athan Nasser Alqatami.mp3'
+.probe/probe.sh: line 4: ffprobe: command not found
++ tr '\n' ' '
++ echo '/tmp/a1/Sounds/Athan Nasser Alqatami.mp3'
+/tmp/a1/Sounds/Athan Nasser Alqatami.mp3
++ for f in /tmp/a1/Sounds/*
++ ffprobe -v error -show_entries format=duration -of csv=p=0 '/tmp/a1/Sounds/Athan Suhaib Khatba.mp3'
+.probe/probe.sh: line 4: ffprobe: command not found
++ tr '\n' ' '
++ echo '/tmp/a1/Sounds/Athan Suhaib Khatba.mp3'
+/tmp/a1/Sounds/Athan Suhaib Khatba.mp3
