@@ -36,7 +36,9 @@ jobs:
           pip install faster-whisper
       - run: python3 tools/harvest.py check ${{ matrix.part }} 6
       - uses: actions/upload-artifact@v4
-        with: { name: part-${{ matrix.part }}, path: .harvest/part-${{ matrix.part }}.json }
+        with:
+          name: part-${{ matrix.part }}
+          path: .harvest/part-${{ matrix.part }}.json
   report:
     needs: check
     if: always()
