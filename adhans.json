@@ -910,6 +910,51 @@
    "license": "No licence stated; shared publicly by the repository author",
    "license_url": "https://github.com/yousef-nasser-daaboul/alkannani-audio",
    "page": "https://github.com/yousef-nasser-daaboul/alkannani-audio"
+  },
+  {
+   "id": "alert_khayr_alafasy3_fajr",
+   "type": "alert",
+   "ar": "تنبيه الفجر: الصلاة خير من النوم · أذان الفجر · مشاري العفاسي (1)",
+   "en": "Fajr alert: As-salatu khayrun min an-nawm · Fajr adhan · Mishary Alafasy (1)",
+   "fajr": true,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/alert_khayr_alafasy3_fajr.mp3",
+   "seconds": 11,
+   "note_ar": "11 ث",
+   "note_en": "11 s",
+   "author": "Mishary Alafasy (1)",
+   "license": "No licence stated; shared publicly by the repository author",
+   "license_url": "https://github.com/0xzer0x/athany",
+   "page": "https://github.com/0xzer0x/athany"
+  },
+  {
+   "id": "alert_khayr_doha_fajr",
+   "type": "alert",
+   "ar": "تنبيه الفجر: الصلاة خير من النوم · أذان الفجر · الدوحة",
+   "en": "Fajr alert: As-salatu khayrun min an-nawm · Fajr adhan · Doha",
+   "fajr": true,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/alert_khayr_doha_fajr.mp3",
+   "seconds": 11,
+   "note_ar": "11 ث",
+   "note_en": "11 s",
+   "author": "Doha",
+   "license": "No licence stated; shared publicly by the repository author",
+   "license_url": "https://github.com/mohsalvi/adhan-audio",
+   "page": "https://github.com/mohsalvi/adhan-audio"
+  },
+  {
+   "id": "alert_end_khalaf_1",
+   "type": "alert",
+   "ar": "تنبيه: الله أكبر الله أكبر، لا إله إلا الله · أحمد خلف (1)",
+   "en": "Alert: Allahu akbar, la ilaha illa-llah · Ahmed Khalaf (1)",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/alert_end_khalaf_1.mp3",
+   "seconds": 19,
+   "note_ar": "19 ث",
+   "note_en": "19 s",
+   "author": "Ahmed Khalaf",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "page": "https://github.com/nandxorandor/Athan"
   }
  ]
 }

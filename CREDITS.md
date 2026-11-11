@@ -72,3 +72,7 @@ nothing else was changed except where a trim is noted.
 ## Alert tones
 
 Short clips cut from the recordings above (same authors and licences):
+
+- Fajr alert: As-salatu khayrun min an-nawm · Fajr adhan · Mishary Alafasy (1): Mishary Alafasy (1), [No licence stated; shared publicly by the repository author](https://github.com/0xzer0x/athany). Source: https://github.com/0xzer0x/athany.
+- Fajr alert: As-salatu khayrun min an-nawm · Fajr adhan · Doha: Doha, [No licence stated; shared publicly by the repository author](https://github.com/mohsalvi/adhan-audio). Source: https://github.com/mohsalvi/adhan-audio.
+- Alert: Allahu akbar, la ilaha illa-llah · Ahmed Khalaf (1): Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
