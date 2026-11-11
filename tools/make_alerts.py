@@ -117,9 +117,14 @@ def main(part=0, parts=1):
             if "ps" not in locals() or ps_for != sid:
                 ps, ps_for = pauses(path), sid
             s0, e0 = pause_before(ps, start, 3.0), pause_after(ps, end, 3.0)
-            if s0 is None or e0 is None:
-                report.append("  %s: DROPPED, no pause to cut in" % kind)
-                continue
+            # no clear pause (echo or music under the voice): cut between the neighbouring words instead;
+            # the clip is listened to again below and kept only if its words are exactly complete
+            if s0 is None:
+                prev_end = max([w[2] for w in words if w[2] <= start + 0.01] or [0.0])
+                s0 = max(prev_end + 0.03, start - 0.35)
+            if e0 is None:
+                nxt = [w[1] for w in words if w[1] >= end - 0.01]
+                e0 = min(min(nxt) - 0.03, end + 0.7) if nxt else end + 0.7
             if end - start > 20:
                 report.append("  %s: DROPPED, too long for an alert (%.1f s)" % (kind, end - start))
                 continue
