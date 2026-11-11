@@ -1,0 +1,42 @@
+name: Verify selected adhans
+
+on:
+  push:
+    paths: ['.harvest/selected.json']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    strategy:
+      fail-fast: false
+      matrix:
+        part: [0, 1, 2, 3, 4, 5, 6, 7]
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+          pip install faster-whisper
+      - run: python3 tools/harvest.py verify ${{ matrix.part }} 8
+      - uses: actions/upload-artifact@v4
+        with:
+          name: verify-${{ matrix.part }}
+          path: .harvest/verify-${{ matrix.part }}.json
+  report:
+    needs: verify
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: /tmp/parts
+      - run: |
+          mkdir -p /tmp/out && cp /tmp/parts/*/*.json /tmp/out/ || true
+          git config user.name build-bot; git config user.email build-bot@users.noreply.github.com
+          git checkout --orphan verify-tmp; git rm -rf --cached . >/dev/null; find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp /tmp/out/*.json .; git add -A; git commit -m verify; git push -f origin HEAD:verify-report

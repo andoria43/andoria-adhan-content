@@ -101,9 +101,44 @@ def check(part, parts):
     json.dump(res, open(".harvest/part-%d.json" % part, "w"), ensure_ascii=False, indent=1)
 
 
+def verify(part, parts):
+    """Second, careful listen (the larger model) to the selected recordings: whole text, Fajr phrase, how it starts."""
+    import numpy as np
+    from faster_whisper import WhisperModel
+    model = WhisperModel(os.environ.get("WHISPER", "small"), device="cpu", compute_type="int8")
+    sel = json.load(open(".harvest/selected.json"))
+    res = []
+    for i, c in enumerate(sel):
+        if i % parts != part:
+            continue
+        d = "/tmp/h/" + c["repo"].replace("/", "__")
+        if not os.path.isdir(d):
+            subprocess.run(["git", "clone", "-q", "--depth", "1", "https://github.com/" + c["repo"], d])
+        f = d + "/" + c["path"]
+        try:
+            raw = subprocess.run(["ffmpeg", "-v", "error", "-i", f, "-f", "s16le", "-ac", "1", "-ar", "16000", "-"], check=True, capture_output=True).stdout
+            segs, _ = model.transcribe(np.frombuffer(raw, np.int16).astype(np.float32) / 32768.0, language="ar", beam_size=5, vad_filter=False)
+            words = [norm(w) for s in segs for w in s.text.split()]
+            words = [w for w in words if w]
+        except Exception as e:
+            c["error"] = str(e); res.append(c); continue
+        t = "".join(words)
+        c["text"] = " ".join(words)
+        c["khayr"] = "خيرمنالنوم" in t or "خيرمنالنو" in t
+        c["shahada"] = len(re.findall("اشهد|اشهر|اشعد", t))
+        c["salah"] = len(re.findall("حيعل[يى]?الصلا|حياعل[يى]?الصلا|حيالصلا", t))
+        c["falah"] = len(re.findall("حيعل[يى]?الفلا|حياعل[يى]?الفلا|حيالفلا", t))
+        c["first"] = " ".join(words[:4])
+        res.append(c)
+        print(i, c["repo"], c["path"], c["khayr"], c["shahada"], c["first"])
+    json.dump(res, open(".harvest/verify-%d.json" % part, "w"), ensure_ascii=False, indent=1)
+
+
 if __name__ == "__main__":
     import urllib.parse
     if sys.argv[1] == "list":
         listing()
+    elif sys.argv[1] == "verify":
+        verify(int(sys.argv[2]), int(sys.argv[3]))
     else:
         check(int(sys.argv[2]), int(sys.argv[3]))

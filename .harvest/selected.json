@@ -1,0 +1,632 @@
+[
+ {
+  "repo": "kamrani8is/azan",
+  "path": "YTDown.com_YouTube_The-Fajr-Adhan-A-Call-That-Awakens-the-S_Media_WzXoWsDxgJA_007_128k.mp3",
+  "seconds": 330,
+  "fajr_name": true
+ },
+ {
+  "repo": "RyugaBahira/Waktu-Adzan",
+  "path": "app/src/main/res/raw/sheikh_abdul_karim_omar_fatani_al_makki_adzan_subuh.mp3",
+  "seconds": 268,
+  "fajr_name": true
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Fajr/sheikh_mansour_zahrani_fajr.mp3",
+  "seconds": 183,
+  "fajr_name": true
+ },
+ {
+  "repo": "if12is/islamic-app",
+  "path": "android/app/src/main/res/raw/adhan_fajr_abu_rahiq.mp3",
+  "seconds": 292,
+  "fajr_name": true
+ },
+ {
+  "repo": "abodehq/Athan-MP3",
+  "path": "Sounds/Athan Al-fajer - Malek chebae.mp3",
+  "seconds": 250,
+  "fajr_name": true
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "fajr/mishary-alafasy-fajr-01.mp3",
+  "seconds": 263,
+  "fajr_name": true
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/afasi_sobh_kord.mp3",
+  "seconds": 162,
+  "fajr_name": true
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Fajr/eslam_sobhi_fajr.mp3",
+  "seconds": 209,
+  "fajr_name": true
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/afasi_sobh_hejaz.mp3",
+  "seconds": 221,
+  "fajr_name": true
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "fajr/doha-qatar-fajr-01.mp3",
+  "seconds": 217,
+  "fajr_name": true
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/azan_mp3/default_azan_subuh.mp3",
+  "seconds": 237,
+  "fajr_name": true
+ },
+ {
+  "repo": "MeSameerAhmed/azan-automation",
+  "path": "audio/fajr_azan.mp3",
+  "seconds": 147,
+  "fajr_name": true
+ },
+ {
+  "repo": "ziyadedris/dublin-azan",
+  "path": "azans/default_fajr.mp3",
+  "seconds": 223,
+  "fajr_name": true
+ },
+ {
+  "repo": "Mo1Amin/Meqat-Widget",
+  "path": "public/azan/fajr-afasy.mp3",
+  "seconds": 187,
+  "fajr_name": true
+ },
+ {
+  "repo": "adeeonline/azaan-clock",
+  "path": "assets/audio/fajr/azan-fajr.mp3",
+  "seconds": 265,
+  "fajr_name": true
+ },
+ {
+  "repo": "AalianKhan/adhans",
+  "path": "adhan_fajr.mp3",
+  "seconds": 243,
+  "fajr_name": true
+ },
+ {
+  "repo": "coderasraf/Waqt",
+  "path": "assets/adhan/makkah-fajr.mp3",
+  "seconds": 215,
+  "fajr_name": true
+ },
+ {
+  "repo": "ajisetiawan716/luci-app-jsholat",
+  "path": "sounds/adzan_subuh.mp3",
+  "seconds": 300,
+  "fajr_name": true
+ },
+ {
+  "repo": "OpenCore-Lab/IslamicHomepage",
+  "path": "azan_fajr.mp3",
+  "seconds": 231,
+  "fajr_name": true
+ },
+ {
+  "repo": "ziyadedris/dublin-azan",
+  "path": "azans/alaqsa_fajr.mp3",
+  "seconds": 245,
+  "fajr_name": true
+ },
+ {
+  "repo": "rehanhaider/adhan",
+  "path": "media/Adhan-fajr.mp3",
+  "seconds": 233,
+  "fajr_name": true
+ },
+ {
+  "repo": "zubir2k/HomeAssistantAdzan",
+  "path": "audio/azansubuh_alexa.mp3",
+  "seconds": 219,
+  "fajr_name": true
+ },
+ {
+  "repo": "asarix-dev/deenah-audio",
+  "path": "adhan-previews/fajr_special.mp3",
+  "seconds": 121,
+  "fajr_name": true
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/fajr/fajr-4.mp3",
+  "seconds": 302,
+  "fajr_name": true
+ },
+ {
+  "repo": "yousef-nasser-daaboul/alkannani-audio",
+  "path": "audio/adhan/bilal-abdulaziz/fajr.mp3",
+  "seconds": 284,
+  "fajr_name": true
+ },
+ {
+  "repo": "hammadrauf/adhan-tools",
+  "path": "audio/fajr.mp3",
+  "seconds": 229,
+  "fajr_name": true
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/fajr/fajr-3.mp3",
+  "seconds": 254,
+  "fajr_name": true
+ },
+ {
+  "repo": "Ahmed-Wep-lap/Azan-audio",
+  "path": "\u0627\u0630\u0627\u0646 \u0627\u0644\u0639\u0635\u0631 _ \u0627\u0644\u0634\u064a\u062e \u0645\u062d\u0645\u062f \u0635\u062f\u064a\u0642 \u0627\u0644\u0645\u0646\u0634\u0627\u0648\u0649 _ \u0646\u0648\u0627\u062f\u0631 \u0644\u0646 \u062a\u062a\u0643\u0631\u0631 \u0627\u0628\u062f\u0627(MP3_160K).mp3",
+  "seconds": 214,
+  "fajr_name": false
+ },
+ {
+  "repo": "RyugaBahira/Waktu-Adzan",
+  "path": "app/src/main/res/raw/sheikh_abdul_karim_omar_fatani_al_makki_adzan.mp3",
+  "seconds": 208,
+  "fajr_name": false
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/ali_hassan_abd_al_khaliq_qatar.mp3",
+  "seconds": 134,
+  "fajr_name": false
+ },
+ {
+  "repo": "ahmedjafri/bilal",
+  "path": "src/bilal/audio_files/shia_azan_sayed_hamid_mostajab.wav",
+  "seconds": 224,
+  "fajr_name": false
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/abdel_moneim_abdel_mobdi.mp3",
+  "seconds": 142,
+  "fajr_name": false
+ },
+ {
+  "repo": "rezaghuloom95/home-frame-samsung-tv",
+  "path": "azan/demo-azan-dubai-mall.mp3",
+  "seconds": 130,
+  "fajr_name": false
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/abdul-basit-abdul-samad-01.mp3",
+  "seconds": 238,
+  "fajr_name": false
+ },
+ {
+  "repo": "adelpro/Openadhan",
+  "path": "src/assets/first_adhan_masjid_aadam.ogg",
+  "seconds": 218,
+  "fajr_name": false
+ },
+ {
+  "repo": "rehanhaider/adhan",
+  "path": "media/Adhan-Makkah1-Dua.mp3",
+  "seconds": 266,
+  "fajr_name": false
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/adhan_abdul_baset.mp3",
+  "seconds": 229,
+  "fajr_name": false
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/non-fajr/Sheikh Shaya Al-Tamimi.mp3",
+  "seconds": 258,
+  "fajr_name": false
+ },
+ {
+  "repo": "DBChoco/Muezzin",
+  "path": "ressources/audio/Adhan - Ahmed Al-Nufais.mp3",
+  "seconds": 193,
+  "fajr_name": false
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/doha-qatar-dhuhr-01.mp3",
+  "seconds": 179,
+  "fajr_name": false
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/doha-qatar-maghrib-01.mp3",
+  "seconds": 199,
+  "fajr_name": false
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/omar_abdullah_kurdi.mp3",
+  "seconds": 255,
+  "fajr_name": false
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/abdul_rahman_majde.mp3",
+  "seconds": 164,
+  "fajr_name": false
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/doha-qatar-isha-01.mp3",
+  "seconds": 181,
+  "fajr_name": false
+ },
+ {
+  "repo": "07halilgunay-art/azan-audio",
+  "path": "Muhsin Kara Ezan 2.mp3",
+  "seconds": 279,
+  "fajr_name": false
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/abdul_wali_al_arkani.mp3",
+  "seconds": 158,
+  "fajr_name": false
+ },
+ {
+  "repo": "AhmedAhmedEG/PyAdhan",
+  "path": "Resources/Adhan Callers/Mahmoud Mohamed Ramadan.mp3",
+  "seconds": 216,
+  "fajr_name": false
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/bukan_samawati_hejaz.mp3",
+  "seconds": 197,
+  "fajr_name": false
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/alezi_saleh_masuri.mp3",
+  "seconds": 204,
+  "fajr_name": false
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Abdul-Majeed_Al-Suraihi.mp3",
+  "seconds": 210,
+  "fajr_name": false
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/athan_molana_kurtish.mp3",
+  "seconds": 188,
+  "fajr_name": false
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/balbasher_abdel_qadir.mp3",
+  "seconds": 117,
+  "fajr_name": false
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Abdul-Nasser_Harak.mp3",
+  "seconds": 220,
+  "fajr_name": false
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/Athan_alafasi_nice.mp3",
+  "seconds": 240,
+  "fajr_name": false
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/azan_mp3/default_azan_biasa.mp3",
+  "seconds": 270,
+  "fajr_name": false
+ },
+ {
+  "repo": "MohamedAbulgasem/Taqwa",
+  "path": "iosApp/iosApp/Resources/adhan-azeez-full.m4a",
+  "seconds": 86,
+  "fajr_name": false
+ },
+ {
+  "repo": "MohamedAbulgasem/Taqwa",
+  "path": "iosApp/iosApp/Resources/adhan-madinah-full.m4a",
+  "seconds": 186,
+  "fajr_name": false
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Nasser_Al-Qatami.mp3",
+  "seconds": 132,
+  "fajr_name": false
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Abdul-Basit.mp3",
+  "seconds": 206,
+  "fajr_name": false
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/raad_alkurdi.mp3",
+  "seconds": 264,
+  "fajr_name": false
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/ebrahim_silawi.mp3",
+  "seconds": 167,
+  "fajr_name": false
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/abdulrahman_hendi.mp3",
+  "seconds": 173,
+  "fajr_name": false
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/alafasi_new.mp3",
+  "seconds": 226,
+  "fajr_name": false
+ },
+ {
+  "repo": "dzikirqu/dzikirqu-android",
+  "path": "app/src/main/res/raw/abdullah_al_zaili.mp3",
+  "seconds": 250,
+  "fajr_name": false
+ },
+ {
+  "repo": "moshraheem-sudo/Muezzin",
+  "path": "\u0639\u0627\u0645\u0631 \u0627\u0644\u0643\u0627\u0638\u0645\u064a .mp3",
+  "seconds": 262,
+  "fajr_name": false
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/saad_ramadan.mp3",
+  "seconds": 176,
+  "fajr_name": false
+ },
+ {
+  "repo": "geeksesi/OnlineAdhanPlayer",
+  "path": "dhuhr-adhan.mp3",
+  "seconds": 307,
+  "fajr_name": false
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Mishary_Alafasy_3.mp3",
+  "seconds": 183,
+  "fajr_name": false
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Sayed_Al-Naqshbandi.mp3",
+  "seconds": 171,
+  "fajr_name": false
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/abazar_alhalvaji.mp3",
+  "seconds": 320,
+  "fajr_name": false
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/afasi_saba.mp3",
+  "seconds": 246,
+  "fajr_name": false
+ },
+ {
+  "repo": "azrihafez/azan-audio",
+  "path": "azan_alexa.mp3",
+  "seconds": 260,
+  "fajr_name": false
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/ahmed_al_haddad.mp3",
+  "seconds": 155,
+  "fajr_name": false
+ },
+ {
+  "repo": "moshraheem-sudo/Muezzin",
+  "path": "\u0627\u0628\u0627\u0630\u0631 \u0627\u0644\u062d\u0644\u0648\u0627\u062c\u064a.mp3",
+  "seconds": 303,
+  "fajr_name": false
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/adhan_madina_1952.mp3",
+  "seconds": 191,
+  "fajr_name": false
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/saad_alghamedi_.mp3",
+  "seconds": 124,
+  "fajr_name": false
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/masnsour_salemi.mp3",
+  "seconds": 148,
+  "fajr_name": false
+ },
+ {
+  "repo": "AhmedAhmedEG/PyAdhan",
+  "path": "Resources/Adhan Callers/Naser El-Katamy.mp3",
+  "seconds": 128,
+  "fajr_name": false
+ },
+ {
+  "repo": "alaaaalaa8282-cell/ElectronicMuezzin",
+  "path": "app/src/main/res/raw/azan_short.mp3",
+  "seconds": 201,
+  "fajr_name": false
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/mishary-alafasy-07.mp3",
+  "seconds": 234,
+  "fajr_name": false
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/taqi_almaleki.mp3",
+  "seconds": 301,
+  "fajr_name": false
+ },
+ {
+  "repo": "sketchc/adhan-audio",
+  "path": "638e6472ffa10dec9c0df318560e524c.mp3",
+  "seconds": 121,
+  "fajr_name": false
+ },
+ {
+  "repo": "sitijulianti/P6-Mobile-Programming-2",
+  "path": "app/src/main/res/raw/adzan_hawai.mp3",
+  "seconds": 232,
+  "fajr_name": false
+ },
+ {
+  "repo": "yousef-nasser-daaboul/alkannani-audio",
+  "path": "audio/adhan/bilal-abdulaziz/regular-rasd.mp3",
+  "seconds": 296,
+  "fajr_name": false
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/mohamed_adel.m4a",
+  "seconds": 145,
+  "fajr_name": false
+ },
+ {
+  "repo": "abuzoz/prayer-times-app",
+  "path": "app/src/main/res/raw/adhan_mokhtar.ogg",
+  "seconds": 195,
+  "fajr_name": false
+ },
+ {
+  "repo": "asarix-dev/deenah-audio",
+  "path": "adhan-previews/turkish.mp3",
+  "seconds": 119,
+  "fajr_name": false
+ },
+ {
+  "repo": "LutfiSihabudin/adzanp6",
+  "path": "app/src/main/res/raw/mesir.mp3",
+  "seconds": 222,
+  "fajr_name": false
+ },
+ {
+  "repo": "jilani97/RaspberryPieAzanClock",
+  "path": "Recording.mp3",
+  "seconds": 91,
+  "fajr_name": false
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/madinah-02.mp3",
+  "seconds": 95,
+  "fajr_name": false
+ },
+ {
+  "repo": "Golyriun/adhan-audio",
+  "path": "azan_1.mp3",
+  "seconds": 316,
+  "fajr_name": false
+ },
+ {
+  "repo": "Golyriun/adhan-audio",
+  "path": "azan_9.mp3",
+  "seconds": 299,
+  "fajr_name": false
+ },
+ {
+  "repo": "Kydens/Prayer-Reminder",
+  "path": "adzan.mp3",
+  "seconds": 268,
+  "fajr_name": false
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/other/azan10.mp3",
+  "seconds": 282,
+  "fajr_name": false
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/other/azan14.mp3",
+  "seconds": 212,
+  "fajr_name": false
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/non-fajr/adhan-2.mp3",
+  "seconds": 153,
+  "fajr_name": false
+ },
+ {
+  "repo": "Golyriun/adhan-audio",
+  "path": "azan_7.mp3",
+  "seconds": 244,
+  "fajr_name": false
+ },
+ {
+  "repo": "Golyriun/adhan-audio",
+  "path": "azan_8.mp3",
+  "seconds": 293,
+  "fajr_name": false
+ },
+ {
+  "repo": "kamranzafar/piprayer",
+  "path": "media/azaan-14.wav",
+  "seconds": 139,
+  "fajr_name": false
+ },
+ {
+  "repo": "kamranzafar/piprayer",
+  "path": "media/azaan-5.wav",
+  "seconds": 161,
+  "fajr_name": false
+ },
+ {
+  "repo": "khizar-j/zikrist-audio",
+  "path": "azan/aaqib/full.m4a",
+  "seconds": 84,
+  "fajr_name": false
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_5.mp3",
+  "seconds": 126,
+  "fajr_name": false
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_59.mp3",
+  "seconds": 151,
+  "fajr_name": false
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_121.mp3",
+  "seconds": 169,
+  "fajr_name": false
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_65.mp3",
+  "seconds": 248,
+  "fajr_name": false
+ }
+]
