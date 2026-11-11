@@ -91,7 +91,18 @@ def main():
             failed.append("%s: %s" % (a["id"], e))
             if os.path.exists(out):
                 os.remove(out)
+    try:  # keep the alert tones cut by tools/make_alerts.py
+        old = json.load(open("adhans.json", encoding="utf-8"))["adhans"]
+        catalog += [a for a in old if a.get("type") == "alert"]
+    except Exception:
+        pass
     json.dump({"version": 1, "adhans": catalog}, open("adhans.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    try:
+        tail = open("CREDITS.md", encoding="utf-8").read()
+        if "\n## Alert tones" in tail:
+            credits.append("\n## Alert tones" + tail.split("\n## Alert tones", 1)[1].rstrip("\n"))
+    except Exception:
+        pass
     open("CREDITS.md", "w", encoding="utf-8").write("\n".join(credits) + "\n")
     open("build-report.txt", "w").write("ok: %s\nfailed:\n%s\n" % (", ".join(ok), "\n".join(failed)))
     print("ok", ok, "failed", failed)
