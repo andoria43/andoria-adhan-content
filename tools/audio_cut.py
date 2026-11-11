@@ -8,7 +8,7 @@ import re, subprocess
 def pauses(path, db=-30, min_len=0.25):
     """[(start, end)] of the quiet stretches (ffmpeg silencedetect)."""
     out = subprocess.run(["ffmpeg", "-v", "info", "-i", path, "-af", "silencedetect=noise=%ddB:d=%.2f" % (db, min_len),
-                          "-f", "null", "-"], capture_output=True, text=True).stderr
+                          "-f", "null", "-"], capture_output=True, text=True, errors="replace").stderr
     starts = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", out)]
     ends = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", out)]
     res = list(zip(starts, ends))

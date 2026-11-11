@@ -35,12 +35,12 @@ def analyse(model, path):
     t1 = words[last + len(CLOSE) - 1][2]
     start = pause_before(ps, t0)
     end = pause_after(ps, t1)
+    # No clear pause (music or echo under the voice): cut just outside the heard words; the cut is
+    # listened to again below, and the build fades the edges, so no word is clipped.
     if start is None:
-        start = max(0.0, t0 - 0.6) if t0 < 1.5 else None
+        start = max(0.0, t0 - 0.45)
     if end is None:
-        end = t1 + 1.2 if t1 + 1.2 >= duration(path) - 0.2 else None
-    if start is None or end is None:
-        return None, "no pause around the adhan to cut in"
+        end = min(duration(path), t1 + 1.0)
     return (max(0.0, start), end), "ok"
 
 
