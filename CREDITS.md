@@ -23,3 +23,15 @@ nothing else was changed except where a trim is noted.
 - **Ahmed Khalaf (1)** (أحمد خلف (1)): Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
 - **Ahmed Khalaf (2)** (أحمد خلف (2)): Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
 - **Short adhan** (أذان قصير): Jarih, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/). Source: https://commons.wikimedia.org/wiki/File:Adhan_wiki.oga.
+
+## Alert tones
+
+Short clips cut from the recordings above (same authors and licences):
+
+- Alert: Allahu akbar · Ahmed Khalaf (1): Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
+- Alert: Allahu akbar · Ahmed Khalaf (2): Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
+- Alert: Hayya ala-s-salah · Ahmed Khalaf (2): Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
+- Alert: Allahu akbar · Fajr adhan · Ahmed Khalaf: Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
+- Alert: Allahu akbar · Makkah adhan: Makkah adhan, [No licence stated; shared publicly by the repository author](https://github.com/abodehq/Athan-MP3). Source: https://github.com/abodehq/Athan-MP3.
+- Alert: Allahu akbar · Mishary Alafasy: Mishary Alafasy, [No licence stated; shared publicly by the repository author](https://github.com/abodehq/Athan-MP3). Source: https://github.com/abodehq/Athan-MP3.
+- Alert: Hayya ala-s-salah · Mishary Alafasy: Mishary Alafasy, [No licence stated; shared publicly by the repository author](https://github.com/abodehq/Athan-MP3). Source: https://github.com/abodehq/Athan-MP3.
