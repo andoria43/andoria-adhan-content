@@ -1,0 +1,4058 @@
+[
+ {
+  "repo": "AalianKhan/adhans",
+  "path": "adhan_fajr.mp3",
+  "seconds": 243,
+  "md5": "abe6b41f47c2299bfddd097692c50952"
+ },
+ {
+  "repo": "AalianKhan/adhans",
+  "path": "adhan.mp3",
+  "seconds": 215,
+  "md5": "ed9a77ccf3f93e55ecf90be8860c0234"
+ },
+ {
+  "repo": "rehanhaider/adhan",
+  "path": "media/Adhan-Makkah1-Dua.mp3",
+  "seconds": 266,
+  "md5": "e5fe698a7299defb9c945567699aa0e2"
+ },
+ {
+  "repo": "rehanhaider/adhan",
+  "path": "media/Adhan-fajr.mp3",
+  "seconds": 233,
+  "md5": "9c22aada30bf4d2b5995b6da3cf8ab6d"
+ },
+ {
+  "repo": "rehanhaider/adhan",
+  "path": "media/Adhan-Madinah.mp3",
+  "seconds": 207,
+  "md5": "c81c0c0bb125c9cc7b3cd7243cf0e03e"
+ },
+ {
+  "repo": "rehanhaider/adhan",
+  "path": "media/Adhan-Turkish.mp3",
+  "seconds": 202,
+  "md5": "da63134bac64f0cca50370b7cf34aefe"
+ },
+ {
+  "repo": "rehanhaider/adhan",
+  "path": "media/Adhan-Makkah-Dua.mp3",
+  "seconds": 257,
+  "md5": "24bc4ccfe1f9dd4ffd4d4f845429d89c"
+ },
+ {
+  "repo": "rehanhaider/adhan",
+  "path": "media/Adhan-Makkah1.mp3",
+  "seconds": 210,
+  "md5": "c3378ea5055be930880be3e2e0dd0ecd"
+ },
+ {
+  "repo": "rehanhaider/adhan",
+  "path": "media/Adhan-Makkah2.mp3",
+  "seconds": 202,
+  "md5": "46621dc423c9c29dc6a1559f5546ff6f"
+ },
+ {
+  "repo": "achaudhry/adhan",
+  "path": "Adhan-Mishary-Rashid-Al-Afasy.mp3",
+  "seconds": 160,
+  "md5": "5db361f9006f753cf1b8f9e3d8f0b3e1"
+ },
+ {
+  "repo": "adeeonline/azaan-clock",
+  "path": "assets/audio/azan-1.mp3",
+  "seconds": 232,
+  "md5": "d145e8e41c3cc3ab88d42f67bc9d20c9"
+ },
+ {
+  "repo": "adeeonline/azaan-clock",
+  "path": "assets/audio/azan-2.mp3",
+  "seconds": 188,
+  "md5": "88fb5b368400e76f77429cbc0e33c2ee"
+ },
+ {
+  "repo": "adeeonline/azaan-clock",
+  "path": "assets/audio/azan-3.mp3",
+  "seconds": 201,
+  "md5": "5a66e19d0e933beafaab5539f9b79d24"
+ },
+ {
+  "repo": "adeeonline/azaan-clock",
+  "path": "assets/audio/fajr/azan-fajr.mp3",
+  "seconds": 265,
+  "md5": "ef5ccf55561170628b44d874124bd145"
+ },
+ {
+  "repo": "kamranzafar/piprayer",
+  "path": "media/azaan-12.wav",
+  "seconds": 252,
+  "md5": "db3dc26d66413ca0085829570e9df503"
+ },
+ {
+  "repo": "kamranzafar/piprayer",
+  "path": "media/azaan-2.wav",
+  "seconds": 210,
+  "md5": "a1fea4dbb07365435faea9996e970927"
+ },
+ {
+  "repo": "kamranzafar/piprayer",
+  "path": "media/azaan-14.wav",
+  "seconds": 139,
+  "md5": "52a942ff3f4678b8af3ef8fbb6d529e4"
+ },
+ {
+  "repo": "kamranzafar/piprayer",
+  "path": "media/azaan-11.wav",
+  "seconds": 241,
+  "md5": "a09a8fc2a57e6172de7f6a013f2f3956"
+ },
+ {
+  "repo": "kamranzafar/piprayer",
+  "path": "media/azaan-1.wav",
+  "seconds": 201,
+  "md5": "0b7fe012bf15e7a1a145582ea889bb16"
+ },
+ {
+  "repo": "kamranzafar/piprayer",
+  "path": "media/azaan-8.wav",
+  "seconds": 226,
+  "md5": "9beaa9c5df49b387dc539589009a05b3"
+ },
+ {
+  "repo": "kamranzafar/piprayer",
+  "path": "media/azaan-7.wav",
+  "seconds": 241,
+  "md5": "b68d7b4c72824f58e23189e2e9012ca3"
+ },
+ {
+  "repo": "kamranzafar/piprayer",
+  "path": "media/azaan-10.wav",
+  "seconds": 191,
+  "md5": "a7d047da33d53db147c3032b0eaa80af"
+ },
+ {
+  "repo": "kamranzafar/piprayer",
+  "path": "media/azaan-3.wav",
+  "seconds": 250,
+  "md5": "6ffdc0acc712e3be7e640ef4e29d75ca"
+ },
+ {
+  "repo": "kamranzafar/piprayer",
+  "path": "media/azaan-9.wav",
+  "seconds": 202,
+  "md5": "f67dcca0c7d91ad6c7e64a5c38c0033d"
+ },
+ {
+  "repo": "kamranzafar/piprayer",
+  "path": "media/azaan-13.wav",
+  "seconds": 204,
+  "md5": "86545e9aa56b9a384e6a121c8f02ce4a"
+ },
+ {
+  "repo": "kamranzafar/piprayer",
+  "path": "media/azaan-4.wav",
+  "seconds": 148,
+  "md5": "4ff00f94750c3aeaefc722088e73691f"
+ },
+ {
+  "repo": "kamranzafar/piprayer",
+  "path": "media/azaan-6.wav",
+  "seconds": 267,
+  "md5": "f9f1f861520d60b6f9f41d71e7dba85b"
+ },
+ {
+  "repo": "kamranzafar/piprayer",
+  "path": "media/azaan-15.wav",
+  "seconds": 183,
+  "md5": "2b4cd0874b1bf799f65f429072a57ae3"
+ },
+ {
+  "repo": "kamranzafar/piprayer",
+  "path": "media/azaan-5.wav",
+  "seconds": 161,
+  "md5": "fe9dbb3060516b554939d872ee44f68a"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Mansoor_Al-Zahrani.mp3",
+  "seconds": 195,
+  "md5": "5ff5fd4abfb3215db244d8beb1337cbf"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Azzam_Dweik.mp3",
+  "seconds": 245,
+  "md5": "3f19b48bf44b14a64d209f7329448001"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Mahmoud_Mohammad_Ramadan.mp3",
+  "seconds": 216,
+  "md5": "97a980f38e5ea718800e49b6c4052aa4"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Abdul-Hakam.mp3",
+  "seconds": 190,
+  "md5": "b4916e61ee717120d6ddd0b5049806b7"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Mishary_Alafasy.mp3",
+  "seconds": 184,
+  "md5": "1a58b503c2c3f71d3e1e7b02d5774df6"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Alaqsa.mp3",
+  "seconds": 225,
+  "md5": "a1cc50ef247038a65df2ec001e63d302"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Al-Hussary.mp3",
+  "seconds": 180,
+  "md5": "49e04b51b48aa38d35c5d3e6f026cbac"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Al-Hossaini.mp3",
+  "seconds": 195,
+  "md5": "cf98d915cf56af244925480ae14200fa"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Mishary_Alafasy_3.mp3",
+  "seconds": 183,
+  "md5": "71fec16d9bfa7fd285babe209b521719"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Nasser_Al-Qatami.mp3",
+  "seconds": 132,
+  "md5": "910f45de87063170836989f6ad0d317a"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Abdul-Majeed_Al-Suraihi.mp3",
+  "seconds": 210,
+  "md5": "5a34459a479002cae29649ee06fbcfd7"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Alaqsa_2.mp3",
+  "seconds": 185,
+  "md5": "dbf7ec666ad7ad3b386ddea00c0feb09"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Ahmad_Al-Nufais.mp3",
+  "seconds": 205,
+  "md5": "16b11c268a549819d1dedc6e22afa6ab"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Mustafa_Ismail.mp3",
+  "seconds": 184,
+  "md5": "f128a86ed7635d2f1d30cbc9a6d3ed6a"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Sayed_Al-Naqshbandi.mp3",
+  "seconds": 171,
+  "md5": "7706cd0176d6137124434e92719437e6"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Abdul-Basit.mp3",
+  "seconds": 206,
+  "md5": "89fe96914fd0fa5fbfa6436162710492"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Ahmad_Al-Kourdi.mp3",
+  "seconds": 197,
+  "md5": "c13d96732579c0c7e68e2d1ab744b640"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Muhammad_Refaat.mp3",
+  "seconds": 204,
+  "md5": "c5bcf9479602fd2564bb8a702d756cef"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Abdul-Nasser_Harak.mp3",
+  "seconds": 220,
+  "md5": "a1be9f264a78330cf141eca59fd8265b"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Islam_Sobhy.mp3",
+  "seconds": 170,
+  "md5": "ab717453e01137c7d754412a1aa87128"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Mishary_Alafasy_2.mp3",
+  "seconds": 232,
+  "md5": "c2cfd16a110f18ba0e06820ef8a787cb"
+ },
+ {
+  "repo": "0xzer0x/athany",
+  "path": "src/Data/Athans/Al-Menshawi.mp3",
+  "seconds": 188,
+  "md5": "309de53cbc02846299c2ba8610565301"
+ },
+ {
+  "repo": "zubir2k/HomeAssistantAdzan",
+  "path": "audio/azan_alexa.mp3",
+  "seconds": 164,
+  "md5": "15a0c9f3dd5dea181cbc7930955c3eb8"
+ },
+ {
+  "repo": "zubir2k/HomeAssistantAdzan",
+  "path": "audio/azan.mp3",
+  "seconds": 164,
+  "md5": "8a1c29843087e9379a31c6e44cdb4974"
+ },
+ {
+  "repo": "zubir2k/HomeAssistantAdzan",
+  "path": "audio/azansubuh_alexa.mp3",
+  "seconds": 219,
+  "md5": "89c11aeb062ff5e87b39bb01b047ef45"
+ },
+ {
+  "repo": "zubir2k/HomeAssistantAdzan",
+  "path": "audio/azansubuh.mp3",
+  "seconds": 264,
+  "md5": "12275eab9bf6b44a80c88cf59573785b"
+ },
+ {
+  "repo": "zubir2k/HomeAssistantAdzan",
+  "path": "audio/doa-pagi.mp3",
+  "seconds": 172,
+  "md5": "d00e7255acceca49083e09698e061c66"
+ },
+ {
+  "repo": "zubir2k/HomeAssistantAdzan",
+  "path": "audio/takbir.mp3",
+  "seconds": 402,
+  "md5": "d202b4f07d0a09f85ffc970e625acbec"
+ },
+ {
+  "repo": "DBChoco/Muezzin",
+  "path": "ressources/audio/Adhan - Mecca.mp3",
+  "seconds": 205,
+  "md5": "7823923dbe60918e5c70cf89025a4420"
+ },
+ {
+  "repo": "DBChoco/Muezzin",
+  "path": "ressources/audio/Adhan - Ahmed Al-Nufais.mp3",
+  "seconds": 193,
+  "md5": "5e75159d0b32af5d73bfa9579ba2c91a"
+ },
+ {
+  "repo": "DBChoco/Muezzin",
+  "path": "ressources/audio/Adhan - al-Aqsa.mp3",
+  "seconds": 252,
+  "md5": "337fa8c191376ba23d09fe8f8c9d6da1"
+ },
+ {
+  "repo": "HamzaAlsarakbi/AthanApp",
+  "path": "src/mainWindow/assets/audio/Athan Mecca.mp3",
+  "seconds": 205,
+  "md5": "c99de4891f8039024f4bda27ed0ae0f3"
+ },
+ {
+  "repo": "HamzaAlsarakbi/AthanApp",
+  "path": "src/mainWindow/assets/audio/Athan Naqshbandi.mp3",
+  "seconds": 171,
+  "md5": "ffde408f70da6f4031491feec5bfd87d"
+ },
+ {
+  "repo": "esc-0-bar/adhan",
+  "path": "assets/azan.mp3",
+  "seconds": 133,
+  "md5": "c060263585f251660cc31d220e797cc1"
+ },
+ {
+  "repo": "agnanp/praydo",
+  "path": "src-tauri/assets/adhan-fajr.mp3",
+  "seconds": 187,
+  "md5": "d5a9acb5b1320639463d1c6f9acf2db6"
+ },
+ {
+  "repo": "meypod/al-azan",
+  "path": "src/assets/sounds/masjid_an_nabawi.mp3",
+  "seconds": 215,
+  "md5": "4bec0d057985b27c5b6e29b951a98c76"
+ },
+ {
+  "repo": "abodehq/Athan-MP3",
+  "path": "Sounds/Athan Abed Albase6.mp3",
+  "seconds": 201,
+  "md5": "df255f38f12190022a030cd1f5801715"
+ },
+ {
+  "repo": "abodehq/Athan-MP3",
+  "path": "Sounds/Athan Mansoor Az-Zahrani.mp3",
+  "seconds": 191,
+  "md5": "70c2e2c46023ecc7e3507a7a2e974cd9"
+ },
+ {
+  "repo": "abodehq/Athan-MP3",
+  "path": "Sounds/Athan Mishary Alafasi.mp3",
+  "seconds": 241,
+  "md5": "2a6786b23cbb6631c28549506799542f"
+ },
+ {
+  "repo": "abodehq/Athan-MP3",
+  "path": "Sounds/Athan Ibrahim Al-Arkani.mp3",
+  "seconds": 241,
+  "md5": "bda12a1c615ae9f97d73567c13690063"
+ },
+ {
+  "repo": "abodehq/Athan-MP3",
+  "path": "Sounds/Athan Hamdan Almalki.mp3",
+  "seconds": 267,
+  "md5": "7b7e59843dbc9ce09a4f19ad67a7b1ba"
+ },
+ {
+  "repo": "abodehq/Athan-MP3",
+  "path": "Sounds/Athan Mohammad Almenshawy.mp3",
+  "seconds": 252,
+  "md5": "e2eb1ac48eda365a5caf8138ed32331a"
+ },
+ {
+  "repo": "abodehq/Athan-MP3",
+  "path": "Sounds/Athan Nasser Alqatami.mp3",
+  "seconds": 139,
+  "md5": "e965671a685f20051278f582f085e8e6"
+ },
+ {
+  "repo": "abodehq/Athan-MP3",
+  "path": "Sounds/Athan Suhaib Khatba.mp3",
+  "seconds": 183,
+  "md5": "6b2af6533fe41ffdfb3d255a026f909d"
+ },
+ {
+  "repo": "abodehq/Athan-MP3",
+  "path": "Sounds/Athan Majed Al-hamathani.mp3",
+  "seconds": 226,
+  "md5": "8372345e722ba7f117d4887768f66053"
+ },
+ {
+  "repo": "abodehq/Athan-MP3",
+  "path": "Sounds/Athan Ahmad Nuyne3.mp3",
+  "seconds": 210,
+  "md5": "19238d7692e5f5ccfac1e9d3b0f77ccd"
+ },
+ {
+  "repo": "abodehq/Athan-MP3",
+  "path": "Sounds/Athan Mohammad Ref3at.mp3",
+  "seconds": 204,
+  "md5": "71764aeb485737f2de8f43c88ef5b40b"
+ },
+ {
+  "repo": "abodehq/Athan-MP3",
+  "path": "Sounds/Athan Makkah.mp3",
+  "seconds": 203,
+  "md5": "ec179eddbd4e52bd694ee274bd54053f"
+ },
+ {
+  "repo": "abodehq/Athan-MP3",
+  "path": "Sounds/Athan Al-fajer - Malek chebae.mp3",
+  "seconds": 250,
+  "md5": "bf895f44bdec6fb4c0218771f9d66651"
+ },
+ {
+  "repo": "abodehq/Athan-MP3",
+  "path": "Sounds/Athan Hamad Deghreri.mp3",
+  "seconds": 161,
+  "md5": "4139e4e303584723f9b1e343e4d21d09"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/madinah-1952-classic.mp3",
+  "seconds": 172,
+  "md5": "db06e863283caf73fd616301ea93e4fe"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/mishary-alafasy-01.mp3",
+  "seconds": 257,
+  "md5": "62f7c5192f3b344fae34bb9e958162a6"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/makkah-haram-01.mp3",
+  "seconds": 201,
+  "md5": "e5d94f365e2983c1dc39b853ac0e2ec4"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/aleppo-halab-01.mp3",
+  "seconds": 223,
+  "md5": "03462103bca153ba939af3ebcd074269"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/ahmad-al-nafees-01.mp3",
+  "seconds": 214,
+  "md5": "e9c89ac845067f553268792f91a1b2a4"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/lilin-h-01.mp3",
+  "seconds": 225,
+  "md5": "06ddc7489e513a544945fb5e4a03cbd8"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/cheb-ali-north-africa-01.mp3",
+  "seconds": 204,
+  "md5": "47f24e9a236da55c3514a44b7d2b2dc0"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/turkey-01.mp3",
+  "seconds": 239,
+  "md5": "6a9d2943dd1185588eb08b60bf9d6864"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/islam-sobhi-01.mp3",
+  "seconds": 173,
+  "md5": "153b66f248891db8ca30fef01ecd326b"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/bersama-alam-01.mp3",
+  "seconds": 195,
+  "md5": "c1a3b8b97f0a98bb6634e8d3c149e809"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/nasser-al-qatami-01.mp3",
+  "seconds": 132,
+  "md5": "4c099d65099a97a233d1a5588c0be4c5"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/al-aqsa-jerusalem-01.mp3",
+  "seconds": 225,
+  "md5": "ee82904f6d38a9cc577b56a7d4e94c4b"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/abdul-basit-abdul-samad-01.mp3",
+  "seconds": 238,
+  "md5": "b645f4ab72730c0e6c76dc559ef1126f"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/muhammad-taha-al-junaid-01.mp3",
+  "seconds": 153,
+  "md5": "8711b5e2d69b6bfe9479112c5212f4b1"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/iran-01.mp3",
+  "seconds": 311,
+  "md5": "aed7190329707afd2899f223fd6ca60b"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/doha-qatar-dhuhr-01.mp3",
+  "seconds": 179,
+  "md5": "2608529cce27385a02c3e81d005ca413"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/beautiful-adhan-01.mp3",
+  "seconds": 200,
+  "md5": "115533f486088c3d9fc88f3622469b3e"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/bosnia-01.mp3",
+  "seconds": 214,
+  "md5": "c38dcd78d426eecdd12d559d64a8e8ab"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/tareq-mohammad-01.mp3",
+  "seconds": 207,
+  "md5": "452c34d3cc286e68b324b68eef3be6a2"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/taha-bajunaid-01.mp3",
+  "seconds": 153,
+  "md5": "fb117faa6290f41124fee665c0aa68fe"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/mansour-al-zahrani-01.mp3",
+  "seconds": 132,
+  "md5": "4d530054f862ad0eac401966eaaf84e1"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/al-haram-01.mp3",
+  "seconds": 178,
+  "md5": "c9fad519430b1c15f1424a90bba0794a"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/doha-qatar-asr-01.mp3",
+  "seconds": 187,
+  "md5": "80957ebe105f55489923868eedda6928"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/makkah-haram-04.mp3",
+  "seconds": 203,
+  "md5": "22f12d2ae6227e4873bf0581ed53510d"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/al-aqsa-jerusalem-02.mp3",
+  "seconds": 183,
+  "md5": "200c79aa8abafe10d0527e62b63cfeae"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/mishary-alafasy-05.mp3",
+  "seconds": 240,
+  "md5": "a782c994eaf56af7f90159fd7e8dae37"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/makkah-haram-03.mp3",
+  "seconds": 202,
+  "md5": "6dff165623ee1e735e5528500f16838a"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/mustafa-ozcan-turkey-01.mp3",
+  "seconds": 238,
+  "md5": "f520b43cf3cf0c68d5a9e1c26b11a6dd"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/egypt-traditional-02.mp3",
+  "seconds": 183,
+  "md5": "31da46d72020c7f6f351a38496745bb9"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/makkah-haram-05.mp3",
+  "seconds": 178,
+  "md5": "ecff9b3926456b7b95e9fc6a911141b2"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/doha-qatar-isha-01.mp3",
+  "seconds": 181,
+  "md5": "8e11c49e0c589f068a43ed6bb562dfa4"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/salman-al-utaybi-01.mp3",
+  "seconds": 233,
+  "md5": "2574dc36630cb16e8264420891ff8673"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/mishary-alafasy-04.mp3",
+  "seconds": 157,
+  "md5": "805090ee44f09d5c49979e9996e9a937"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/maghrib-metro-01.mp3",
+  "seconds": 192,
+  "md5": "4958851590683e938913f554b1b734f3"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/molana-kurdish-01.mp3",
+  "seconds": 188,
+  "md5": "5a7dce9c6535842f13280f8b8bb423a1"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/makkah-version-06.mp3",
+  "seconds": 201,
+  "md5": "f92d0629ab8d7e2ea5892ef1a0f2ae0b"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/mishary-alafasy-06.mp3",
+  "seconds": 182,
+  "md5": "1d0960de4b9f4bd986e28b0fd9b109a6"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/madinah-03.mp3",
+  "seconds": 171,
+  "md5": "9a413e8d4a7eef40e339154065847c2a"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/east-asia-melayu-01.mp3",
+  "seconds": 214,
+  "md5": "a13bdf9b15d9ed83dfe3749a3b46c0dd"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/makkah-haram-02.mp3",
+  "seconds": 202,
+  "md5": "75860fc6ca90118ee5670270441b2a37"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/uae-01.mp3",
+  "seconds": 108,
+  "md5": "d39755b2bd5541738f7e30b111c16f14"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/mishary-alafasy-03.mp3",
+  "seconds": 243,
+  "md5": "6da6297e43ee42fa89e5632ff48b968c"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/madinah-02.mp3",
+  "seconds": 95,
+  "md5": "99c697a007257dd2701d087e8e91a880"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/majid-pashaii-01.mp3",
+  "seconds": 224,
+  "md5": "4b28882fb83a0b72bf6b331b1ab18e4a"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/mishary-alafasy-07.mp3",
+  "seconds": 234,
+  "md5": "ef900c108cd7b2b3c877b4efae044e49"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/doha-qatar-maghrib-01.mp3",
+  "seconds": 199,
+  "md5": "2a46fdbe0f41b80300f3a78cd61b6d58"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/mishary-alafasy-08.mp3",
+  "seconds": 163,
+  "md5": "f18fa465839eaae60553b81ad744dc96"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/yusuf-islam-01.mp3",
+  "seconds": 99,
+  "md5": "187d9205d09301e00f5c4dc83bda5d0e"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "general/egypt-traditional-01.mp3",
+  "seconds": 183,
+  "md5": "57e694e384311f359835c20b4ff559ca"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "fajr/mishary-alafasy-fajr-01.mp3",
+  "seconds": 263,
+  "md5": "e89048e2d806c1f07191fd55dfde8a23"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "fajr/mansour-al-zahrani-fajr-01.mp3",
+  "seconds": 184,
+  "md5": "45ffce7becc88d7211a43196a8bd48db"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "fajr/abu-hazim-fajr-01.mp3",
+  "seconds": 143,
+  "md5": "e9da10cb38b2ba8e832997e938bdaaab"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "fajr/makkah-fajr-01.mp3",
+  "seconds": 227,
+  "md5": "4b838cee84d96cbacb3ac803f7b0ef56"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "fajr/subuh-01.mp3",
+  "seconds": 222,
+  "md5": "c80fdf91bb0b21f67d0d5eb8cd2bf6bd"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "fajr/doha-qatar-fajr-01.mp3",
+  "seconds": 217,
+  "md5": "69abb5726720bb20f656c7f9b9898f04"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "fajr/yemen-fajr-01.mp3",
+  "seconds": 143,
+  "md5": "5ff88b34d5810eb1f079846605b304a2"
+ },
+ {
+  "repo": "mohsalvi/adhan-audio",
+  "path": "fajr/fajr-general-01.mp3",
+  "seconds": 187,
+  "md5": "267c42adc8d0b9600c718faa2558129a"
+ },
+ {
+  "repo": "mehmetron/adhan-mp3",
+  "path": "music/dhuhr.mp3",
+  "seconds": 265,
+  "md5": "45f90e9e99f7620cf4e8caadf911a135"
+ },
+ {
+  "repo": "mehmetron/adhan-mp3",
+  "path": "music/isha.mp3",
+  "seconds": 310,
+  "md5": "b465c5fc5faf11bd5ccec103d6e6b61f"
+ },
+ {
+  "repo": "mehmetron/adhan-mp3",
+  "path": "music/asr.mp3",
+  "seconds": 316,
+  "md5": "1f38b640ddf3fcff582fb7bcf1be918d"
+ },
+ {
+  "repo": "mehmetron/adhan-mp3",
+  "path": "music/fajr.mp3",
+  "seconds": 317,
+  "md5": "fedc99326ef3f5d27c3295a1f6f35a98"
+ },
+ {
+  "repo": "mehmetron/adhan-mp3",
+  "path": "music/maghrib.mp3",
+  "seconds": 129,
+  "md5": "cee2da17bedb8a6b100b4f9e0878b514"
+ },
+ {
+  "repo": "jabirshah1/shia-adhan-mp3",
+  "path": "shia-adhan.mp3",
+  "seconds": 209,
+  "md5": "f4aa76a72ea7e741199248d64da9bc42"
+ },
+ {
+  "repo": "Golyriun/adhan-audio",
+  "path": "azan_4.mp3",
+  "seconds": 278,
+  "md5": "de88bbfc27ed20967804361f76f37c42"
+ },
+ {
+  "repo": "Golyriun/adhan-audio",
+  "path": "azan_8.mp3",
+  "seconds": 293,
+  "md5": "a8649c69f9ff0e49f10b9c1f7e9e0536"
+ },
+ {
+  "repo": "Golyriun/adhan-audio",
+  "path": "azan_10.mp3",
+  "seconds": 290,
+  "md5": "d5d5553c806271b4b9136ea36cce0cc8"
+ },
+ {
+  "repo": "Golyriun/adhan-audio",
+  "path": "azan_1.mp3",
+  "seconds": 316,
+  "md5": "9c7280b6e6e0f61793c4965d77c8d2ca"
+ },
+ {
+  "repo": "Golyriun/adhan-audio",
+  "path": "azan_11.mp3",
+  "seconds": 217,
+  "md5": "40b97a7317483fa18521d52d2cf4ca75"
+ },
+ {
+  "repo": "Golyriun/adhan-audio",
+  "path": "azan_7.mp3",
+  "seconds": 244,
+  "md5": "87141bc8d615f4289384a040a3340326"
+ },
+ {
+  "repo": "Golyriun/adhan-audio",
+  "path": "azan_5.mp3",
+  "seconds": 284,
+  "md5": "7a1a7be22648f4c5d6365568aae4b482"
+ },
+ {
+  "repo": "Golyriun/adhan-audio",
+  "path": "azan_3.mp3",
+  "seconds": 271,
+  "md5": "03bebca1efbef2bcb828c9b4d3d3e098"
+ },
+ {
+  "repo": "Golyriun/adhan-audio",
+  "path": "azan_2.mp3",
+  "seconds": 386,
+  "md5": "fb1cb3d7ac7ab8a0353ffb899341b154"
+ },
+ {
+  "repo": "Golyriun/adhan-audio",
+  "path": "azan_9.mp3",
+  "seconds": 299,
+  "md5": "f3dd686df149bf25d1820d826ce65f28"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/adhan_halab.mp3",
+  "seconds": 223,
+  "md5": "03f5d73ed073309a8053d7121144b3b3"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/abdulrahman_masudi.mp3",
+  "seconds": 174,
+  "md5": "240327f067fcfea9819fcca92313f280"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/omar_abdullah_kurdi.mp3",
+  "seconds": 255,
+  "md5": "d979803d1ff6f6584999daac7e1d2901"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/mohammad_qasas_bayat.mp3",
+  "seconds": 228,
+  "md5": "bea362d571f1b9c85b8571a3469d71a5"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/Athan_Majid_Pashaii.mp3",
+  "seconds": 224,
+  "md5": "0eb0562ad56896e2a101438a3969efde"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/afasi_hejaz.mp3",
+  "seconds": 183,
+  "md5": "616e9c4a8d06e006febf662f1f2b7da0"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/mohammad_sharif.mp3",
+  "seconds": 204,
+  "md5": "cf9b98cab3ffb7a834e5ad561f093694"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/omar_mahjub.mp3",
+  "seconds": 135,
+  "md5": "d850fc623bd1e01a63e14984a20ad3d7"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/mohammad_bashir.mp3",
+  "seconds": 216,
+  "md5": "1bfe73c53c5c034f08c83d3ac0106166"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/hamd_aldaghiri.mp3",
+  "seconds": 189,
+  "md5": "6636f9594d62b42a64207e48e3c687e2"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/bukan_samawati_hejaz.mp3",
+  "seconds": 197,
+  "md5": "45758b9b218d31bbf330306ce8748846"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/abdulmajid_alsarihi.mp3",
+  "seconds": 208,
+  "md5": "5ed70850ecf99bec90076926c7452fe0"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/yaaqub_mohammadi.mp3",
+  "seconds": 189,
+  "md5": "04fd80d0ce3728fab1380bf0efc81fba"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/mansour_mohialdin.mp3",
+  "seconds": 197,
+  "md5": "b26984d179407160c8dc809297a8cfb2"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/adhan_egypt.mp3",
+  "seconds": 183,
+  "md5": "9480295471285ba3b7e460625f826f19"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/Athan_alafasi_nice.mp3",
+  "seconds": 240,
+  "md5": "799befbcc240617ed38d14107866649e"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/peshawa.mp3",
+  "seconds": 166,
+  "md5": "527833abe99f38588701f7372f909803"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/mohammad_zahed.mp3",
+  "seconds": 226,
+  "md5": "3ae1c627aed76d98b4d70566682076e7"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/raad_alkurdi.mp3",
+  "seconds": 264,
+  "md5": "c956c96f751c2c661a84605bbb56bf0f"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/ahmad_haddad.mp3",
+  "seconds": 155,
+  "md5": "0910c1b39e6362d010db6b4751822ba8"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/afasi_sobh_hejaz.mp3",
+  "seconds": 221,
+  "md5": "a840ddd521d4b609ba07c6a8ce58867f"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/saad_azvit.mp3",
+  "seconds": 192,
+  "md5": "a83bc3065aaa8c72f27ce361ca147bd4"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/salman_utaybi.mp3",
+  "seconds": 233,
+  "md5": "9c114852dcc616675db28b3b1d5294e4"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/abdulrahman_alosi.mp3",
+  "seconds": 118,
+  "md5": "1f06c872b902df035312e7fd95c2ba8c"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/ebrahim_silawi.mp3",
+  "seconds": 167,
+  "md5": "6d93fe78f0aec08d9e827f863e27aedb"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/omar_hesham.mp3",
+  "seconds": 171,
+  "md5": "901c1cdfd342962b69c3e28666fb12c0"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/adhan_mahmoudpour.mp3",
+  "seconds": 212,
+  "md5": "d6072df5f98cf876c42178699a469dc3"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/raad_kordi.mp3",
+  "seconds": 235,
+  "md5": "9115578a23ddd4a64193c08042a2285a"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/adhan_madina_1952.mp3",
+  "seconds": 191,
+  "md5": "9b7c22d917ec466bb28f1f6ab1f5a614"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/salim_bahanan.mp3",
+  "seconds": 163,
+  "md5": "c8c472c80db6797119de77ed9d4b35a7"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/mohammad_jazi_abdullah.mp3",
+  "seconds": 321,
+  "md5": "14612fd7dad7e41695ba216e38e38127"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/ahmad_nafis1.mp3",
+  "seconds": 214,
+  "md5": "407f671bf920dcae2fb6b89c5dad64fc"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/sarihi_sobh_rast.mp3",
+  "seconds": 277,
+  "md5": "a8887e1e773848c50d7dc25a85e037bd"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/athanPishawaKordi.mp3",
+  "seconds": 184,
+  "md5": "c204a9efe4dd9376754255357c8d2bd5"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/ahmad_shafeii.mp3",
+  "seconds": 193,
+  "md5": "bc5261be666e0908f6038c3d9d59dfe0"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/islam_sobhi.mp3",
+  "seconds": 173,
+  "md5": "72dfa5ce9301b6bc819ad6cb7ffd9d6a"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/adhan_abdul_baset.mp3",
+  "seconds": 229,
+  "md5": "3871c64df89b730dbca2c94f2b16da9c"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/athan_molana_kurtish.mp3",
+  "seconds": 188,
+  "md5": "14923ebcdc74a814642f1137c0566870"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/adhan_makkah.mp3",
+  "seconds": 201,
+  "md5": "0f4720aea1732c380e9b680da66c3d6a"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/wadia_alyamini.mp3",
+  "seconds": 205,
+  "md5": "2e084f28962a7f8c198993d4cadf7916"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/saad_alghamedi_.mp3",
+  "seconds": 124,
+  "md5": "edf25fb7d23232765a2bd2deef388be7"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/omar_alsaiidi.mp3",
+  "seconds": 151,
+  "md5": "d6fb10de472e5e0a85a878d9da2e0d9f"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/abdulrahman_hendi.mp3",
+  "seconds": 173,
+  "md5": "1826f73e0224a3b4df7edc27c8ef213f"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/Azan_Tareq_Mohammad.mp3",
+  "seconds": 207,
+  "md5": "6806672da9cd41b10802fa2fbc9f9744"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/sarihi_rast.mp3",
+  "seconds": 236,
+  "md5": "ff72900e5195df9585acfbb5310ed52d"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/abdulhamid_barznji.mp3",
+  "seconds": 205,
+  "md5": "4da8b4ea3ad11312654f63e12920995c"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/alezi_saleh_masuri.mp3",
+  "seconds": 204,
+  "md5": "dd7284cc21cc730535af34a70c2e5b00"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/abazar_alhalvaji.mp3",
+  "seconds": 320,
+  "md5": "f6dfa6915290d565492ae07c4bd7ccab"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/afasi_sobh_kord.mp3",
+  "seconds": 162,
+  "md5": "6108b9ef23f07dc313299501374ed53c"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/shayeaa_altamimi.mp3",
+  "seconds": 266,
+  "md5": "ebd7b992ebe5be09307fc3894cb51fba"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/ahmad_nafis3.mp3",
+  "seconds": 213,
+  "md5": "84025bd2768091880f40c4624c65f598"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/omar_alrehal.mp3",
+  "seconds": 136,
+  "md5": "2b79b80d913078dde4e317e963670dec"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/ahmad_sabah.mp3",
+  "seconds": 150,
+  "md5": "a944fe9f65880678416c28fdec85acd6"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/mohammad_alghazali.mp3",
+  "seconds": 199,
+  "md5": "7679d6226ccdf4956590c6e5ea9fd4da"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/menshawi_rast.mp3",
+  "seconds": 189,
+  "md5": "dd58dbacec795609998ad09f163f08d8"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/afasi_bayat.mp3",
+  "seconds": 176,
+  "md5": "43ca99084a3a91a7506e2a24d4e2c071"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/ahmad_nafis2.mp3",
+  "seconds": 239,
+  "md5": "986cfc5afdcc7f510116fa29f91abce3"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/afasi_kord.mp3",
+  "seconds": 135,
+  "md5": "a9863a975cff8196d6b136217326d7aa"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/masnsour_salemi.mp3",
+  "seconds": 148,
+  "md5": "d4923a9cbe92383c1e8d782d55d53b69"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/afasi_saba.mp3",
+  "seconds": 246,
+  "md5": "d8fbf84b4e578f13d043f26e63b5dad3"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/alafasi_new.mp3",
+  "seconds": 226,
+  "md5": "64bce9c9ae8879abe6477f2fb6a75149"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/taqi_almaleki.mp3",
+  "seconds": 301,
+  "md5": "460b49ab99185e5f8b8f15f296de2038"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/saad_ramadan.mp3",
+  "seconds": 176,
+  "md5": "ad34aa846f2e3ba14ba3560cf8204e3f"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Adhan/naser_qotami2.mp3",
+  "seconds": 128,
+  "md5": "2abebddecb12cb73ee6a8b43c248b15e"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Ahat/ahat3.mp3",
+  "seconds": 61,
+  "md5": "205baa547fa8d20f95934b307ef3444f"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Fajr/sheikh_mansour_zahrani_fajr.mp3",
+  "seconds": 183,
+  "md5": "b6659635fde9a410647df49bbcc5d356"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Fajr/eslam_sobhi_fajr.mp3",
+  "seconds": 209,
+  "md5": "796422f14b854668ca75c844fffbbd44"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Fajr/fajr_ahmad_trablesi.mp3",
+  "seconds": 236,
+  "md5": "3d3dc66c6317aeafce5537e40b787008"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Slwat/slw_alafasi.mp3",
+  "seconds": 59,
+  "md5": "e17adf0f0b0ec50b39bef39e5a970c9d"
+ },
+ {
+  "repo": "IslamAlorabI/SalatTimes-MP3Adhan",
+  "path": "Slwat/slw_raad.mp3",
+  "seconds": 67,
+  "md5": "6726b4fee11548e06e44ca8112c37c68"
+ },
+ {
+  "repo": "9M2PJU/Python3-Azan-Prayer",
+  "path": "azan.mp3",
+  "seconds": 119,
+  "md5": "38423a72de641f4702487f539a88e0fd"
+ },
+ {
+  "repo": "mosabhassan-194/athan-mp3",
+  "path": "all_prayers.mp3",
+  "seconds": 198,
+  "md5": "3eed037529054ecc582c795e6653f74d"
+ },
+ {
+  "repo": "mosabhassan-194/athan-mp3",
+  "path": "fajr.mp3",
+  "seconds": 302,
+  "md5": "35bf95bdcab8118f3ced1d6fa78493e2"
+ },
+ {
+  "repo": "elpasha3000/AdhanBox",
+  "path": "app/sounds/makkah-adhan.mp3",
+  "seconds": 205,
+  "md5": "62ce88fb38ee18f9e111901dc4b76518"
+ },
+ {
+  "repo": "sultantoufeeq6-eng/Adhan",
+  "path": "Azan Madina (Call to prayer)  Muhammad Marwan Qassas  Masjid Al Nabawi #azan #adhan - AL FOURQAN.mp3",
+  "seconds": 228,
+  "md5": "9aa0fcca962cc0e5a44b04bdc7b1c913"
+ },
+ {
+  "repo": "mahmedsud16-stack/adhan-audio",
+  "path": "adhan-fajr-abdellatif-alawad.mp3",
+  "seconds": 123,
+  "md5": "0fa73d20e5c8b1a1debc60ee13a29a41"
+ },
+ {
+  "repo": "mahmedsud16-stack/adhan-audio",
+  "path": "adhan-nourin-siddiq.mp3",
+  "seconds": 178,
+  "md5": "6855cb81d569c10fa639774e492f6b71"
+ },
+ {
+  "repo": "MusabAngudi/adhan-audio",
+  "path": "adhan1.mp3",
+  "seconds": 186,
+  "md5": "93fd143a89402790f012f6a6378b7565"
+ },
+ {
+  "repo": "ZitWitV5/adhan-audio",
+  "path": "adhan.mp3",
+  "seconds": 90,
+  "md5": "3c47b7a6ccfc1449afd06a207589243b"
+ },
+ {
+  "repo": "sketchc/adhan-audio",
+  "path": "638e6472ffa10dec9c0df318560e524c.mp3",
+  "seconds": 121,
+  "md5": "e13d0ebef07f71f62ed7428894bef0fb"
+ },
+ {
+  "repo": "ngensupp-cyber/Adhan-audio",
+  "path": "abdulbasit.mp3",
+  "seconds": 224,
+  "md5": "dac3ce108226910f9b1e4b33df2c0df9"
+ },
+ {
+  "repo": "ngensupp-cyber/Adhan-audio",
+  "path": "abubakr_shatri.mp3",
+  "seconds": 168,
+  "md5": "880ded356ed3649c8b5adb789e8b3fc6"
+ },
+ {
+  "repo": "ngensupp-cyber/Adhan-audio",
+  "path": "mohammad_haydan.mp3",
+  "seconds": 187,
+  "md5": "feb52dd44fa94e89f79bf7391769f445"
+ },
+ {
+  "repo": "ngensupp-cyber/Adhan-audio",
+  "path": "minshawi.mp3",
+  "seconds": 197,
+  "md5": "ea787b31746eea0bbcf66c6455a3c0d5"
+ },
+ {
+  "repo": "ngensupp-cyber/Adhan-audio",
+  "path": "mishary_afasy.mp3",
+  "seconds": 192,
+  "md5": "ac0bb2b2b48f197bf19c4dad3e4905d1"
+ },
+ {
+  "repo": "Bacuuun/adhan-audio",
+  "path": "Adhan.mp3",
+  "seconds": 301,
+  "md5": "e6a1e8cc5e9cd6198206137e2d69bd7a"
+ },
+ {
+  "repo": "oemergpt/adhan-audio",
+  "path": "Nihavend-Ezan.mp3",
+  "seconds": 296,
+  "md5": "2c2efa03c85241e465c402bde33e5218"
+ },
+ {
+  "repo": "AmaraDiop13/adhan-audio",
+  "path": "azan13.mp3",
+  "seconds": 237,
+  "md5": "8ab2170973fb361f554e0b208ddc35a8"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_60.mp3",
+  "seconds": 175,
+  "md5": "264311deec25b2106759e9e94fed0b0c"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_9.mp3",
+  "seconds": 239,
+  "md5": "dac4826e1640141237cd037f00b83309"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_17.mp3",
+  "seconds": 165,
+  "md5": "c7210869de6b1ca2056a5f314d3004e3"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_5.mp3",
+  "seconds": 126,
+  "md5": "190deb76f5973e2ed3fa4d336ee68510"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_37.mp3",
+  "seconds": 221,
+  "md5": "c8bf01d08d7fc8f975c6c1cc630217e6"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_19.mp3",
+  "seconds": 127,
+  "md5": "1a903290932673902d488a653300e0ee"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_4.mp3",
+  "seconds": 189,
+  "md5": "f6f2d50d264805fdc02fbfa075c36b45"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_51.mp3",
+  "seconds": 116,
+  "md5": "21dbfe8b648613ec5468b360abcc0e15"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_12.mp3",
+  "seconds": 149,
+  "md5": "20adddd1df1b76cbefe4b710bfa427f3"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_32.mp3",
+  "seconds": 287,
+  "md5": "b5fe4279721e932e573a4d520d322c6f"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_120.mp3",
+  "seconds": 234,
+  "md5": "6910154dd380d297b1c2db0f45826567"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_14.mp3",
+  "seconds": 214,
+  "md5": "7093ee103e059432f3c9325aef87bdb0"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_39.mp3",
+  "seconds": 115,
+  "md5": "0605d998a113b9b0453a052de55278ae"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_20.mp3",
+  "seconds": 235,
+  "md5": "50d1394827eb9793e9863653f3e2ce65"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_2.mp3",
+  "seconds": 132,
+  "md5": "a52410475a1bad845c0db2640fdd26d0"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_52.mp3",
+  "seconds": 186,
+  "md5": "9032a4f6f33623ee21e4630c7ce1384d"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_7.mp3",
+  "seconds": 163,
+  "md5": "dce00fa85fc0df8807d76bfa8fc4e150"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_65.mp3",
+  "seconds": 248,
+  "md5": "c38059e4c659fe4bc564dd65286603e0"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_34.mp3",
+  "seconds": 133,
+  "md5": "706d2b258c01b3bdbe22320f9ebcdd4f"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_47.mp3",
+  "seconds": 195,
+  "md5": "b21df2e079234d383c65dd8d51aa653a"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_55.mp3",
+  "seconds": 268,
+  "md5": "b847ec4055c5eff9580a767ba166a409"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_44.mp3",
+  "seconds": 201,
+  "md5": "305f29713b06aab01cd14e1522009b0d"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_28.mp3",
+  "seconds": 150,
+  "md5": "659443465129ad9dbc3e53d03cc19072"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_63.mp3",
+  "seconds": 233,
+  "md5": "a805004dbef3c027f9c3b7391a4ba903"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_29.mp3",
+  "seconds": 188,
+  "md5": "f1a82cb1ef4839b2bf5190ebd1e9a9ca"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_66.mp3",
+  "seconds": 241,
+  "md5": "b081a209abf248f8d4b6867d4dc4c326"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_49.mp3",
+  "seconds": 212,
+  "md5": "89bb40973785fe9717e755b921adcd8b"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_41.mp3",
+  "seconds": 220,
+  "md5": "f787b3428139120814999afa4c95705d"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_42.mp3",
+  "seconds": 177,
+  "md5": "3604d1cd0db2ec3ed8b9a232040d9eaf"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_33.mp3",
+  "seconds": 178,
+  "md5": "3e2e6873aebf2a4bb9f849be0ccb9a96"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_67.mp3",
+  "seconds": 212,
+  "md5": "d387255146e0f1914eca08d635bf2ea4"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_70.mp3",
+  "seconds": 181,
+  "md5": "d71fb1f5aa7acee2e76b6be03404b38c"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_38.mp3",
+  "seconds": 177,
+  "md5": "6a708e5e5ecce8916534263f34fb342b"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_59.mp3",
+  "seconds": 151,
+  "md5": "5eab3f482b8a607a5e8eb37f93d118ee"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_53.mp3",
+  "seconds": 185,
+  "md5": "8859a01689626e4a8ee0653e0dc5d05f"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_61.mp3",
+  "seconds": 176,
+  "md5": "22a50712ab7dfa8b9bda50f0e6c28b95"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_68.mp3",
+  "seconds": 129,
+  "md5": "5256fa8886d52b390f6a7cb04cc3eabe"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_13.mp3",
+  "seconds": 196,
+  "md5": "47bf601afb588ffb72d354324a0adf2b"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_69.mp3",
+  "seconds": 135,
+  "md5": "50af0fa31fbd63167c82cc749abad901"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_121.mp3",
+  "seconds": 169,
+  "md5": "32b615c390d213344a7336b20b66aa3c"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_26.mp3",
+  "seconds": 158,
+  "md5": "ccb42614d7447672660fe50ca8d4b8fc"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_56.mp3",
+  "seconds": 200,
+  "md5": "9d7d7a80a7e6c05c452ccc3ce0c08468"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_10.mp3",
+  "seconds": 183,
+  "md5": "5d9d197c598be7e5048ab6b794331ed9"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_3.mp3",
+  "seconds": 118,
+  "md5": "ed6d3a6984ea8ead1d79e2667c9da8de"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_57.mp3",
+  "seconds": 213,
+  "md5": "4b720dc4e1a63b658049a3df8fd3d898"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_6.mp3",
+  "seconds": 183,
+  "md5": "d82811ae08f5d41667aeb20562c68b54"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_46.mp3",
+  "seconds": 230,
+  "md5": "d61c039b895d392740c4355a732ac0ca"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_54.mp3",
+  "seconds": 256,
+  "md5": "2b5ea4881f1c1565e13aee8b9e185e32"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_48.mp3",
+  "seconds": 185,
+  "md5": "4a2526434de844c3d194e825da47820a"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_15.mp3",
+  "seconds": 184,
+  "md5": "2e5d2885ef97ea4078bcdf6994b35687"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_25.mp3",
+  "seconds": 181,
+  "md5": "659852999f5be3d7c4ef280d848702e4"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_64.mp3",
+  "seconds": 170,
+  "md5": "1cfc95ba3931dc8f8049005c8651682b"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_1.mp3",
+  "seconds": 121,
+  "md5": "50efe35663c5c60d1d708ff07c4492ec"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_35.mp3",
+  "seconds": 265,
+  "md5": "9bf571ef7004fc33496e6a4af6eca10f"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_45.mp3",
+  "seconds": 234,
+  "md5": "a2e66f96a9f0955ba27cedbacd6ae6c5"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_58.mp3",
+  "seconds": 196,
+  "md5": "7b5df91b3e09a7cf3109788092aceb9e"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_24.mp3",
+  "seconds": 208,
+  "md5": "f971d7dcacd092054135bf6acd0329f6"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_30.mp3",
+  "seconds": 177,
+  "md5": "41450c0f8fba74e5ccc573d4701a1d14"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_21.mp3",
+  "seconds": 184,
+  "md5": "e515131b348c583fa670b2e2139c5a87"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_62.mp3",
+  "seconds": 218,
+  "md5": "6ecd7dc1801640b7aee445a2d70115d1"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_22.mp3",
+  "seconds": 235,
+  "md5": "37e7241b6985bae3cbb97c2e4cfbf285"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_40.mp3",
+  "seconds": 134,
+  "md5": "9664f73bf787aa187fabde072f77498b"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_8.mp3",
+  "seconds": 182,
+  "md5": "7322ea8ddc7a14cea09d63c4d063da4f"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_23.mp3",
+  "seconds": 249,
+  "md5": "defc73933f63ee3ba5cd84ca20576968"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_31.mp3",
+  "seconds": 214,
+  "md5": "3164abc359daf206dcedf7b8a11dc48a"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_50.mp3",
+  "seconds": 173,
+  "md5": "6e52427fdfc607c96a44d45589a519bf"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_43.mp3",
+  "seconds": 189,
+  "md5": "cb5b53dbbcfc84e39295ded17b6ce566"
+ },
+ {
+  "repo": "khasawn2-dotcom/noor-adhan-audio",
+  "path": "pn_36.mp3",
+  "seconds": 202,
+  "md5": "8ff80dd22db678db6c6225d0fd5a6518"
+ },
+ {
+  "repo": "asarix-dev/deenah-audio",
+  "path": "adhan-previews/egyptian.mp3",
+  "seconds": 173,
+  "md5": "6935b71681c546c0ccf9b153b7572139"
+ },
+ {
+  "repo": "asarix-dev/deenah-audio",
+  "path": "adhan-previews/sudais.mp3",
+  "seconds": 129,
+  "md5": "8305811f30b66a7aca2c7b710b2b0922"
+ },
+ {
+  "repo": "asarix-dev/deenah-audio",
+  "path": "adhan-previews/madinah.mp3",
+  "seconds": 196,
+  "md5": "2bd2801397c6e4907ec404ef8a067934"
+ },
+ {
+  "repo": "asarix-dev/deenah-audio",
+  "path": "adhan-previews/fajr_special.mp3",
+  "seconds": 121,
+  "md5": "6c37c11e3472abe0842cd55e7e692ebd"
+ },
+ {
+  "repo": "asarix-dev/deenah-audio",
+  "path": "adhan-previews/mishary.mp3",
+  "seconds": 207,
+  "md5": "605158906cc05ef282415cb045131c46"
+ },
+ {
+  "repo": "asarix-dev/deenah-audio",
+  "path": "adhan-previews/makkah.mp3",
+  "seconds": 186,
+  "md5": "92d7d8bf55df8d54cd347b8e2c5fb065"
+ },
+ {
+  "repo": "asarix-dev/deenah-audio",
+  "path": "adhan-previews/turkish.mp3",
+  "seconds": 119,
+  "md5": "7d49ac47f078c7b49ce126a87d7c388d"
+ },
+ {
+  "repo": "Biko4/athkar-adhan",
+  "path": "ajmi.mp3",
+  "seconds": 132,
+  "md5": "22cf41de59d5bd17d0d825d1cd7ea7e0"
+ },
+ {
+  "repo": "Biko4/athkar-adhan",
+  "path": "suraihi.mp3",
+  "seconds": 205,
+  "md5": "526a5ffbcfd646de4926ef203bff1656"
+ },
+ {
+  "repo": "Biko4/athkar-adhan",
+  "path": "ghamdi.mp3",
+  "seconds": 124,
+  "md5": "674cee4ae664714306b87a156ec28af9"
+ },
+ {
+  "repo": "Biko4/athkar-adhan",
+  "path": "basit.mp3",
+  "seconds": 243,
+  "md5": "d6b0fcdd94d39c6635448cba4b581330"
+ },
+ {
+  "repo": "Biko4/athkar-adhan",
+  "path": "muaiqly.mp3",
+  "seconds": 131,
+  "md5": "524c88d94084e22effcca9ff696223dd"
+ },
+ {
+  "repo": "Biko4/athkar-adhan",
+  "path": "madinah.mp3",
+  "seconds": 259,
+  "md5": "4b6da5d7d61e664e8fc242f334e2feb7"
+ },
+ {
+  "repo": "Biko4/athkar-adhan",
+  "path": "turki.mp3",
+  "seconds": 317,
+  "md5": "05bcf537eb10c41ea09c5e3701eda26e"
+ },
+ {
+  "repo": "Biko4/athkar-adhan",
+  "path": "fajr_special.mp3",
+  "seconds": 230,
+  "md5": "b8e17c2177e02446def289ba9b5f5673"
+ },
+ {
+  "repo": "Biko4/athkar-adhan",
+  "path": "qassas.mp3",
+  "seconds": 230,
+  "md5": "25a836c52c85bedd014ee5b2f722bac5"
+ },
+ {
+  "repo": "Biko4/athkar-adhan",
+  "path": "mishary.mp3",
+  "seconds": 145,
+  "md5": "c8e0e0212581d1ab711c3a185e73c7fc"
+ },
+ {
+  "repo": "Biko4/athkar-adhan",
+  "path": "husary.mp3",
+  "seconds": 131,
+  "md5": "15038e8cfae63ef589be570565445d6e"
+ },
+ {
+  "repo": "Biko4/athkar-adhan",
+  "path": "mecca.mp3",
+  "seconds": 203,
+  "md5": "f9fd360917cc26e81e61e22ef032751b"
+ },
+ {
+  "repo": "tooooot/bilal-adhan-store",
+  "path": "android/app/src/main/res/raw/adhan_sabah.ogg",
+  "seconds": 158,
+  "md5": "2e5852066efed96c06f54b5e14043d4a"
+ },
+ {
+  "repo": "tooooot/bilal-adhan-store",
+  "path": "android/app/src/main/res/raw/adhan_aaqib.ogg",
+  "seconds": 87,
+  "md5": "81a06b76238bc30f21f54ad3c25cf323"
+ },
+ {
+  "repo": "tooooot/bilal-adhan-store",
+  "path": "android/app/src/main/res/raw/adhan_haram.ogg",
+  "seconds": 161,
+  "md5": "33f1eed613ed65b03a216041127c3d79"
+ },
+ {
+  "repo": "tooooot/bilal-adhan-store",
+  "path": "android/app/src/main/res/raw/adhan_adam.ogg",
+  "seconds": 154,
+  "md5": "7edf02199feb56711108def40f012d9b"
+ },
+ {
+  "repo": "m4sterchief2006/adhan-prayer-times",
+  "path": "athann.mp3",
+  "seconds": 238,
+  "md5": "d21928fab0cc7ad1dd3edaac48c35612"
+ },
+ {
+  "repo": "yousef-nasser-daaboul/alkannani-audio",
+  "path": "audio/adhan/marrashli/regular.mp3",
+  "seconds": 246,
+  "md5": "4e501ed9c61d91d7bd027dc358403364"
+ },
+ {
+  "repo": "yousef-nasser-daaboul/alkannani-audio",
+  "path": "audio/adhan/marrashli/fajr.mp3",
+  "seconds": 247,
+  "md5": "7981d8fedd991475ff7fe9a7dc07f57a"
+ },
+ {
+  "repo": "yousef-nasser-daaboul/alkannani-audio",
+  "path": "audio/adhan/bilal-abdulaziz/regular-jiharkah.mp3",
+  "seconds": 314,
+  "md5": "5e15c513f91577a909341e9ec2a6123f"
+ },
+ {
+  "repo": "yousef-nasser-daaboul/alkannani-audio",
+  "path": "audio/adhan/bilal-abdulaziz/regular-rasd.mp3",
+  "seconds": 296,
+  "md5": "0840d9db6a2732598ffaa16793cd612f"
+ },
+ {
+  "repo": "yousef-nasser-daaboul/alkannani-audio",
+  "path": "audio/adhan/bilal-abdulaziz/fajr.mp3",
+  "seconds": 284,
+  "md5": "e8229a79d25359501a7f00bb6ded5946"
+ },
+ {
+  "repo": "yousef-nasser-daaboul/alkannani-audio",
+  "path": "audio/adhan/saad/regular.mp3",
+  "seconds": 354,
+  "md5": "a4dec85602f3b4ede2972a4b33881a33"
+ },
+ {
+  "repo": "highthem/assets",
+  "path": "audio/adhan-fajr.mp3",
+  "seconds": 181,
+  "md5": "4872bd0cef8ec91396691aad4e946768"
+ },
+ {
+  "repo": "highthem/assets",
+  "path": "audio/adhan.mp3",
+  "seconds": 131,
+  "md5": "36dd4e73e1e7a3e6f5d80d5542cca317"
+ },
+ {
+  "repo": "BombasticBomb/Salah_Adhan_App",
+  "path": "adhan.mp3",
+  "seconds": 213,
+  "md5": "d8918a696e4fb783097f30156c48ebce"
+ },
+ {
+  "repo": "mchtkrkmz/ezan-webxr",
+  "path": "client/public/audio/cagri.mp3",
+  "seconds": 276,
+  "md5": "040fce13ac21a1b38b6cd34e03d71585"
+ },
+ {
+  "repo": "mchtkrkmz/ezan-webxr",
+  "path": "client/public/audio/isha.mp3",
+  "seconds": 129,
+  "md5": "19496951716fdb8bd768312c94fdde03"
+ },
+ {
+  "repo": "mchtkrkmz/ezan-webxr",
+  "path": "client/public/audio/asr.mp3",
+  "seconds": 196,
+  "md5": "80934015e5bd4680c0a4f585f328956e"
+ },
+ {
+  "repo": "mchtkrkmz/ezan-webxr",
+  "path": "client/public/audio/maghrib.mp3",
+  "seconds": 207,
+  "md5": "ec5dc44f82cd44933971165fa2368e33"
+ },
+ {
+  "repo": "subhoncode/Iman-Guard",
+  "path": "reminder.mp3",
+  "seconds": 134,
+  "md5": "4b4f0929a8fafd8ddeac46bfe13662b0"
+ },
+ {
+  "repo": "ace2420004-arch/noor-ul-quran",
+  "path": "frontend/public/audio/makkah_adhan.mp3",
+  "seconds": 246,
+  "md5": "3e6d8945cffd724da369ff39f4715e35"
+ },
+ {
+  "repo": "houssemdub/dhikr-dawn-theme",
+  "path": "assets/audio/adhan-alafasy.mp3",
+  "seconds": 203,
+  "md5": "ef097f4b85fd3bfffea9a54a95385467"
+ },
+ {
+  "repo": "houssemdub/dhikr-dawn-theme",
+  "path": "assets/audio/adhan-alaqsa.mp3",
+  "seconds": 124,
+  "md5": "9b20d71b45b31bdb08d4130931d13b21"
+ },
+ {
+  "repo": "HtoZ27/Athan-Five-Times",
+  "path": "assets/muezzins/\u0642\u0637\u0627\u0645\u064a.mp3",
+  "seconds": 133,
+  "md5": "ab06eed3bb56122cc64ebb5bb4a56ad7"
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/zikir_default/SURAH AT-TIN \u2022 Bacaan oleh Ustaz Zakiy Hanafi  Terjemahan oleh Khairul Anuar Azmi - Inteam Digital.mp3",
+  "seconds": 198,
+  "md5": "c9b2d7ceaee1ee284d8cf2f48e4d03a9"
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/zikir_default/SURAH AD-DHUHA \u2022 Bacaan oleh Ustaz Zakiy Hanafi  Terjemahan oleh Khairul Anuar Azmi - Inteam Digital.mp3",
+  "seconds": 221,
+  "md5": "fc3acb33f02f906f945f07bebdc0df08"
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/zikir_default/SURAH-AL-ASR-Bacaan-oleh-Ustaz-Zakiy.mp3",
+  "seconds": 80,
+  "md5": "db8cb3cf3ad93ee04d697942a3a59848"
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/zikir_default/SURAH-AL-BAYYINAH-Bacaan-oleh-Ustaz-Zakiy.mp3",
+  "seconds": 378,
+  "md5": "c17b6dd2d841e11e4babf9eb4a63d3ba"
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/zikir_default/SURAH-AL-ADIYAT-Bacaan-oleh-Ustaz-Zakiy.mp3",
+  "seconds": 205,
+  "md5": "da2c6d4ffea15498f2b16312cecac14f"
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/zikir_default/SURAH-AL-INSYIRAH-Bacaan-oleh-Ustaz-Zakiy.mp3",
+  "seconds": 157,
+  "md5": "1231981e1f426fae38081a1d82a33a61"
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/zikir_default/SURAH-AL-MA-UN-Bacaan-oleh-Ustaz-Zakiy.mp3",
+  "seconds": 170,
+  "md5": "106ac52c407abb22ab54ed8d5d0dcf16"
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/zikir_default/SURAH-AL-QADR-Bacaan-oleh-Ustaz-Zakiy.mp3",
+  "seconds": 147,
+  "md5": "67c2f98037f793dc42cd69716f5e211d"
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/zikir_default/SURAH-AL-HUMAZAH-Bacaan-oleh-Ustaz-Zakiy.mp3",
+  "seconds": 165,
+  "md5": "e24fee250f88ede0a3312e7fcf4bb2dd"
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/zikir_default/SURAH-AT-TAKATHUR-Bacaan-oleh-Ustaz-Zakiy.mp3",
+  "seconds": 206,
+  "md5": "f85486c2f77edc01a7ed67b864f4d5ae"
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/zikir_default/SURAH AL-QARI'AH \u2022 Bacaan oleh Ustaz Zakiy Hanafi  Terjemahan oleh Khairul Anuar Azmi - Inteam Digital.mp3",
+  "seconds": 188,
+  "md5": "ce7a3c8da513c22f39d3b2c3a533d755"
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/zikir_default/SURAH-AT-TIN-Bacaan-oleh-Ustaz-Zakiy.mp3",
+  "seconds": 198,
+  "md5": "69fc376ed4e64a2742ca40f075f896c5"
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/zikir_default/SURAH-AZ-ZALZALAH-Bacaan-oleh-Ustaz-Zakiy.mp3",
+  "seconds": 192,
+  "md5": "cbbf8eb43ce99a382acc3eae989748cd"
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/zikir_default/SURAH-QURAISY-Bacaan-oleh-Ustaz-Zakiy.mp3",
+  "seconds": 119,
+  "md5": "c974d654dbc647519f6e54b2021b4451"
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/zikir_default/SURAH-AL-FIL-Bacaan-oleh-Ustaz-Zakiy.mp3",
+  "seconds": 158,
+  "md5": "ecede0acfda97646831739bb34cd3b33"
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/azan_mp3/default_azan_biasa.mp3",
+  "seconds": 270,
+  "md5": "0cb3b1529bb80193ef3c27b7d41773ef"
+ },
+ {
+  "repo": "farafarizul/myazan",
+  "path": "workaround/azan_mp3/default_azan_subuh.mp3",
+  "seconds": 237,
+  "md5": "f00d07acbe28b1a84f1bdabde6f85514"
+ },
+ {
+  "repo": "Mo1Amin/Meqat-Widget",
+  "path": "public/azan/abdulbasit.mp3",
+  "seconds": 187,
+  "md5": "7f13bfa56c5cd2545cf8e9064b0dc0b5"
+ },
+ {
+  "repo": "Mo1Amin/Meqat-Widget",
+  "path": "public/azan/fajr-abdulbasit.mp3",
+  "seconds": 193,
+  "md5": "c305fd91f276ae41d1e60a2471d33055"
+ },
+ {
+  "repo": "Mo1Amin/Meqat-Widget",
+  "path": "public/azan/classic.mp3",
+  "seconds": 179,
+  "md5": "1a6b5951969ed1a32f07c19a946fb6e8"
+ },
+ {
+  "repo": "Mo1Amin/Meqat-Widget",
+  "path": "public/azan/dosari.mp3",
+  "seconds": 182,
+  "md5": "d1fc072dcef100a6a8f495ea67499d8b"
+ },
+ {
+  "repo": "Mo1Amin/Meqat-Widget",
+  "path": "public/azan/qatami.mp3",
+  "seconds": 132,
+  "md5": "d1c4f356e5603cb3f336012e74c6e93d"
+ },
+ {
+  "repo": "Mo1Amin/Meqat-Widget",
+  "path": "public/azan/refaat.mp3",
+  "seconds": 204,
+  "md5": "c43d424e8c8286d930e37f1f6c28e9ec"
+ },
+ {
+  "repo": "Mo1Amin/Meqat-Widget",
+  "path": "public/azan/fajr-toubar.mp3",
+  "seconds": 288,
+  "md5": "018dd3b18a61c7a75c04510ed9f203b0"
+ },
+ {
+  "repo": "Mo1Amin/Meqat-Widget",
+  "path": "public/azan/afasy.mp3",
+  "seconds": 241,
+  "md5": "f399b119505a2fbeadea2e56c535886d"
+ },
+ {
+  "repo": "Mo1Amin/Meqat-Widget",
+  "path": "public/azan/minshawi.mp3",
+  "seconds": 247,
+  "md5": "bc41f18d5236811481b1618e5afdc9f4"
+ },
+ {
+  "repo": "Mo1Amin/Meqat-Widget",
+  "path": "public/azan/fajr-afasy.mp3",
+  "seconds": 187,
+  "md5": "dda7afdda252cff0aee6d955d9929891"
+ },
+ {
+  "repo": "Mo1Amin/Meqat-Widget",
+  "path": "public/azan/fajr-makkah.mp3",
+  "seconds": 223,
+  "md5": "6ff900b4a3cb233960e5a01f335f5b6c"
+ },
+ {
+  "repo": "Mo1Amin/Meqat-Widget",
+  "path": "public/azan/makkah.mp3",
+  "seconds": 244,
+  "md5": "69849271578719c34615c275413a8eb4"
+ },
+ {
+  "repo": "azrihafez/azan-audio",
+  "path": "azan_alexa.mp3",
+  "seconds": 260,
+  "md5": "a9dcea2c00a463eb60454ce44faee453"
+ },
+ {
+  "repo": "azrihafez/azan-audio",
+  "path": "azan.mp3",
+  "seconds": 260,
+  "md5": "1248ea4a0e010da7b2a6b178f616e66e"
+ },
+ {
+  "repo": "azrihafez/azan-audio",
+  "path": "azan_subuh.mp3",
+  "seconds": 268,
+  "md5": "53a6d7889dee7530111ab199eed96030"
+ },
+ {
+  "repo": "azrihafez/azan-audio",
+  "path": "azan_subuh_alexa.mp3",
+  "seconds": 268,
+  "md5": "59e825f94b986ecf126424672f8299fb"
+ },
+ {
+  "repo": "Ahmed-Wep-lap/Azan-audio",
+  "path": "\u0627\u0630\u0627\u0646 \u0627\u0644\u0639\u0635\u0631 _ \u0627\u0644\u0634\u064a\u062e \u0645\u062d\u0645\u062f \u0635\u062f\u064a\u0642 \u0627\u0644\u0645\u0646\u0634\u0627\u0648\u0649 _ \u0646\u0648\u0627\u062f\u0631 \u0644\u0646 \u062a\u062a\u0643\u0631\u0631 \u0627\u0628\u062f\u0627(MP3_160K).mp3",
+  "seconds": 214,
+  "md5": "dd6a2c207c2ec7fba5efb86df316ae77"
+ },
+ {
+  "repo": "07halilgunay-art/azan-audio",
+  "path": "Muhsin Kara Ezan.mp3",
+  "seconds": 279,
+  "md5": "288c59a1278a40b7c07994bd0c5bb615"
+ },
+ {
+  "repo": "07halilgunay-art/azan-audio",
+  "path": "Muhsin Kara Ezan 2.mp3",
+  "seconds": 279,
+  "md5": "137ae85cff2ebf09434e479d1bcc0006"
+ },
+ {
+  "repo": "MeSameerAhmed/azan-automation",
+  "path": "audio/fajr_azan.mp3",
+  "seconds": 147,
+  "md5": "6d6d1ae952324d572f547d76c66cbc66"
+ },
+ {
+  "repo": "ummah-digital/Azan",
+  "path": "app/src/main/res/raw/azan_audio.mp3",
+  "seconds": 138,
+  "md5": "76c85d438a3f51afefdb92633e391063"
+ },
+ {
+  "repo": "nexusintllc-reporting/daily-azan-audio",
+  "path": "99-names/allah-names.mp3",
+  "seconds": 210,
+  "md5": "34ed2c51d5bbf423482e6fa4b454a1c8"
+ },
+ {
+  "repo": "iftalab/esp32-azan-clock",
+  "path": "azan/data/adhan.wav",
+  "seconds": 96,
+  "md5": "c2c0d3c7f5393166f04c303be0f0cf83"
+ },
+ {
+  "repo": "khizar-j/zikrist-audio",
+  "path": "azan/aaqib/full.m4a",
+  "seconds": 84,
+  "md5": "aa7d420382ed09954d5c45a1074ecc65"
+ },
+ {
+  "repo": "khizar-j/zikrist-audio",
+  "path": "azan/shalkar/full.m4a",
+  "seconds": 131,
+  "md5": "17611a1b44dc03f6306a8050fa54ac64"
+ },
+ {
+  "repo": "khizar-j/zikrist-audio",
+  "path": "azan/ghana/fajr.m4a",
+  "seconds": 83,
+  "md5": "af3c68b3811347b4d35c37fc25cc9dc2"
+ },
+ {
+  "repo": "khizar-j/zikrist-audio",
+  "path": "azan/nabawi/full.m4a",
+  "seconds": 186,
+  "md5": "b37795418e5d1156f3f9f5b1027aa5b4"
+ },
+ {
+  "repo": "khizar-j/zikrist-audio",
+  "path": "azan/london/full.m4a",
+  "seconds": 116,
+  "md5": "f1dfc308bc97e483bd2ede01fdba8327"
+ },
+ {
+  "repo": "khizar-j/zikrist-audio",
+  "path": "azan/malmo/fajr.m4a",
+  "seconds": 229,
+  "md5": "83041aef740ce2b70f649233f99b5fde"
+ },
+ {
+  "repo": "jkieb/Azaming",
+  "path": "public/audio/adhan.mp3",
+  "seconds": 189,
+  "md5": "6f8981298d14befcd927973e8c323ca2"
+ },
+ {
+  "repo": "af-habibie/koel-islami",
+  "path": "cypress/fixtures/sample.mp3",
+  "seconds": 76,
+  "md5": "11427ed9ff839b53cee0d198f4d7f8a8"
+ },
+ {
+  "repo": "unknown707404/Islamic-tasbeh-reminder",
+  "path": "audio/azan.mp3",
+  "seconds": 44,
+  "md5": "0c84d2cbcde641fa31e371734e6986c3"
+ },
+ {
+  "repo": "unknown707404/Islamic-tasbeh-reminder",
+  "path": "audio/surah-al-mulk.mp3",
+  "seconds": 383,
+  "md5": "5efb4c6b9f617e327a6f931069e75d83"
+ },
+ {
+  "repo": "mehedisaurav/Salah-Clocker",
+  "path": "assets/audio/Azan-Madina.mp3",
+  "seconds": 228,
+  "md5": "df4ff086dcf87036a85d77994a318de5"
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/al_haram_al_madani.mp3",
+  "seconds": 279,
+  "md5": "a029728c8e31bb9f4fbf353708a9c4ca"
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/ali_hassan_abd_al_khaliq_qatar.mp3",
+  "seconds": 134,
+  "md5": "0ea2f2725a043df231100f60c1f463dd"
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/al_bahlul_abu_arqub.mp3",
+  "seconds": 209,
+  "md5": "bac9462f524aca3d4c3ddbd22fceeb9a"
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/abdullah_al_sabaawe.mp3",
+  "seconds": 187,
+  "md5": "25d06031bb9edf39a8b0aad08785141c"
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/mohamed_adel.m4a",
+  "seconds": 145,
+  "md5": "7bdbb66c6fa5cf992ea8668f91130df2"
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/abdul_rahman_majde.mp3",
+  "seconds": 164,
+  "md5": "125d9021a40ba3400ad6e1f3601f8095"
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/ahmed_el_kourdi.mp3",
+  "seconds": 197,
+  "md5": "0d297afedd2f58c3acd18138fd829012"
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/badee_jadu.mp3",
+  "seconds": 207,
+  "md5": "1b41cd81d98bf1fce5a11c7818c6471e"
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/abdul_wali_al_arkani.mp3",
+  "seconds": 158,
+  "md5": "57d99a889f2c5ff49311a5847a4440ff"
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/ahmed_al_imadi.mp3",
+  "seconds": 179,
+  "md5": "550fb4661f66fa094e30d247ce2771f4"
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/adam_abu_sakhra.mp3",
+  "seconds": 216,
+  "md5": "5bcd7ff700a50f0ebd7df9f24fa9a6b8"
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/abdul_majid_al_surehi.mp3",
+  "seconds": 206,
+  "md5": "745d24b6664a9d4be2249ffd08945589"
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/hamad_al_daghriri.mp3",
+  "seconds": 192,
+  "md5": "c316545c28e348d3c3c3197ddff9d045"
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/abul_ainain_shuaisha_cairo.mp3",
+  "seconds": 237,
+  "md5": "2333804b757220919fe17361eabab385"
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/ahmed_al_haddad.mp3",
+  "seconds": 155,
+  "md5": "bab98fb9f8d06b288344ca5896f11f26"
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/abdel_moneim_abdel_mobdi.mp3",
+  "seconds": 142,
+  "md5": "212def1b89e14a8532a659baeb1ba486"
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/balbasher_abdel_qadir.mp3",
+  "seconds": 117,
+  "md5": "08b4ab2e73d5a2ce60510f56f4db4417"
+ },
+ {
+  "repo": "samaneng2002/zadi-athan-sounds",
+  "path": "sounds/abdul_rahman_al_arake.mp3",
+  "seconds": 208,
+  "md5": "bbd69b851c3a4c7c2cb3cd57f30bae8a"
+ },
+ {
+  "repo": "Amar-Dev1/adhanSounds",
+  "path": "AboDujana.ogg",
+  "seconds": 158,
+  "md5": "d2f57992fed4ead3887818dd3c406627"
+ },
+ {
+  "repo": "Amar-Dev1/adhanSounds",
+  "path": "AboJabber.m4a",
+  "seconds": 140,
+  "md5": "c0dbbf6572be2fb4952c0d619468e798"
+ },
+ {
+  "repo": "Amar-Dev1/adhanSounds",
+  "path": "AboJabber.ogg",
+  "seconds": 140,
+  "md5": "f888cf29447d55e7c7d07e7762b1242a"
+ },
+ {
+  "repo": "Amar-Dev1/adhanSounds",
+  "path": "Isa.wav",
+  "seconds": 211,
+  "md5": "40fa7faac12812aaa74750e091613d2e"
+ },
+ {
+  "repo": "Amar-Dev1/adhanSounds",
+  "path": "Isa.ogg",
+  "seconds": 211,
+  "md5": "35f2e9e4ac3b3f586415372e84726a8b"
+ },
+ {
+  "repo": "Amar-Dev1/adhanSounds",
+  "path": "AboDujana.wav",
+  "seconds": 158,
+  "md5": "58731e2397df18e6dc4fc137c5186e45"
+ },
+ {
+  "repo": "Amar-Dev1/adhanSounds",
+  "path": "AboJabber.wav",
+  "seconds": 140,
+  "md5": "221ac7a942b00fdca1a79279daed71e2"
+ },
+ {
+  "repo": "geeksesi/OnlineAdhanPlayer",
+  "path": "sunrise.mp3",
+  "seconds": 256,
+  "md5": "81ffaf7e639612811c4e0ac7773f8b4d"
+ },
+ {
+  "repo": "geeksesi/OnlineAdhanPlayer",
+  "path": "fajr-adhan.mp3",
+  "seconds": 347,
+  "md5": "e3f3eef0c85212a71494f37020a2ac4c"
+ },
+ {
+  "repo": "geeksesi/OnlineAdhanPlayer",
+  "path": "maghrib-adhan.mp3",
+  "seconds": 334,
+  "md5": "715f1e6ec2cf9958139e3cbe6b15ec01"
+ },
+ {
+  "repo": "geeksesi/OnlineAdhanPlayer",
+  "path": "sunset.mp3",
+  "seconds": 128,
+  "md5": "82eb1cebe160df33cbb3a01630729e2d"
+ },
+ {
+  "repo": "geeksesi/OnlineAdhanPlayer",
+  "path": "dhuhr-adhan.mp3",
+  "seconds": 307,
+  "md5": "1f9480f090548a0245709a9b9aac5ad8"
+ },
+ {
+  "repo": "mhdhilmi27/praying_reminder",
+  "path": "adhan/mecca.mp3",
+  "seconds": 203,
+  "md5": "ef910e9c3cb8c351acb820979483c5e7"
+ },
+ {
+  "repo": "yameenbux/Taiyabah-Masjid-HomeSmartScreen",
+  "path": "audio/iqamah-short.mp3",
+  "seconds": 51,
+  "md5": "a02773d8dd49282efc950695074c1f6b"
+ },
+ {
+  "repo": "Kydens/Prayer-Reminder",
+  "path": "adzan.mp3",
+  "seconds": 268,
+  "md5": "419bbc8cc9069774faffc3f7d4e0caf2"
+ },
+ {
+  "repo": "ibrahim-sisar/Aqsa-Ramadan",
+  "path": "adhan.mp3",
+  "seconds": 182,
+  "md5": "fa56bb1925361806a8d4fc087e057cdc"
+ },
+ {
+  "repo": "coderasraf/Waqt",
+  "path": "src/ui/prophets/audio/muhammad-bn-4.opus",
+  "seconds": 42,
+  "md5": "9ee07afece5c5ed2d73a58cfe824e44f"
+ },
+ {
+  "repo": "coderasraf/Waqt",
+  "path": "src/ui/prophets/audio/ibrahim-bn-6.opus",
+  "seconds": 40,
+  "md5": "019573b531d02a4b6902f91d3e331d4b"
+ },
+ {
+  "repo": "coderasraf/Waqt",
+  "path": "assets/narration-samples/yunus-bn.mp3",
+  "seconds": 114,
+  "md5": "533ea4b96efb5a57c4f1e7b84597adc5"
+ },
+ {
+  "repo": "coderasraf/Waqt",
+  "path": "assets/narration-samples/yunus-en.mp3",
+  "seconds": 97,
+  "md5": "abca4eed5929a35cf65e49efb1ccb1dd"
+ },
+ {
+  "repo": "coderasraf/Waqt",
+  "path": "assets/adhan/madinah-fajr.mp3",
+  "seconds": 143,
+  "md5": "c3be1c0435c956b9d95d803567cbbc23"
+ },
+ {
+  "repo": "coderasraf/Waqt",
+  "path": "assets/adhan/abdulbasit.mp3",
+  "seconds": 201,
+  "md5": "d5a9718dc450da910bac6abb4fdfab6a"
+ },
+ {
+  "repo": "coderasraf/Waqt",
+  "path": "assets/adhan/aqsa.mp3",
+  "seconds": 227,
+  "md5": "78021abac614e8f6bd4d4b5b2b9d242f"
+ },
+ {
+  "repo": "coderasraf/Waqt",
+  "path": "assets/adhan/istanbul.mp3",
+  "seconds": 239,
+  "md5": "00cf70cdf333548db94332471d27c1ea"
+ },
+ {
+  "repo": "coderasraf/Waqt",
+  "path": "assets/adhan/madinah.mp3",
+  "seconds": 171,
+  "md5": "5099f63edc26db7b7a433ac1ee9070eb"
+ },
+ {
+  "repo": "coderasraf/Waqt",
+  "path": "assets/adhan/makkah-fajr.mp3",
+  "seconds": 215,
+  "md5": "7e90f8c0610b1335469133536b8398c9"
+ },
+ {
+  "repo": "coderasraf/Waqt",
+  "path": "assets/adhan/mishary.mp3",
+  "seconds": 157,
+  "md5": "e2bed060ead52b9eae4dd807e5284420"
+ },
+ {
+  "repo": "coderasraf/Waqt",
+  "path": "assets/adhan/makkah.mp3",
+  "seconds": 205,
+  "md5": "2ffcfd858e2d867a67d44e675c12e338"
+ },
+ {
+  "repo": "if12is/islamic-app",
+  "path": "android/app/src/main/res/raw/adhan_fajr_abu_rahiq.mp3",
+  "seconds": 292,
+  "md5": "513834b3c806fc12581d35e4888a06a9"
+ },
+ {
+  "repo": "if12is/islamic-app",
+  "path": "android/app/src/main/res/raw/adhan_nasraldeen_tobar.mp3",
+  "seconds": 264,
+  "md5": "37dec7ce6dfa9b56067e95440dabc58b"
+ },
+ {
+  "repo": "if12is/islamic-app",
+  "path": "android/app/src/main/res/raw/adhan_nasraldeen_tobar_fajr.mp3",
+  "seconds": 292,
+  "md5": "92c3b1e750f5efbb36dc7ca730a9999b"
+ },
+ {
+  "repo": "if12is/islamic-app",
+  "path": "android/app/src/main/res/raw/adhan_mustafa_ismail.mp3",
+  "seconds": 184,
+  "md5": "c60ffd0265e98cf4e5fee3d42a24e40b"
+ },
+ {
+  "repo": "yel121/islam",
+  "path": "adan.mp3",
+  "seconds": 205,
+  "md5": "5b0d728cd0107b8d10445c0fbd1b69c6"
+ },
+ {
+  "repo": "kamrani8is/azan",
+  "path": "YTDown.com_YouTube_The-Fajr-Adhan-A-Call-That-Awakens-the-S_Media_WzXoWsDxgJA_007_128k.mp3",
+  "seconds": 330,
+  "md5": "81d9dc30a50a1b5b657b594362c23467"
+ },
+ {
+  "repo": "RyugaBahira/Waktu-Adzan",
+  "path": "app/src/main/res/raw/sheikh_abdul_karim_omar_fatani_al_makki_adzan.mp3",
+  "seconds": 208,
+  "md5": "0764df406e2c8af7780b33dbba780e35"
+ },
+ {
+  "repo": "RyugaBahira/Waktu-Adzan",
+  "path": "app/src/main/res/raw/sheikh_abdul_karim_omar_fatani_al_makki_adzan_subuh.mp3",
+  "seconds": 268,
+  "md5": "296bd116559ec655a490fc66322c4f09"
+ },
+ {
+  "repo": "barbarbar338/iftar-bot",
+  "path": "assets/adzan.mp3",
+  "seconds": 280,
+  "md5": "0033eaebedc3204f37e7edc6029b5e58"
+ },
+ {
+  "repo": "ajisetiawan716/luci-app-jsholat",
+  "path": "sounds/adzan_subuh.mp3",
+  "seconds": 300,
+  "md5": "aabd7df7d829732048a86d89e4a6b5ce"
+ },
+ {
+  "repo": "ajisetiawan716/luci-app-jsholat",
+  "path": "sounds/tarhim.mp3",
+  "seconds": 366,
+  "md5": "0388f83e1daa3b59b43557a60b235b4f"
+ },
+ {
+  "repo": "ajisetiawan716/luci-app-jsholat",
+  "path": "sounds/adzan.mp3",
+  "seconds": 266,
+  "md5": "74962bbe593b99cff20f70cc793fd89e"
+ },
+ {
+  "repo": "ssemyy-sds/arsyan-tv-launcher",
+  "path": "app/assets/adzan.ogg",
+  "seconds": 154,
+  "md5": "d9ba3de09b6a2b8715f32e765485ed43"
+ },
+ {
+  "repo": "fikrisyahid/adzanid",
+  "path": "assets/adzan.mp3",
+  "seconds": 240,
+  "md5": "acb754e1b10b800c34f0e60cbdee8200"
+ },
+ {
+  "repo": "versa-syahptr/Adzan-Notification",
+  "path": "src/adzan.wav",
+  "seconds": 232,
+  "md5": "0f6bc3daa88809488b37f8e527c57640"
+ },
+ {
+  "repo": "versa-syahptr/Adzan-Notification",
+  "path": "src/fajr.wav",
+  "seconds": 248,
+  "md5": "b0aa50944bade891546144bc184fa4ed"
+ },
+ {
+  "repo": "itzmail/adzan-reminder",
+  "path": "assets/suara_bedug.mp3",
+  "seconds": 42,
+  "md5": "5320f7160e2f1527521fdd53f3ae0a2d"
+ },
+ {
+  "repo": "itzmail/adzan-reminder",
+  "path": "assets/Adzan-Shubuh-Abu-Hazim.mp3",
+  "seconds": 143,
+  "md5": "62c07dbaffd6ec83e8d1071902f16eeb"
+ },
+ {
+  "repo": "sitijulianti/P6-Mobile-Programming-2",
+  "path": "app/src/main/res/raw/adzan_hawai.mp3",
+  "seconds": 232,
+  "md5": "79804e22ed4ff035503e97976265ae6a"
+ },
+ {
+  "repo": "sitijulianti/P6-Mobile-Programming-2",
+  "path": "app/src/main/res/raw/adzan_uea.mp3",
+  "seconds": 108,
+  "md5": "5b5a0f423fa640de405aeecd5c1dc961"
+ },
+ {
+  "repo": "sitijulianti/P6-Mobile-Programming-2",
+  "path": "app/src/main/res/raw/adzan_madinah.mp3",
+  "seconds": 280,
+  "md5": "5371c0d84bce7ded9d2e93037b1ae00b"
+ },
+ {
+  "repo": "sitijulianti/P6-Mobile-Programming-2",
+  "path": "app/src/main/res/raw/adzan_turkey.mp3",
+  "seconds": 239,
+  "md5": "e2e9e19daebddfe467bc4d0266afa22b"
+ },
+ {
+  "repo": "LutfiSihabudin/adzanp6",
+  "path": "app/src/main/res/raw/syria.mp3",
+  "seconds": 223,
+  "md5": "e3133b65a18a171b5d7ead50403a3dfb"
+ },
+ {
+  "repo": "LutfiSihabudin/adzanp6",
+  "path": "app/src/main/res/raw/mesir.mp3",
+  "seconds": 222,
+  "md5": "0778f0a99bbb997846d152138cfcd860"
+ },
+ {
+  "repo": "LutfiSihabudin/adzanp6",
+  "path": "app/src/main/res/raw/malaysia.mp3",
+  "seconds": 124,
+  "md5": "91143d78fd106c389de98ac422133b8e"
+ },
+ {
+  "repo": "LutfiSihabudin/adzanp6",
+  "path": "app/src/main/res/raw/anakindonesia.mp3",
+  "seconds": 258,
+  "md5": "fd2466719e9220332d01721322ddbb02"
+ },
+ {
+  "repo": "LutfiSihabudin/adzanp6",
+  "path": "app/src/main/res/raw/hawai.mp3",
+  "seconds": 181,
+  "md5": "691da598887c4d5e6464faea62e8b494"
+ },
+ {
+  "repo": "LutfiSihabudin/adzanp6",
+  "path": "app/src/main/res/raw/bosnia.mp3",
+  "seconds": 214,
+  "md5": "d3c986e593f3d7bed3ba9572437b9f21"
+ },
+ {
+  "repo": "LutfiSihabudin/adzanp6",
+  "path": "app/src/main/res/raw/madinah.mp3",
+  "seconds": 171,
+  "md5": "b3047effc152914ad66200070542397c"
+ },
+ {
+  "repo": "LutfiSihabudin/adzanp6",
+  "path": "app/src/main/res/raw/pakistan.mp3",
+  "seconds": 184,
+  "md5": "e8ac464cf8d0a803e592c0c3ecfe6993"
+ },
+ {
+  "repo": "LutfiSihabudin/adzanp6",
+  "path": "app/src/main/res/raw/indonesia.mp3",
+  "seconds": 125,
+  "md5": "a292e0f5567e4dba0911dfd0ab80183d"
+ },
+ {
+  "repo": "Adrian463588/AdzanPlus",
+  "path": "app/src/main/res/raw/adhan_egypt.mp3",
+  "seconds": 173,
+  "md5": "71d601203c5727cfe136adef22913213"
+ },
+ {
+  "repo": "Adrian463588/AdzanPlus",
+  "path": "app/src/main/res/raw/adhan_alaqsa.mp3",
+  "seconds": 299,
+  "md5": "4d8396d1b2ec6169a470cba948001e16"
+ },
+ {
+  "repo": "muhmuslimabdulj/adzanApp",
+  "path": "app/src/main/res/raw/adzan_mekkah.mp3",
+  "seconds": 269,
+  "md5": "607f3141f1e244de5f53197094bda826"
+ },
+ {
+  "repo": "muhmuslimabdulj/adzanApp",
+  "path": "app/src/main/res/raw/adzan_palestina.mp3",
+  "seconds": 247,
+  "md5": "b2de1122bf6c6c260b50867a2ed6ea57"
+ },
+ {
+  "repo": "muhmuslimabdulj/adzanApp",
+  "path": "app/src/main/res/raw/adzan_anak.mp3",
+  "seconds": 240,
+  "md5": "c203701990ec4ea90e2b576f08489a40"
+ },
+ {
+  "repo": "muhmuslimabdulj/adzanApp",
+  "path": "app/src/main/res/raw/adzan_madinah.mp3",
+  "seconds": 222,
+  "md5": "143450e77a48a53b762994983bc9ac21"
+ },
+ {
+  "repo": "muhmuslimabdulj/adzanApp",
+  "path": "app/src/main/res/raw/adzan_indo.mp3",
+  "seconds": 315,
+  "md5": "016295d182a1fe80a739b248c0d4d74e"
+ },
+ {
+  "repo": "muhmuslimabdulj/adzanApp",
+  "path": "app/src/main/res/raw/adzan_malaysia.mp3",
+  "seconds": 242,
+  "md5": "f67c3ea91c54d51ff6fe5b7075b81f98"
+ },
+ {
+  "repo": "airgrabber1/ezan-mp3",
+  "path": "ezan_1.mp3",
+  "seconds": 201,
+  "md5": "b65f320a53a77664e3edb7a1a0c8c138"
+ },
+ {
+  "repo": "HouariZegai/prayer-times",
+  "path": "src/main/resources/adhan/adan4.mp3",
+  "seconds": 132,
+  "md5": "55575608fb10b87bde1bf4bedccf11e5"
+ },
+ {
+  "repo": "HouariZegai/prayer-times",
+  "path": "src/main/resources/adhan/adan1.mp3",
+  "seconds": 197,
+  "md5": "53a08793c5ff69b8f31a316df9ac820c"
+ },
+ {
+  "repo": "HouariZegai/prayer-times",
+  "path": "src/main/resources/adhan/adan3.mp3",
+  "seconds": 215,
+  "md5": "24f54a44b3fab393d6066deaa76535f0"
+ },
+ {
+  "repo": "HouariZegai/prayer-times",
+  "path": "src/main/resources/adhan/adan5.mp3",
+  "seconds": 182,
+  "md5": "369a67760a97e21807bd3f488fa0c913"
+ },
+ {
+  "repo": "HouariZegai/prayer-times",
+  "path": "src/main/resources/adhan/adan2.mp3",
+  "seconds": 174,
+  "md5": "458765383b7b7fbb937cf4ae573b71ac"
+ },
+ {
+  "repo": "tareq1988/prayer-times-macos",
+  "path": "PrayerTimes/Resources/Adhan/adhan-makkah.m4a",
+  "seconds": 224,
+  "md5": "c6c991bd04c23e1027e54c80c2ba56e4"
+ },
+ {
+  "repo": "meypod/al-azan-compose",
+  "path": "app/src/main/res/raw/moazen_zade.mp3",
+  "seconds": 266,
+  "md5": "5918c5321fff7f35b23b2a02d08d05be"
+ },
+ {
+  "repo": "dzikirqu/dzikirqu-android",
+  "path": "app/src/main/res/raw/abdullah_al_zaili.mp3",
+  "seconds": 250,
+  "md5": "a74fa5e3e267f8622371ff7dd0535400"
+ },
+ {
+  "repo": "dzikirqu/dzikirqu-android",
+  "path": "app/src/main/res/raw/nasir_al_qatami.mp3",
+  "seconds": 135,
+  "md5": "2a91f2d10b3a075a23ec92bdf8d5ca20"
+ },
+ {
+  "repo": "dzikirqu/dzikirqu-android",
+  "path": "app/src/main/res/raw/mansour_zahrany.mp3",
+  "seconds": 161,
+  "md5": "de677ac12821ce15aedfe73fdfabc0eb"
+ },
+ {
+  "repo": "dzikirqu/dzikirqu-android",
+  "path": "app/src/main/res/raw/khoirul_asfa.mp3",
+  "seconds": 183,
+  "md5": "d06e185b79480b5114ef77eada8004f1"
+ },
+ {
+  "repo": "dzikirqu/dzikirqu-android",
+  "path": "app/src/main/res/raw/ali_ahmed_mullah.mp3",
+  "seconds": 209,
+  "md5": "bea7a61f2a9751b2f63e2e30737126b4"
+ },
+ {
+  "repo": "dzikirqu/dzikirqu-android",
+  "path": "app/src/main/res/raw/ali_ahmed_mullah_2.mp3",
+  "seconds": 205,
+  "md5": "5ae6ca2d4524fa130ca95b2e0e35f764"
+ },
+ {
+  "repo": "gitsponge/AdhanAlarm",
+  "path": "app/src/main/res/raw/adhan_fajr.mp3",
+  "seconds": 151,
+  "md5": "f0ffaf682dd45f14637e90336dc60418"
+ },
+ {
+  "repo": "Dadangdut33/simple-prayertime-reminder",
+  "path": "internal/audio/adhan_fajr.wav",
+  "seconds": 222,
+  "md5": "1833600863e2f99bb05b82295b00876c"
+ },
+ {
+  "repo": "Dadangdut33/simple-prayertime-reminder",
+  "path": "internal/audio/adhan.wav",
+  "seconds": 185,
+  "md5": "e10ff54e6a40a0e4c3fed45c2d213c54"
+ },
+ {
+  "repo": "Msr7799/ALmuadhin",
+  "path": "app/src/main/res/raw/adhan_makkah_full.mp3",
+  "seconds": 203,
+  "md5": "446bcf95b25a0634bc37f597c12dd68e"
+ },
+ {
+  "repo": "adelpro/Openadhan",
+  "path": "src/assets/first_adhan_masjid_aadam.ogg",
+  "seconds": 218,
+  "md5": "223ef2b3164562e3607dc68b3aabb84c"
+ },
+ {
+  "repo": "MazenMohamed203/SalaatprayertimesGnome",
+  "path": "assets/audio/Adhan.mp3",
+  "seconds": 172,
+  "md5": "6fd6231c539966c34859f84d5743997e"
+ },
+ {
+  "repo": "sifenfisaha/omarchy-salah-reminder",
+  "path": "assets/adhan.ogg",
+  "seconds": 42,
+  "md5": "07a0231ac3bd1f5871c660ebe3b78a84"
+ },
+ {
+  "repo": "train2128/Nida_Adhan_App",
+  "path": "resources/sounds/Naghshbandi.mp3",
+  "seconds": 162,
+  "md5": "75336db848c21a78f8d7185b60f6a7cb"
+ },
+ {
+  "repo": "agusumri/sela",
+  "path": "src/Sela/Assets/Audio/adhan.mp3",
+  "seconds": 42,
+  "md5": "7d13969fce89f94c0dc23e9c10da335b"
+ },
+ {
+  "repo": "AhmedAhmedEG/PyAdhan",
+  "path": "Resources/Adhan Callers/Mohamed Refaat.mp3",
+  "seconds": 237,
+  "md5": "715c7c89d1f4a82e146e75a36bb87f8a"
+ },
+ {
+  "repo": "AhmedAhmedEG/PyAdhan",
+  "path": "Resources/Adhan Callers/Abdel Baset.mp3",
+  "seconds": 207,
+  "md5": "b94260a6da7edd342667f10aff637920"
+ },
+ {
+  "repo": "AhmedAhmedEG/PyAdhan",
+  "path": "Resources/Adhan Callers/Mevlan Kurtishi.mp3",
+  "seconds": 185,
+  "md5": "ffe50c45e7a5074696980f4dde7abdfa"
+ },
+ {
+  "repo": "AhmedAhmedEG/PyAdhan",
+  "path": "Resources/Adhan Callers/Ali Ahmed Malaa.mp3",
+  "seconds": 206,
+  "md5": "41194aaf8bed3611e0ab706e5f59ceca"
+ },
+ {
+  "repo": "AhmedAhmedEG/PyAdhan",
+  "path": "Resources/Adhan Callers/Abo El-Anen Sheashaa.mp3",
+  "seconds": 247,
+  "md5": "6a1aa8e3b6ea5b1066cead1a43ffef00"
+ },
+ {
+  "repo": "AhmedAhmedEG/PyAdhan",
+  "path": "Resources/Adhan Callers/Nasr El-Deen Tobar.mp3",
+  "seconds": 261,
+  "md5": "240b7a7cbd6b83fa287fe5dda1f7c5ef"
+ },
+ {
+  "repo": "AhmedAhmedEG/PyAdhan",
+  "path": "Resources/Adhan Callers/Said El-Naqshabndy.mp3",
+  "seconds": 156,
+  "md5": "8fe7b671b0fd797d604ef07fc75224f9"
+ },
+ {
+  "repo": "AhmedAhmedEG/PyAdhan",
+  "path": "Resources/Adhan Callers/Naser El-Katamy.mp3",
+  "seconds": 128,
+  "md5": "95c826c0dbc1b615ff1973953942d794"
+ },
+ {
+  "repo": "AhmedAhmedEG/PyAdhan",
+  "path": "Resources/Adhan Callers/Mahmoud Mohamed Ramadan.mp3",
+  "seconds": 216,
+  "md5": "793ed11c58a9278b7dcb9bae86559665"
+ },
+ {
+  "repo": "MohamedAbulgasem/Taqwa",
+  "path": "iosApp/iosApp/Resources/adhan-full.m4a",
+  "seconds": 154,
+  "md5": "9f45ae6ecf62e5fa5dddd31d9a0783af"
+ },
+ {
+  "repo": "MohamedAbulgasem/Taqwa",
+  "path": "iosApp/iosApp/Resources/adhan-azeez-full.m4a",
+  "seconds": 86,
+  "md5": "9de02cd6096225c1b27079915a047dd3"
+ },
+ {
+  "repo": "MohamedAbulgasem/Taqwa",
+  "path": "iosApp/iosApp/Resources/adhan-azemi-full.m4a",
+  "seconds": 211,
+  "md5": "5266912e2acced39b7875b4d22e2ee03"
+ },
+ {
+  "repo": "MohamedAbulgasem/Taqwa",
+  "path": "iosApp/iosApp/Resources/adhan-madinah-full.m4a",
+  "seconds": 186,
+  "md5": "17f0ecd23207becd36931ca282660fc4"
+ },
+ {
+  "repo": "MohamedAbulgasem/Taqwa",
+  "path": "iosApp/iosApp/Resources/adhan-makkah-full.m4a",
+  "seconds": 189,
+  "md5": "36c3283430b11b2cd4900dd6264d0481"
+ },
+ {
+  "repo": "MohamedAbulgasem/Taqwa",
+  "path": "shared/src/commonMain/composeResources/files/adhkar/clips/ar.alafasy/002-255.mp3",
+  "seconds": 52,
+  "md5": "5a5c57c40685cb45bb1a62286a2e7550"
+ },
+ {
+  "repo": "MohamedAbulgasem/Taqwa",
+  "path": "shared/src/commonMain/composeResources/files/adhkar/clips/ar.alafasy/114.mp3",
+  "seconds": 42,
+  "md5": "035bb7275753c85ca81ba7eab5347f86"
+ },
+ {
+  "repo": "MohamedAbulgasem/Taqwa",
+  "path": "shared/src/androidMain/res/raw/adhan_azemi_full.ogg",
+  "seconds": 211,
+  "md5": "d5582a5f950a9cd5c7d6542edf0a1a02"
+ },
+ {
+  "repo": "MohamedAbulgasem/Taqwa",
+  "path": "shared/src/androidMain/res/raw/adhan_madinah_full.ogg",
+  "seconds": 186,
+  "md5": "a984250e8b8abf42b27515a8de70e57f"
+ },
+ {
+  "repo": "MohamedAbulgasem/Taqwa",
+  "path": "shared/src/androidMain/res/raw/adhan_azeez_full.ogg",
+  "seconds": 86,
+  "md5": "e64c565399365ffdd2cbb5c043d4258f"
+ },
+ {
+  "repo": "MohamedAbulgasem/Taqwa",
+  "path": "shared/src/androidMain/res/raw/adhan_full.ogg",
+  "seconds": 154,
+  "md5": "d0842268733e140faef28749ca59956f"
+ },
+ {
+  "repo": "MohamedAbulgasem/Taqwa",
+  "path": "shared/src/androidMain/res/raw/adhan_makkah_full.ogg",
+  "seconds": 189,
+  "md5": "da393b7bc02ea13aba9b8c4ef571cfed"
+ },
+ {
+  "repo": "MohamedAbulgasem/Taqwa",
+  "path": "assets/audio/adhan-azemi-full.m4a",
+  "seconds": 211,
+  "md5": "209ab72cc53cbffc5ab546468c2ce14b"
+ },
+ {
+  "repo": "MohamedAbulgasem/Taqwa",
+  "path": "assets/audio/adhan-azemi-full.ogg",
+  "seconds": 211,
+  "md5": "6ba3649b7ad1137afa96a7ed5fbacaee"
+ },
+ {
+  "repo": "r1di/mawaqit-prayer-display",
+  "path": "data/adhan.mp3",
+  "seconds": 181,
+  "md5": "e36d882cab0ef06768cc3e7eee4d6d94"
+ },
+ {
+  "repo": "OpenCore-Lab/IslamicHomepage",
+  "path": "azan_all.mp3",
+  "seconds": 180,
+  "md5": "ca179713ee3a9834cdc2f940661f6492"
+ },
+ {
+  "repo": "OpenCore-Lab/IslamicHomepage",
+  "path": "azan_fajr.mp3",
+  "seconds": 231,
+  "md5": "9d960d04c9543bc0cd9570fdbc00d316"
+ },
+ {
+  "repo": "cppLawyer/Muslim-Reminder-Application",
+  "path": "Adhan.mp3",
+  "seconds": 238,
+  "md5": "ea69eee064e6c6a7789c11119ad55e25"
+ },
+ {
+  "repo": "abuzoz/prayer-times-app",
+  "path": "app/src/main/res/raw/adhan_doha_isha.ogg",
+  "seconds": 181,
+  "md5": "1649bde6d416dffedf44b229ab30e440"
+ },
+ {
+  "repo": "abuzoz/prayer-times-app",
+  "path": "app/src/main/res/raw/adhan_mokhtar.ogg",
+  "seconds": 195,
+  "md5": "278eaef74d9691f7cbefd8e2cdc1d358"
+ },
+ {
+  "repo": "abuzoz/prayer-times-app",
+  "path": "app/src/main/res/raw/adhan_qatami.ogg",
+  "seconds": 132,
+  "md5": "9c8186a3815b147ef92ee790af6e31fe"
+ },
+ {
+  "repo": "abuzoz/prayer-times-app",
+  "path": "app/src/main/res/raw/adhan_doha_dhuhr.ogg",
+  "seconds": 179,
+  "md5": "66da7f6a8de34493ee12411556e7072b"
+ },
+ {
+  "repo": "abuzoz/prayer-times-app",
+  "path": "app/src/main/res/raw/adhan_doha_asr.ogg",
+  "seconds": 187,
+  "md5": "31703980219a0d34471b12cb7b75de5b"
+ },
+ {
+  "repo": "abuzoz/prayer-times-app",
+  "path": "app/src/main/res/raw/adhan_doha_maghrib.ogg",
+  "seconds": 199,
+  "md5": "4dca681316d578361e626b70755d6c70"
+ },
+ {
+  "repo": "abuzoz/prayer-times-app",
+  "path": "app/src/main/res/raw/adhan_doha_fajr.ogg",
+  "seconds": 217,
+  "md5": "3f36c9507b51e13df16b4a87931f0079"
+ },
+ {
+  "repo": "ABDELKADER199/The-muezzin",
+  "path": "audio/1027.mp3",
+  "seconds": 204,
+  "md5": "614427a11c6ceed23cbc3682ca403abf"
+ },
+ {
+  "repo": "mnadev/Muezzin",
+  "path": "app/res/fajr_adhan.mp3",
+  "seconds": 215,
+  "md5": "4f9f7482c1eae10f1000161bc61d0b15"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (2).wav",
+  "seconds": 54,
+  "md5": "02009bf8d816912378a3a1f38e36a2a0"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (27).wav",
+  "seconds": 68,
+  "md5": "335f70a66753e43b254ae54aabc1fd75"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download.wav",
+  "seconds": 49,
+  "md5": "342efe8d5ad60bb596403029bae59e2e"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (29).wav",
+  "seconds": 70,
+  "md5": "a7ba6634ee410f2746aba3a18cbb77e9"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (13).wav",
+  "seconds": 96,
+  "md5": "c418b0d15c20ea5ace3acbed8fe583e8"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (16).wav",
+  "seconds": 89,
+  "md5": "56e4c5aeee896f5b54435a60a0ed2176"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (33).wav",
+  "seconds": 67,
+  "md5": "b78b7c7a6dc924fd445936698749aab0"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (1).wav",
+  "seconds": 51,
+  "md5": "b67492a1a661476384324a4bd65db427"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (32).wav",
+  "seconds": 78,
+  "md5": "593420d6b9ec44ea2061ef6ad4db5dac"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (26).wav",
+  "seconds": 83,
+  "md5": "96a19cf43f5ad1b7f90ac5e1e5f8ef6d"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (21).wav",
+  "seconds": 69,
+  "md5": "7fc73b5ebf8cf8191903a9cd28117bed"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (24).wav",
+  "seconds": 67,
+  "md5": "563f9c06e0553b3147b24bfa4bd152f7"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (14).wav",
+  "seconds": 118,
+  "md5": "72116ac9a13806a53b1a946bcc9898f4"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (22).wav",
+  "seconds": 70,
+  "md5": "8c2e09774a09a77f8e472b1a2a0b7e9a"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (25).wav",
+  "seconds": 61,
+  "md5": "ccaed55ba559d44166b4b31f9222632e"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (4).wav",
+  "seconds": 46,
+  "md5": "432c6e71ffab827dbb7a407707cbb5bb"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (28).wav",
+  "seconds": 71,
+  "md5": "204d332ca570d8e2297910719e914d72"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (30).wav",
+  "seconds": 67,
+  "md5": "2b7e7beaffafa9dbd31e90b753458fd4"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (15).wav",
+  "seconds": 96,
+  "md5": "ee91f0ce030f50d5090904d0661a1e16"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (19).wav",
+  "seconds": 91,
+  "md5": "2eb7d567b3bdf0e5ba1f8d5884186f1d"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (6).wav",
+  "seconds": 42,
+  "md5": "63917f6e7d1b2acfccab2668cf4c0e8b"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (3).wav",
+  "seconds": 43,
+  "md5": "7df69a7c494861aeed15a113a7374153"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (23).wav",
+  "seconds": 75,
+  "md5": "03382cb4c09a24feba315856564cbe27"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (20).wav",
+  "seconds": 78,
+  "md5": "83af6dc6403a35ebd6eb4faf15e7970f"
+ },
+ {
+  "repo": "ChagayToubin/MuezzinProject",
+  "path": "project/data_files/podcasts/download (31).wav",
+  "seconds": 80,
+  "md5": "68827afc4434a88b3b1e2a22da2a50c6"
+ },
+ {
+  "repo": "moshraheem-sudo/Muezzin",
+  "path": "\u0623\u0633\u0627\u0645\u0629 \u0627\u0644\u0643\u0631\u0628\u0644\u0627\u0626\u064a .mp3",
+  "seconds": 375,
+  "md5": "154a1ff354ce0bb896f20ac849e15edc"
+ },
+ {
+  "repo": "moshraheem-sudo/Muezzin",
+  "path": "\u0627\u0628\u0627\u0630\u0631 \u0627\u0644\u062d\u0644\u0648\u0627\u062c\u064a.mp3",
+  "seconds": 303,
+  "md5": "53d60eb3f81ca173231750159816103e"
+ },
+ {
+  "repo": "moshraheem-sudo/Muezzin",
+  "path": "\u0639\u0627\u0645\u0631 \u0627\u0644\u0643\u0627\u0638\u0645\u064a .mp3",
+  "seconds": 262,
+  "md5": "b754020753936cf5763c8310acf5e1b3"
+ },
+ {
+  "repo": "moshraheem-sudo/Muezzin",
+  "path": "\u0631\u0627\u0641\u0639 \u0627\u0644\u0639\u0627\u0645\u0631\u064a .mp3",
+  "seconds": 321,
+  "md5": "4213b9034020ed997aabc8f9397b49a4"
+ },
+ {
+  "repo": "moshraheem-sudo/Muezzin",
+  "path": "\u0627\u0630\u0627\u0646 \u0628\u0631\u0627\u062b\u0627.mp3",
+  "seconds": 319,
+  "md5": "784fcf6d25bdeffc414ff52ba03e7945"
+ },
+ {
+  "repo": "AlfaSolutionsDotNet/muezzin",
+  "path": "muezzin.mp3",
+  "seconds": 176,
+  "md5": "755bb5eba43a385a26a0206238c84b52"
+ },
+ {
+  "repo": "alaaaalaa8282-cell/ElectronicMuezzin",
+  "path": "app/src/main/res/raw/azan_short.mp3",
+  "seconds": 201,
+  "md5": "296a21f784d9d2de6f8fe67d827affb6"
+ },
+ {
+  "repo": "alaaaalaa8282-cell/ElectronicMuezzin",
+  "path": "app/src/main/res/raw/azan_egypt.mp3",
+  "seconds": 204,
+  "md5": "2c3e6a27d945334f693a66b3da4e3e85"
+ },
+ {
+  "repo": "mohalibou/Muezzin",
+  "path": "Muezzin/Sounds/athan4.mp3",
+  "seconds": 186,
+  "md5": "51d2af3dce8f87fead92eeb51e89c21e"
+ },
+ {
+  "repo": "mohalibou/Muezzin",
+  "path": "Muezzin/Sounds/athan3.mp3",
+  "seconds": 134,
+  "md5": "5646453109f0d2ff19313bc83320155b"
+ },
+ {
+  "repo": "mohalibou/Muezzin",
+  "path": "Muezzin/Sounds/athan2.mp3",
+  "seconds": 202,
+  "md5": "3d53212493b2e7645e5ddcc9a0f13c8f"
+ },
+ {
+  "repo": "mohalibou/Muezzin",
+  "path": "Muezzin/Sounds/athan1.mp3",
+  "seconds": 158,
+  "md5": "f5279ea7410c6562c41c36e6b1a85420"
+ },
+ {
+  "repo": "mohalibou/Muezzin",
+  "path": "Muezzin/Sounds/athan1_fajr.mp3",
+  "seconds": 187,
+  "md5": "537f0b91a726dadce9c138e4c6ed1ee4"
+ },
+ {
+  "repo": "mehmetuyman/SmartAzanClock",
+  "path": "src/mp3s/2.mp3",
+  "seconds": 146,
+  "md5": "d1cd8122f4a2fb4ef96c6b92290a87ae"
+ },
+ {
+  "repo": "mehmetuyman/SmartAzanClock",
+  "path": "src/mp3s/5.mp3",
+  "seconds": 224,
+  "md5": "f14099c161191057dca917d90887b6f7"
+ },
+ {
+  "repo": "mehmetuyman/SmartAzanClock",
+  "path": "src/mp3s/3.mp3",
+  "seconds": 206,
+  "md5": "6bfbe8b25c9177be38a06e02c7b4135e"
+ },
+ {
+  "repo": "mehmetuyman/SmartAzanClock",
+  "path": "src/mp3s/4.mp3",
+  "seconds": 228,
+  "md5": "39beeb4e379ab6bf0ed2bf8a8a417303"
+ },
+ {
+  "repo": "mehmetuyman/SmartAzanClock",
+  "path": "src/mp3s/9.mp3",
+  "seconds": 249,
+  "md5": "b9c180e6dca5ed01a373f6af284d02c0"
+ },
+ {
+  "repo": "mehmetuyman/SmartAzanClock",
+  "path": "src/mp3s/12.mp3",
+  "seconds": 295,
+  "md5": "ac5d1ae28625d4592e277730b03edd70"
+ },
+ {
+  "repo": "mehmetuyman/SmartAzanClock",
+  "path": "src/mp3s/13.mp3",
+  "seconds": 276,
+  "md5": "fd6f7ae360cce1cb2674b14aeb25593b"
+ },
+ {
+  "repo": "mehmetuyman/SmartAzanClock",
+  "path": "src/mp3s/11.mp3",
+  "seconds": 205,
+  "md5": "e53d0d1eb8b0e650fd07295e5a9fdc4f"
+ },
+ {
+  "repo": "mehmetuyman/SmartAzanClock",
+  "path": "src/mp3s/14.mp3",
+  "seconds": 209,
+  "md5": "f030f3ea54e817e109549de28725968a"
+ },
+ {
+  "repo": "mehmetuyman/SmartAzanClock",
+  "path": "src/mp3s/1.mp3",
+  "seconds": 185,
+  "md5": "f37210f9840a2e257b70bf516e36cda2"
+ },
+ {
+  "repo": "mehmetuyman/SmartAzanClock",
+  "path": "src/mp3s/6.mp3",
+  "seconds": 248,
+  "md5": "48a9bf0cc4eb063e301b38dd482c757d"
+ },
+ {
+  "repo": "mehmetuyman/SmartAzanClock",
+  "path": "src/mp3s/8.mp3",
+  "seconds": 159,
+  "md5": "315c8b435730bb6ee77e50689f8509e4"
+ },
+ {
+  "repo": "mehmetuyman/SmartAzanClock",
+  "path": "src/mp3s/7.mp3",
+  "seconds": 258,
+  "md5": "eacac14cfd4b1b2ccd5398af2e6ce1e2"
+ },
+ {
+  "repo": "mehmetuyman/SmartAzanClock",
+  "path": "src/mp3s/10.mp3",
+  "seconds": 207,
+  "md5": "6f3c0712fbd0d6a0eb04604345902f0d"
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/other/azan20.mp3",
+  "seconds": 128,
+  "md5": "ac797bf62b43bbc4c4d5832432d3c03d"
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/other/azan17.mp3",
+  "seconds": 169,
+  "md5": "5ee54a7ede972a38e28f50b92f372375"
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/other/azan19.mp3",
+  "seconds": 112,
+  "md5": "1075bc30fed335026a63a96fd4b2caf5"
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/other/azan18.mp3",
+  "seconds": 184,
+  "md5": "5a9b398f816efbd40e6169c726e2b24d"
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/other/azan10.mp3",
+  "seconds": 282,
+  "md5": "8c5a0127d0bb6e88699dccd0ba2c3b5f"
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/other/azan16.mp3",
+  "seconds": 223,
+  "md5": "5d67f66a22c1d20e085e0720e6a84c15"
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/other/azan7.mp3",
+  "seconds": 173,
+  "md5": "0acc7191a20d8fad60779ba6b007e85f"
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/other/azan15.mp3",
+  "seconds": 149,
+  "md5": "e6c3ccbfff62a9155264e05792e21572"
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/other/azan8.mp3",
+  "seconds": 121,
+  "md5": "77752fc64657ec1c706c18df3819b7f3"
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/other/azan9.mp3",
+  "seconds": 227,
+  "md5": "6c53783e799fd426306b27bec3d6d099"
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/other/azan14.mp3",
+  "seconds": 212,
+  "md5": "738cf1fc1115bd47b8d8c0ffe0b98fda"
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/other/azan6.mp3",
+  "seconds": 119,
+  "md5": "df6aca614b1d7347cb9d34fb2c0b38d9"
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/fajr/fajr1.mp3",
+  "seconds": 223,
+  "md5": "8910b7d468ef00909701e7ec6fca5670"
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/fajr/fajr4.mp3",
+  "seconds": 246,
+  "md5": "f6fa0996d724204b843c2410dddbe52f"
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/fajr/fajr3.mp3",
+  "seconds": 190,
+  "md5": "88f9ae139bf58dd811d5ec0991a12a89"
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/fajr/azan11.mp3",
+  "seconds": 350,
+  "md5": "a7373dacdce5aabb8cd21ea4611e6c7f"
+ },
+ {
+  "repo": "ahmed217/MyAzan",
+  "path": "mp3/fajr/fajr5.mp3",
+  "seconds": 210,
+  "md5": "1abe24310cae0d7ddcd6324e4c480e8c"
+ },
+ {
+  "repo": "ReyRyanoff/Azan-Clock",
+  "path": "AYAT UL KURSI.wav",
+  "seconds": 54,
+  "md5": "d80a712a7c046226da5e1ea7aea14ca6"
+ },
+ {
+  "repo": "ReyRyanoff/Azan-Clock",
+  "path": "AZAN.wav",
+  "seconds": 247,
+  "md5": "5ee9d2fa6c7aea931c0c921c30fe6cee"
+ },
+ {
+  "repo": "ahmedjafri/bilal",
+  "path": "src/bilal/audio_files/azan_1.wav",
+  "seconds": 131,
+  "md5": "a10e493a5703446b26be478d7ae71ec2"
+ },
+ {
+  "repo": "ahmedjafri/bilal",
+  "path": "src/bilal/audio_files/alharam.wav",
+  "seconds": 205,
+  "md5": "3879894de8b0a5e29281980a765fdcc4"
+ },
+ {
+  "repo": "ahmedjafri/bilal",
+  "path": "src/bilal/audio_files/alaqsa.wav",
+  "seconds": 266,
+  "md5": "d804db243efabe7878abcd7a1c237237"
+ },
+ {
+  "repo": "ahmedjafri/bilal",
+  "path": "src/bilal/audio_files/shia_azan_sayed_hamid_mostajab.wav",
+  "seconds": 224,
+  "md5": "1112f47f8acfe8dbff2f04e7df265d01"
+ },
+ {
+  "repo": "jilani97/RaspberryPieAzanClock",
+  "path": "Recording.mp3",
+  "seconds": 91,
+  "md5": "7206cb13b12c4337cb20d655606b8249"
+ },
+ {
+  "repo": "jilani97/RaspberryPieAzanClock",
+  "path": "AzanNotFajr_Safe.mp3",
+  "seconds": 228,
+  "md5": "cc698b353a9b665208cabcc9a7dd9e0f"
+ },
+ {
+  "repo": "jilani97/RaspberryPieAzanClock",
+  "path": "AzanNotFajr.mp3",
+  "seconds": 228,
+  "md5": "5d2eb96b01e6d95ead3e2d1a29b91e79"
+ },
+ {
+  "repo": "jilani97/RaspberryPieAzanClock",
+  "path": "fajrAzan.mp3",
+  "seconds": 302,
+  "md5": "96bc546c6808fdffc98c9f5e84dd536b"
+ },
+ {
+  "repo": "ziyadedris/dublin-azan",
+  "path": "adhan.mp3",
+  "seconds": 127,
+  "md5": "7b7c488f72c931f5dc7d769778a72c4a"
+ },
+ {
+  "repo": "ziyadedris/dublin-azan",
+  "path": "azans/egypt_fajr.mp3",
+  "seconds": 294,
+  "md5": "f6d26f82d7be5e8e9a1de76cb5968627"
+ },
+ {
+  "repo": "ziyadedris/dublin-azan",
+  "path": "azans/default_fajr.mp3",
+  "seconds": 223,
+  "md5": "026cd8114b4cd6ca3ceac30bde7efef0"
+ },
+ {
+  "repo": "ziyadedris/dublin-azan",
+  "path": "azans/jordan.mp3",
+  "seconds": 258,
+  "md5": "86e0221b73bb7ebd67b57816ad11dc64"
+ },
+ {
+  "repo": "ziyadedris/dublin-azan",
+  "path": "azans/madinah_fajr.mp3",
+  "seconds": 223,
+  "md5": "f3e6194c170ea5b4d29b7708cb41fb3e"
+ },
+ {
+  "repo": "ziyadedris/dublin-azan",
+  "path": "azans/egypt.mp3",
+  "seconds": 201,
+  "md5": "4e97dfee0c3e08ef57661b3f4b5daf6f"
+ },
+ {
+  "repo": "ziyadedris/dublin-azan",
+  "path": "azans/alaqsa_fajr.mp3",
+  "seconds": 245,
+  "md5": "bb33def58fb1cd2b6dc3cae68c5dca2a"
+ },
+ {
+  "repo": "ziyadedris/dublin-azan",
+  "path": "azans/makkah_fajr.mp3",
+  "seconds": 251,
+  "md5": "d32bc20948d0ceb6fe7f6627794375fc"
+ },
+ {
+  "repo": "ziyadedris/dublin-azan",
+  "path": "azans/madinah.mp3",
+  "seconds": 225,
+  "md5": "c73c5fe570655f797762817549863b47"
+ },
+ {
+  "repo": "ziyadedris/dublin-azan",
+  "path": "azans/alaqsa.mp3",
+  "seconds": 226,
+  "md5": "1d3cd9f3245c190b8134b5bb07e9a65b"
+ },
+ {
+  "repo": "ziyadedris/dublin-azan",
+  "path": "azans/makkah.mp3",
+  "seconds": 203,
+  "md5": "ebd4862238db358f5fa160c293768b40"
+ },
+ {
+  "repo": "ziyadedris/dublin-azan",
+  "path": "testing/adhan_test.mp3",
+  "seconds": 127,
+  "md5": "2504bf8fec4575b95e5f9cf57bd29c3c"
+ },
+ {
+  "repo": "ziyadedris/dublin-azan",
+  "path": "testing/original_madinah.mp3",
+  "seconds": 76,
+  "md5": "0bd0951ee3ee344e05a54e615980fbd2"
+ },
+ {
+  "repo": "ziyadedris/dublin-azan",
+  "path": "testing/original_madinah.wav",
+  "seconds": 76,
+  "md5": "cbca3a68b119f36f7bcd034ad9f683dc"
+ },
+ {
+  "repo": "helmi03/s3-desk",
+  "path": "data/adhan.mp3",
+  "seconds": 157,
+  "md5": "0ed183c857b3b9bd0364767ba9393a45"
+ },
+ {
+  "repo": "rezaghuloom95/home-frame-samsung-tv",
+  "path": "azan/demo-azan-persian.mp3",
+  "seconds": 334,
+  "md5": "6972f4a768a61b27477ffb63d4e76f60"
+ },
+ {
+  "repo": "rezaghuloom95/home-frame-samsung-tv",
+  "path": "azan/demo-azan-dubai-mall.mp3",
+  "seconds": 130,
+  "md5": "49e67cc1a3fcbc9fd869069408d85566"
+ },
+ {
+  "repo": "IlyesBerkane/AdhanPlayer",
+  "path": "fajradhan.mp3",
+  "seconds": 254,
+  "md5": "b01e839e0d6320b4641c2e0fc3ac4271"
+ },
+ {
+  "repo": "IlyesBerkane/AdhanPlayer",
+  "path": "adhan.mp3",
+  "seconds": 180,
+  "md5": "1dd391b96a0ce72fbc401229a3e6aa90"
+ },
+ {
+  "repo": "ayazb7/adhan-player",
+  "path": "adhan.mp3",
+  "seconds": 185,
+  "md5": "ab95300017078210ae1e0d76f1e58fb6"
+ },
+ {
+  "repo": "sarwarikamran6-ops/Waqt",
+  "path": "public/adhan/fajr.mp3",
+  "seconds": 333,
+  "md5": "1bb0b6abafb07c78f9d4045041bf9525"
+ },
+ {
+  "repo": "basilrizwan/adhan-player",
+  "path": "audio/adhan.mp3",
+  "seconds": 206,
+  "md5": "d429358bc1cb0e2b9e42909e27b6c51f"
+ },
+ {
+  "repo": "basilrizwan/adhan-player",
+  "path": "audio/fajr.mp3",
+  "seconds": 187,
+  "md5": "c2f9f9a6897677b65c12ac69f48306c5"
+ },
+ {
+  "repo": "basilrizwan/adhan-player",
+  "path": "audio/dua/SOURCE-hisn-al-muslim-adhan.mp3",
+  "seconds": 70,
+  "md5": "bf39dd2222f17b2e9200cd63b0796040"
+ },
+ {
+  "repo": "basilrizwan/adhan-player",
+  "path": "audio/dua/slow-teach.mp3",
+  "seconds": 82,
+  "md5": "f924a440e58dda0832c29f0b41423909"
+ },
+ {
+  "repo": "basilrizwan/adhan-player",
+  "path": "audio/dua/with-translation.mp3",
+  "seconds": 44,
+  "md5": "d2e22dd675ecd741f536eed428fd3e49"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/non-fajr/aseeb.mp3",
+  "seconds": 171,
+  "md5": "d5a2730debe3c5c4be115213f5e6e42a"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/non-fajr/adhan-9.mp3",
+  "seconds": 224,
+  "md5": "a5da5b8a94f15486b18c1dd23ec4e0e8"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/non-fajr/Makkah.mp3",
+  "seconds": 202,
+  "md5": "b2442dc3b79e218219902ec407edded7"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/non-fajr/Istanbul Adhan.mp3",
+  "seconds": 200,
+  "md5": "741c3876b6a015c43591884f2d890527"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/non-fajr/adhan-3.mp3",
+  "seconds": 266,
+  "md5": "99c2e9b66dad64ec65e213a32c803796"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/non-fajr/Abdulkarim Almakki.mp3",
+  "seconds": 232,
+  "md5": "00c51c295d7fc1d8632366b1a9db676e"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/non-fajr/adhan-6.mp3",
+  "seconds": 251,
+  "md5": "1a9f4888f73b2d14c9863a0ef90a5a42"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/non-fajr/adhan-8.mp3",
+  "seconds": 228,
+  "md5": "6b3d4525b13ce42e6a8c3e1a5f7d780d"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/non-fajr/Alaqsa.mp3",
+  "seconds": 225,
+  "md5": "e3888a02e3f4d87bb339a62d69999f7a"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/non-fajr/adhan-1.mp3",
+  "seconds": 238,
+  "md5": "2ab7826be11485c75228ef61a08fc60c"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/non-fajr/Egypt.mp3",
+  "seconds": 183,
+  "md5": "de8c2d3877d65bff3c650df3a18717cf"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/non-fajr/adhan-2.mp3",
+  "seconds": 153,
+  "md5": "7b8bb24433ee85b8cd968894695d9766"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/non-fajr/Sheikh Shaya Al-Tamimi.mp3",
+  "seconds": 258,
+  "md5": "197fa209f3b4ed9dd3abad0ed0971a2b"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/non-fajr/adhan-7.mp3",
+  "seconds": 180,
+  "md5": "e092b599213623245555238dece4fc98"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/non-fajr/hamza.mp3",
+  "seconds": 154,
+  "md5": "35d7ca5f949f0b141d8abaf767859b22"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/fajr/fajr-1.mp3",
+  "seconds": 187,
+  "md5": "935083887c06710bd2b91d0a43db2209"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/fajr/RashidMishary_Fajr.mp3",
+  "seconds": 187,
+  "md5": "22c26f1960c242b1fe93f36a51cf53b3"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/fajr/fajr-4.mp3",
+  "seconds": 302,
+  "md5": "4331854791d53ce51fec507fe926761e"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/fajr/fajr-2.mp3",
+  "seconds": 301,
+  "md5": "0475893650ac92b23ee228fa2dbafdaa"
+ },
+ {
+  "repo": "pateljunaid/adhan-player",
+  "path": "mp3/fajr/fajr-3.mp3",
+  "seconds": 254,
+  "md5": "aa1f3ca60b4b8a23f07929d9b0f3b6c6"
+ },
+ {
+  "repo": "shinimasen/Adhan_player",
+  "path": "assets/azan.mp3",
+  "seconds": 251,
+  "md5": "d50f730ddadce50f46eaacb5916fc62f"
+ },
+ {
+  "repo": "abdullah20401/Raspberry-Pi-Adhan-Player",
+  "path": "adhan.wav",
+  "seconds": 171,
+  "md5": "562f77b1376a588e9ab65ed7736526ac"
+ },
+ {
+  "repo": "hammadrauf/adhan-tools",
+  "path": "audio/fajr.mp3",
+  "seconds": 229,
+  "md5": "a3829e5128a002a6c9944fcc5c3fe489"
+ },
+ {
+  "repo": "geeksesi/WebNotifyPlayer",
+  "path": "assets/music/geeksesi_Pallett-Sad-Bar-128.mp3",
+  "seconds": 181,
+  "md5": "e25958f6e971a36c28fc2154e6709537"
+ },
+ {
+  "repo": "geeksesi/WebNotifyPlayer",
+  "path": "assets/music/geeksesi_Pallett-Leyli-Jan-128.mp3",
+  "seconds": 216,
+  "md5": "c1906829975b389ec144349632998f4b"
+ },
+ {
+  "repo": "geeksesi/WebNotifyPlayer",
+  "path": "assets/music/geeksesi_Pallett-Naro-Beman-128.mp3",
+  "seconds": 251,
+  "md5": "0191dc38912ede86266bb0e08476881a"
+ }
+]
