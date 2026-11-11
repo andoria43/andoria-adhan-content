@@ -9,8 +9,11 @@ only when the second transcript contains the phrase too. What was kept or droppe
 import difflib, json, os, re, subprocess, sys
 
 RAW = "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/"
-# recordings to cut from: every adhan in the library (ids in adhans.json)
-SOURCES = None
+# recordings to cut from (ids in adhans.json): the best-known voices, so the list stays easy to browse
+SOURCES = ["makkah", "madinah", "alafasy", "abdulbasit", "minshawi", "qatami", "zahrani", "khalaf_1", "khalaf_2", "refaat",
+           "nuaina", "fatani", "suraihi", "nufais", "saad_ghamdi", "naqshbandi",
+           "malek_fajr", "khalaf_fajr", "malmo_fajr", "alafasy3_fajr", "afasy_hejaz_fajr", "taqi_maliki_fajr",
+           "islam_sobhi_fajr", "zahrani_fajr", "fatani_fajr", "doha_fajr", "bilal_fajr", "abdulwali_arkani_fajr"]
 # phrase kinds: id part, words to find, how many times said in a row, Arabic / English title, only Fajr
 KINDS = [
     ("takbir", ["الله", "اكبر"], 2, "تنبيه: الله أكبر الله أكبر", "Alert: Allahu akbar, Allahu akbar", False),
@@ -70,7 +73,7 @@ def main(part=0, parts=1):
     keep = [a for a in cat["adhans"] if a.get("type") != "alert"]
     os.makedirs("audio", exist_ok=True)
     report, alerts = [], []
-    sources = [a["id"] for a in keep]
+    sources = [i for i in SOURCES if i in by_id]
     for n, sid in enumerate(sources):
         if n % parts != part:
             continue

@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - 'sources.json'
-      - 'tools/**'
+      - 'tools/build_library.py'
   workflow_dispatch:
 
 permissions:
