@@ -112,19 +112,34 @@ def main(part=0, parts=1):
                     start = words[j - 4][1]
             if kind.startswith("khayr") and i - 0 > 0:
                 start = words[hits[0] - 1][1]           # include «الصلاة» just before (often misheard)
+            # cut only in pauses, never inside a word (so nothing is clipped at either end)
+            from audio_cut import pauses, pause_before, pause_after
+            if "ps" not in locals() or ps_for != sid:
+                ps, ps_for = pauses(path), sid
+            s0, e0 = pause_before(ps, start, 3.0), pause_after(ps, end, 3.0)
+            if s0 is None or e0 is None:
+                report.append("  %s: DROPPED, no pause to cut in" % kind)
+                continue
             if end - start > 20:
                 report.append("  %s: DROPPED, too long for an alert (%.1f s)" % (kind, end - start))
                 continue
-            start = max(0.0, start - 0.15)
-            end = end + 0.35
+            start, end = max(0.0, s0), e0
             clip_id = "alert_%s_%s" % (kind, sid)
             out = os.path.join("audio", clip_id + ".mp3")
             subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", "%.2f" % start, "-t", "%.2f" % (end - start), "-i", path,
                             "-af", "afade=t=in:d=0.06,afade=t=out:st=%.2f:d=0.25" % max(0.0, end - start - 0.25),
                             "-c:a", "libmp3lame", "-b:a", "96k", out], check=True)
             check = transcribe(model, out)
-            if not find(check, phrase):
-                report.append("  %s: DROPPED, clip did not contain the phrase (heard: %s)" % (kind, " ".join(w[0] for w in check)))
+            # the clip must say exactly the words of the tone, complete, and nothing else
+            want = [norm(p) for p in phrase] * repeat
+            if kind.startswith("khayr"):
+                want = ([norm("الصلاه")] + [norm(p) for p in phrase]) * repeat
+            if kind == "end":
+                want = [norm(p) for p in ["الله", "اكبر", "الله", "اكبر"]] + want
+            heard = [w[0] for w in check]
+            exact = len(heard) == len(want) and all(same(h, w) for h, w in zip(heard, want))
+            if not exact:
+                report.append("  %s: DROPPED, not exactly the words (heard: %s)" % (kind, " ".join(heard)))
                 os.remove(out)
                 continue
             secs = max(1, round(end - start))

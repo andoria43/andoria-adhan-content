@@ -49,6 +49,10 @@ def main():
                "nothing else was changed except where a trim is noted.\n"]
     for a in src["adhans"]:
         out = os.path.join("audio", a["id"] + ".mp3")
+        if a.get("drop"):   # could not be cleaned to the adhan alone (tools/clean_library.py)
+            if os.path.exists(out):
+                os.remove(out)
+            continue
         try:
             s = a["source"]
             if s.startswith("commons:"):
@@ -68,10 +72,13 @@ def main():
                 raise RuntimeError("unknown source " + s)
             af = "loudnorm=I=-16:TP=-1.5:LRA=11"
             cmd = ["ffmpeg", "-y", "-v", "error", "-i", inp, "-vn", "-ac", "1", "-ar", "44100"]
+            if a.get("trim_start"):
+                cmd = ["ffmpeg", "-y", "-v", "error", "-ss", str(a["trim_start"]), "-i", inp, "-vn", "-ac", "1", "-ar", "44100"]
             if a.get("trim_end"):
-                end = a["trim_end"]
-                cmd += ["-t", str(end)]
-                af = "afade=t=out:st=%d:d=3,%s" % (end - 3, af)
+                # the adhan alone: from the first «الله أكبر» to the last «لا إله إلا الله», cut in pauses
+                end = a["trim_end"] - a.get("trim_start", 0)
+                cmd += ["-t", "%.2f" % end]
+                af = "afade=t=in:d=0.2,afade=t=out:st=%.2f:d=0.6,%s" % (max(0, end - 0.6), af)
             cmd += ["-af", af, "-c:a", "libmp3lame", "-b:a", "96k", out]
             subprocess.run(cmd, check=True)
             secs = duration(out)
@@ -83,7 +90,7 @@ def main():
                 "note_en": mins if a["license"].startswith("No licence") else "%s · %s" % (mins, a["license"]),
                 "author": a["author"], "license": a["license"], "license_url": a["license_url"], "page": a["page"],
             })
-            trim = " Trimmed to the first %d seconds (the du'a after the adhan removed)." % a["trim_end"] if a.get("trim_end") else ""
+            trim = " Trimmed to the adhan alone (talk before or after removed)." if a.get("trim_end") else ""
             credits.append("- **%s** (%s): %s, [%s](%s). Source: %s.%s" % (a["en"], a["ar"], a["author"], a["license"], a["license_url"], a["page"], trim))
             ok.append(a["id"])
         except Exception as e:
