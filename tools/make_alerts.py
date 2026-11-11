@@ -14,8 +14,8 @@ SOURCES = ["khalaf_1", "khalaf_2", "khalaf_fajr", "malek_fajr", "makkah", "alafa
 # phrase kinds: id part, words to find, Arabic / English title, only Fajr
 KINDS = [
     ("takbir", ["الله", "اكبر"], 2, "تنبيه: الله أكبر", "Alert: Allahu akbar", False),
-    ("hayya", ["حي", "على", "الصلاه"], 2, "تنبيه: حيّ على الصلاة", "Alert: Hayya ala-s-salah", False),
-    ("khayr", ["الصلاه", "خير", "من", "النوم"], 2, "تنبيه الفجر: الصلاة خير من النوم", "Fajr alert: As-salatu khayrun min an-nawm", True),
+    ("hayya", ["حي", "على", "الصلاه"], 1, "تنبيه: حيّ على الصلاة", "Alert: Hayya ala-s-salah", False),
+    ("khayr", ["خير", "من", "النوم"], 1, "تنبيه الفجر: الصلاة خير من النوم", "Fajr alert: As-salatu khayrun min an-nawm", True),
 ]
 
 
@@ -94,6 +94,11 @@ def main():
                 if nxt:
                     i = nxt[0]
                     end = words[i + n - 1][2]
+            if kind == "khayr" and i - 0 > 0:
+                start = words[hits[0] - 1][1]           # include «الصلاة» just before (often misheard)
+            if end - start > 20:
+                report.append("  %s: DROPPED, too long for an alert (%.1f s)" % (kind, end - start))
+                continue
             start = max(0.0, start - 0.15)
             end = end + 0.35
             clip_id = "alert_%s_%s" % (kind, sid)
