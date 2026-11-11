@@ -3,7 +3,6 @@ name: Cut alert tones
 on:
   push:
     paths:
-      - 'tools/make_alerts.py'
       - '.alerts-run/**'
   workflow_dispatch:
 
@@ -11,9 +10,13 @@ permissions:
   contents: write
 
 jobs:
-  alerts:
+  cut:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        part: [0, 1, 2, 3, 4, 5, 6, 7]
     steps:
       - uses: actions/checkout@v4
       - name: Install tools
@@ -21,13 +24,32 @@ jobs:
           which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
           pip install faster-whisper
       - name: Cut and verify the clips
-        run: python3 tools/make_alerts.py
+        run: python3 tools/make_alerts.py ${{ matrix.part }} 8
+      - uses: actions/upload-artifact@v4
+        with:
+          name: alerts-${{ matrix.part }}
+          path: |
+            alerts-part-${{ matrix.part }}.json
+            audio/alert_*.mp3
+  merge:
+    needs: cut
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: /tmp/parts
+      - name: Merge
+        run: |
+          for d in /tmp/parts/*/; do cp "$d"/alerts-part-*.json . 2>/dev/null || true; cp "$d"/audio/alert_*.mp3 audio/ 2>/dev/null || true; done
+          python3 tools/make_alerts.py merge
+          rm -f alerts-part-*.json
       - name: Commit results
-        if: always()
         run: |
           git config user.name "build-bot"
           git config user.email "build-bot@users.noreply.github.com"
-          git add audio adhans.json CREDITS.md; [ -f alerts-report.txt ] && git add alerts-report.txt || true
+          git add audio adhans.json CREDITS.md alerts-report.txt
           git commit -m "Alert tones cut from the library recordings" || echo "nothing to commit"
           git pull --rebase origin main || true
           git push

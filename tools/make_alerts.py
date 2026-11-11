@@ -9,15 +9,18 @@ only when the second transcript contains the phrase too. What was kept or droppe
 import difflib, json, os, re, subprocess, sys
 
 RAW = "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/"
-# recordings to cut from (id in adhans.json)
-SOURCES = ["khalaf_1", "khalaf_2", "khalaf_fajr", "malek_fajr", "makkah", "alafasy", "abdulbasit", "minshawi"]
-# phrase kinds: id part, words to find, Arabic / English title, only Fajr
+# recordings to cut from: every adhan in the library (ids in adhans.json)
+SOURCES = None
+# phrase kinds: id part, words to find, how many times said in a row, Arabic / English title, only Fajr
 KINDS = [
-    ("takbir", ["الله", "اكبر"], 2, "تنبيه: الله أكبر", "Alert: Allahu akbar", False),
-    ("hayya", ["حي", "على", "الصلاه"], 1, "تنبيه: حيّ على الصلاة", "Alert: Hayya ala-s-salah", False),
+    ("takbir", ["الله", "اكبر"], 2, "تنبيه: الله أكبر الله أكبر", "Alert: Allahu akbar, Allahu akbar", False),
+    ("takbir4", ["الله", "اكبر"], 4, "تنبيه: التكبير كاملاً", "Alert: the four takbirs", False),
+    ("hayya", ["حي", "على", "الصلاه"], 2, "تنبيه: حيّ على الصلاة", "Alert: Hayya ala-s-salah", False),
+    ("falah", ["حي", "على", "الفلاح"], 2, "تنبيه: حيّ على الفلاح", "Alert: Hayya ala-l-falah", False),
     ("khayr", ["خير", "من", "النوم"], 1, "تنبيه الفجر: الصلاة خير من النوم", "Fajr alert: As-salatu khayrun min an-nawm", True),
+    ("khayr2", ["خير", "من", "النوم"], 2, "تنبيه الفجر: الصلاة خير من النوم (مرتين)", "Fajr alert: As-salatu khayrun min an-nawm (twice)", True),
+    ("end", ["لا", "اله", "الا", "الله"], 1, "تنبيه: الله أكبر الله أكبر، لا إله إلا الله", "Alert: Allahu akbar, la ilaha illa-llah", False),
 ]
-
 
 def norm(w):
     w = re.sub(r"[ً-ٰٟـ]", "", w)          # diacritics, tatweel
@@ -59,7 +62,7 @@ def transcribe(model, path):
     return words
 
 
-def main():
+def main(part=0, parts=1):
     from faster_whisper import WhisperModel
     model = WhisperModel(os.environ.get("WHISPER", "small"), device="cpu", compute_type="int8")
     cat = json.load(open("adhans.json", encoding="utf-8"))
@@ -67,7 +70,10 @@ def main():
     keep = [a for a in cat["adhans"] if a.get("type") != "alert"]
     os.makedirs("audio", exist_ok=True)
     report, alerts = [], []
-    for sid in SOURCES:
+    sources = [a["id"] for a in keep]
+    for n, sid in enumerate(sources):
+        if n % parts != part:
+            continue
         src = by_id.get(sid)
         path = os.path.join("audio", sid + ".mp3")
         if not src or not os.path.exists(path):
@@ -79,8 +85,10 @@ def main():
             if fajr_only and not src.get("fajr"):
                 continue
             hits = find(words, phrase)
-            if kind == "takbir":
+            if kind in ("takbir", "takbir4"):
                 hits = hits[:1]                      # the adhan opens with it
+            if kind == "end":
+                hits = hits[-1:]                     # the last words of the adhan
             if not hits:
                 report.append("  %s: phrase not found" % kind)
                 continue
@@ -94,7 +102,12 @@ def main():
                 if nxt:
                     i = nxt[0]
                     end = words[i + n - 1][2]
-            if kind == "khayr" and i - 0 > 0:
+            if kind == "end":
+                # take the «الله اكبر الله اكبر» said just before
+                j = hits[0]
+                if j >= 4 and same(words[j - 4][0], norm("الله")) and same(words[j - 2][0], norm("الله")):
+                    start = words[j - 4][1]
+            if kind.startswith("khayr") and i - 0 > 0:
                 start = words[hits[0] - 1][1]           # include «الصلاة» just before (often misheard)
             if end - start > 20:
                 report.append("  %s: DROPPED, too long for an alert (%.1f s)" % (kind, end - start))
@@ -119,6 +132,29 @@ def main():
                 "author": src["author"], "license": src["license"], "license_url": src["license_url"], "page": src["page"],
             })
             report.append("  %s: kept %.1f-%.1f s" % (kind, start, end))
+    if parts > 1:  # one part of a parallel run: the merge step writes the catalogue
+        json.dump({"alerts": alerts, "report": report}, open("alerts-part-%d.json" % part, "w", encoding="utf-8"), ensure_ascii=False)
+        return
+    finish(cat, keep, alerts, report)
+
+
+def merge():
+    """Joins the parts of a parallel run (alerts-part-*.json) into adhans.json."""
+    import glob
+    cat = json.load(open("adhans.json", encoding="utf-8"))
+    keep = [a for a in cat["adhans"] if a.get("type") != "alert"]
+    alerts, report = [], []
+    for f in sorted(glob.glob("alerts-part-*.json")):
+        d = json.load(open(f, encoding="utf-8"))
+        alerts += d["alerts"]
+        report += d["report"]
+    finish(cat, keep, alerts, report)
+
+
+def finish(cat, keep, alerts, report):
+    # Fajr tones first, then the rest, grouped by kind
+    order = {k[0]: i for i, k in enumerate(KINDS)}
+    alerts.sort(key=lambda a: (not a["fajr"], order.get(a["id"].split("_")[1], 9), a["id"]))
     cat["adhans"] = keep + alerts
     json.dump(cat, open("adhans.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     # credits for the clips
@@ -132,4 +168,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) > 1 and sys.argv[1] == "merge":
+        merge()
+    elif len(sys.argv) > 2:
+        main(int(sys.argv[1]), int(sys.argv[2]))
+    else:
+        main()
