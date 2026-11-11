@@ -1,0 +1,52 @@
+name: Harvest adhans from GitHub
+
+on:
+  push:
+    paths: ['.harvest/run.txt']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - run: which ffprobe || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+      - run: python3 tools/harvest.py list
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - uses: actions/upload-artifact@v4
+        with: { name: candidates, path: .harvest/candidates.json }
+  check:
+    needs: list
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix: { part: [0, 1, 2, 3, 4, 5] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: candidates, path: .harvest }
+      - run: |
+          which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+          pip install faster-whisper
+      - run: python3 tools/harvest.py check ${{ matrix.part }} 6
+      - uses: actions/upload-artifact@v4
+        with: { name: part-${{ matrix.part }}, path: .harvest/part-${{ matrix.part }}.json }
+  report:
+    needs: check
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { path: /tmp/parts }
+      - run: |
+          mkdir -p /tmp/out && cp /tmp/parts/*/*.json /tmp/out/ || true
+          git config user.name build-bot; git config user.email build-bot@users.noreply.github.com
+          git checkout --orphan harvest-tmp; git rm -rf --cached . >/dev/null; find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp /tmp/out/*.json .; git add -A; git commit -m harvest; git push -f origin HEAD:harvest-report
