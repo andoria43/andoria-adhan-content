@@ -9,7 +9,9 @@
       "page": "https://github.com/abodehq/Athan-MP3",
       "author": "Makkah adhan",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/abodehq/Athan-MP3"
+      "license_url": "https://github.com/abodehq/Athan-MP3",
+      "trim_start": 0.0,
+      "trim_end": 200.74
     },
     {
       "id": "abdulbasit",
@@ -20,7 +22,9 @@
       "page": "https://github.com/abodehq/Athan-MP3",
       "author": "Abdul Basit Abdul Samad",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/abodehq/Athan-MP3"
+      "license_url": "https://github.com/abodehq/Athan-MP3",
+      "drop": true,
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
     },
     {
       "id": "alafasy",
@@ -31,7 +35,9 @@
       "page": "https://github.com/abodehq/Athan-MP3",
       "author": "Mishary Alafasy",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/abodehq/Athan-MP3"
+      "license_url": "https://github.com/abodehq/Athan-MP3",
+      "trim_start": 0.0,
+      "trim_end": 227.76
     },
     {
       "id": "minshawi",
@@ -42,7 +48,9 @@
       "page": "https://github.com/abodehq/Athan-MP3",
       "author": "Mohamed Siddiq Al-Minshawi",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/abodehq/Athan-MP3"
+      "license_url": "https://github.com/abodehq/Athan-MP3",
+      "drop": true,
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
     },
     {
       "id": "refaat",
@@ -53,7 +61,9 @@
       "page": "https://github.com/abodehq/Athan-MP3",
       "author": "Mohamed Refaat",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/abodehq/Athan-MP3"
+      "license_url": "https://github.com/abodehq/Athan-MP3",
+      "drop": true,
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
     },
     {
       "id": "nuaina",
@@ -64,7 +74,9 @@
       "page": "https://github.com/abodehq/Athan-MP3",
       "author": "Ahmed Nuaina",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/abodehq/Athan-MP3"
+      "license_url": "https://github.com/abodehq/Athan-MP3",
+      "trim_start": 0.0,
+      "trim_end": 209.57
     },
     {
       "id": "qatami",
@@ -75,7 +87,9 @@
       "page": "https://github.com/abodehq/Athan-MP3",
       "author": "Nasser Al-Qatami",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/abodehq/Athan-MP3"
+      "license_url": "https://github.com/abodehq/Athan-MP3",
+      "trim_start": 1.81,
+      "trim_end": 131.82
     },
     {
       "id": "zahrani",
@@ -86,7 +100,9 @@
       "page": "https://github.com/abodehq/Athan-MP3",
       "author": "Mansour Al-Zahrani",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/abodehq/Athan-MP3"
+      "license_url": "https://github.com/abodehq/Athan-MP3",
+      "drop": true,
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
     },
     {
       "id": "arkani",
@@ -97,7 +113,9 @@
       "page": "https://github.com/abodehq/Athan-MP3",
       "author": "Ibrahim Al-Arkani",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/abodehq/Athan-MP3"
+      "license_url": "https://github.com/abodehq/Athan-MP3",
+      "trim_start": 0.0,
+      "trim_end": 233.81
     },
     {
       "id": "malki",
@@ -108,7 +126,9 @@
       "page": "https://github.com/abodehq/Athan-MP3",
       "author": "Hamdan Al-Malki",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/abodehq/Athan-MP3"
+      "license_url": "https://github.com/abodehq/Athan-MP3",
+      "drop": true,
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
     },
     {
       "id": "hamathani",
@@ -119,7 +139,9 @@
       "page": "https://github.com/abodehq/Athan-MP3",
       "author": "Majed Al-Hamathani",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/abodehq/Athan-MP3"
+      "license_url": "https://github.com/abodehq/Athan-MP3",
+      "trim_start": 0.0,
+      "trim_end": 218.06
     },
     {
       "id": "deghreri",
@@ -130,7 +152,9 @@
       "page": "https://github.com/abodehq/Athan-MP3",
       "author": "Hamad Al-Deghreri",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/abodehq/Athan-MP3"
+      "license_url": "https://github.com/abodehq/Athan-MP3",
+      "drop": true,
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
     },
     {
       "id": "suhaib",
@@ -141,7 +165,9 @@
       "page": "https://github.com/abodehq/Athan-MP3",
       "author": "Suhaib Khatba",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/abodehq/Athan-MP3"
+      "license_url": "https://github.com/abodehq/Athan-MP3",
+      "trim_start": 0.32,
+      "trim_end": 180.04
     },
     {
       "id": "malek_fajr",
@@ -152,7 +178,9 @@
       "page": "https://github.com/abodehq/Athan-MP3",
       "author": "Malek Chebae",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/abodehq/Athan-MP3"
+      "license_url": "https://github.com/abodehq/Athan-MP3",
+      "trim_start": 5.37,
+      "trim_end": 242.56
     },
     {
       "id": "khalaf_fajr",
@@ -163,7 +191,9 @@
       "page": "https://github.com/nandxorandor/Athan",
       "author": "Ahmed Khalaf",
       "license": "CC BY 4.0",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "trim_start": 0.0,
+      "trim_end": 99.46
     },
     {
       "id": "malmo_fajr",
@@ -175,7 +205,9 @@
       "page": "https://commons.wikimedia.org/wiki/File:Eid_al-Fitr_Fajr_azan_at_Malm%C3%B6_Mosque_-_19_August_2012.webm",
       "author": "Islamic Center Malmö",
       "license": "CC BY 3.0",
-      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "drop": true,
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
     },
     {
       "id": "aaqib_azeez",
@@ -186,7 +218,9 @@
       "page": "https://commons.wikimedia.org/wiki/File:The_Adhan_-_Muslim_Call_to_Prayer_-_Aaqib_Azeez.mp3",
       "author": "Aaqib Azeez (Atcovi)",
       "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "trim_start": 0.0,
+      "trim_end": 84.26
     },
     {
       "id": "khalaf_1",
@@ -197,7 +231,9 @@
       "page": "https://github.com/nandxorandor/Athan",
       "author": "Ahmed Khalaf",
       "license": "CC BY 4.0",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "trim_start": 0.0,
+      "trim_end": 141.62
     },
     {
       "id": "khalaf_2",
@@ -208,7 +244,9 @@
       "page": "https://github.com/nandxorandor/Athan",
       "author": "Ahmed Khalaf",
       "license": "CC BY 4.0",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "trim_start": 0.0,
+      "trim_end": 115.22
     },
     {
       "id": "short_adhan",
@@ -219,7 +257,9 @@
       "page": "https://commons.wikimedia.org/wiki/File:Adhan_wiki.oga",
       "author": "Jarih",
       "license": "CC BY-SA 2.5",
-      "license_url": "https://creativecommons.org/licenses/by-sa/2.5/"
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "trim_start": 0.0,
+      "trim_end": 26.16
     },
     {
       "id": "alafasy3_fajr",
@@ -230,7 +270,9 @@
       "page": "https://github.com/0xzer0x/athany",
       "author": "Mishary Alafasy (1)",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/0xzer0x/athany"
+      "license_url": "https://github.com/0xzer0x/athany",
+      "trim_start": 0.0,
+      "trim_end": 180.72
     },
     {
       "id": "aalian_fajr",
@@ -241,7 +283,9 @@
       "page": "https://github.com/AalianKhan/adhans",
       "author": "recording 1",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/AalianKhan/adhans"
+      "license_url": "https://github.com/AalianKhan/adhans",
+      "trim_start": 15.29,
+      "trim_end": 240.12
     },
     {
       "id": "afasy_hejaz_fajr",
@@ -252,7 +296,9 @@
       "page": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
       "author": "Alafasy (Hijaz maqam)",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan"
+      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
+      "trim_start": 0.0,
+      "trim_end": 221.0
     },
     {
       "id": "afasy_kurd_fajr",
@@ -263,7 +309,9 @@
       "page": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
       "author": "Alafasy (Kurd maqam)",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan"
+      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
+      "trim_start": 0.0,
+      "trim_end": 161.87
     },
     {
       "id": "taqi_maliki_fajr",
@@ -274,7 +322,9 @@
       "page": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
       "author": "Taqi Al-Maliki",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan"
+      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
+      "trim_start": 0.0,
+      "trim_end": 286.12
     },
     {
       "id": "islam_sobhi_fajr",
@@ -285,7 +335,9 @@
       "page": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
       "author": "Islam Sobhi",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan"
+      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
+      "trim_start": 0.0,
+      "trim_end": 207.79
     },
     {
       "id": "zahrani_fajr",
@@ -296,7 +348,9 @@
       "page": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
       "author": "Mansour Al-Zahrani",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan"
+      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
+      "trim_start": 0.0,
+      "trim_end": 182.38
     },
     {
       "id": "sameer_fajr",
@@ -307,7 +361,9 @@
       "page": "https://github.com/MeSameerAhmed/azan-automation",
       "author": "recording 2",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/MeSameerAhmed/azan-automation"
+      "license_url": "https://github.com/MeSameerAhmed/azan-automation",
+      "trim_start": 0.0,
+      "trim_end": 141.05
     },
     {
       "id": "meqat_afasy_fajr",
@@ -318,7 +374,9 @@
       "page": "https://github.com/Mo1Amin/Meqat-Widget",
       "author": "Mishary Alafasy (2)",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/Mo1Amin/Meqat-Widget"
+      "license_url": "https://github.com/Mo1Amin/Meqat-Widget",
+      "trim_start": 0.0,
+      "trim_end": 181.55
     },
     {
       "id": "opencore_fajr",
@@ -329,7 +387,9 @@
       "page": "https://github.com/OpenCore-Lab/IslamicHomepage",
       "author": "recording 3",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/OpenCore-Lab/IslamicHomepage"
+      "license_url": "https://github.com/OpenCore-Lab/IslamicHomepage",
+      "trim_start": 0.0,
+      "trim_end": 211.84
     },
     {
       "id": "fatani_fajr",
@@ -340,7 +400,9 @@
       "page": "https://github.com/RyugaBahira/Waktu-Adzan",
       "author": "Abdul Karim Fatani (Makkah)",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/RyugaBahira/Waktu-Adzan"
+      "license_url": "https://github.com/RyugaBahira/Waktu-Adzan",
+      "trim_start": 0.0,
+      "trim_end": 64.6
     },
     {
       "id": "azaanclock_fajr",
@@ -351,7 +413,9 @@
       "page": "https://github.com/adeeonline/azaan-clock",
       "author": "recording 4",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/adeeonline/azaan-clock"
+      "license_url": "https://github.com/adeeonline/azaan-clock",
+      "drop": true,
+      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: اكبر الله اكبر محمد رسول الله)"
     },
     {
       "id": "jsholat_fajr",
@@ -362,7 +426,9 @@
       "page": "https://github.com/ajisetiawan716/luci-app-jsholat",
       "author": "recording 5",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/ajisetiawan716/luci-app-jsholat"
+      "license_url": "https://github.com/ajisetiawan716/luci-app-jsholat",
+      "trim_start": 1.06,
+      "trim_end": 268.59
     },
     {
       "id": "abu_rahiq_fajr",
@@ -373,7 +439,9 @@
       "page": "https://github.com/if12is/islamic-app",
       "author": "recording 6",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/if12is/islamic-app"
+      "license_url": "https://github.com/if12is/islamic-app",
+      "trim_start": 0.0,
+      "trim_end": 289.73
     },
     {
       "id": "noor121_fajr",
@@ -384,7 +452,9 @@
       "page": "https://github.com/khasawn2-dotcom/noor-adhan-audio",
       "author": "recording 7",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/khasawn2-dotcom/noor-adhan-audio"
+      "license_url": "https://github.com/khasawn2-dotcom/noor-adhan-audio",
+      "drop": true,
+      "drop_reason": "after cutting, too few words heard"
     },
     {
       "id": "doha_fajr",
@@ -395,7 +465,9 @@
       "page": "https://github.com/mohsalvi/adhan-audio",
       "author": "Doha",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/mohsalvi/adhan-audio"
+      "license_url": "https://github.com/mohsalvi/adhan-audio",
+      "trim_start": 0.0,
+      "trim_end": 165.62
     },
     {
       "id": "afasy3_fajr",
@@ -406,7 +478,9 @@
       "page": "https://github.com/mohsalvi/adhan-audio",
       "author": "Mishary Alafasy (3)",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/mohsalvi/adhan-audio"
+      "license_url": "https://github.com/mohsalvi/adhan-audio",
+      "trim_start": 0.0,
+      "trim_end": 261.9
     },
     {
       "id": "patel3_fajr",
@@ -417,7 +491,9 @@
       "page": "https://github.com/pateljunaid/adhan-player",
       "author": "recording 8",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/pateljunaid/adhan-player"
+      "license_url": "https://github.com/pateljunaid/adhan-player",
+      "trim_start": 17.97,
+      "trim_end": 254.26
     },
     {
       "id": "rehan_fajr",
@@ -428,7 +504,9 @@
       "page": "https://github.com/rehanhaider/adhan",
       "author": "recording 9",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/rehanhaider/adhan"
+      "license_url": "https://github.com/rehanhaider/adhan",
+      "drop": true,
+      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: اكبر الله لاها الا الله صلاه)"
     },
     {
       "id": "abdelmoneim_fajr",
@@ -439,7 +517,9 @@
       "page": "https://github.com/samaneng2002/zadi-athan-sounds",
       "author": "Abdel Moneim Abdel Mobdi",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/samaneng2002/zadi-athan-sounds"
+      "license_url": "https://github.com/samaneng2002/zadi-athan-sounds",
+      "trim_start": 0.0,
+      "trim_end": 135.9
     },
     {
       "id": "abdulwali_arkani_fajr",
@@ -450,7 +530,9 @@
       "page": "https://github.com/samaneng2002/zadi-athan-sounds",
       "author": "Abdul Wali Al-Arkani",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/samaneng2002/zadi-athan-sounds"
+      "license_url": "https://github.com/samaneng2002/zadi-athan-sounds",
+      "trim_start": 0.0,
+      "trim_end": 157.93
     },
     {
       "id": "bilal_fajr",
@@ -461,7 +543,9 @@
       "page": "https://github.com/yousef-nasser-daaboul/alkannani-audio",
       "author": "Bilal Abdulaziz",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/yousef-nasser-daaboul/alkannani-audio"
+      "license_url": "https://github.com/yousef-nasser-daaboul/alkannani-audio",
+      "trim_start": 0.0,
+      "trim_end": 230.94
     },
     {
       "id": "malaysia_fajr",
@@ -472,7 +556,9 @@
       "page": "https://github.com/zubir2k/HomeAssistantAdzan",
       "author": "Malaysia",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/zubir2k/HomeAssistantAdzan"
+      "license_url": "https://github.com/zubir2k/HomeAssistantAdzan",
+      "drop": true,
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
     },
     {
       "id": "muhsin_kara",
@@ -483,7 +569,9 @@
       "page": "https://github.com/07halilgunay-art/azan-audio",
       "author": "Muhsin Kara (Turkish)",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/07halilgunay-art/azan-audio"
+      "license_url": "https://github.com/07halilgunay-art/azan-audio",
+      "drop": true,
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
     },
     {
       "id": "suraihi",
@@ -494,7 +582,9 @@
       "page": "https://github.com/0xzer0x/athany",
       "author": "Abdul Majeed Al-Suraihi",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/0xzer0x/athany"
+      "license_url": "https://github.com/0xzer0x/athany",
+      "trim_start": 0.0,
+      "trim_end": 208.2
     },
     {
       "id": "harak",
@@ -505,7 +595,9 @@
       "page": "https://github.com/0xzer0x/athany",
       "author": "Abdul Nasser Harak",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/0xzer0x/athany"
+      "license_url": "https://github.com/0xzer0x/athany",
+      "trim_start": 0.0,
+      "trim_end": 218.52
     },
     {
       "id": "naqshbandi",
@@ -516,7 +608,9 @@
       "page": "https://github.com/0xzer0x/athany",
       "author": "Sayed Al-Naqshbandi",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/0xzer0x/athany"
+      "license_url": "https://github.com/0xzer0x/athany",
+      "drop": true,
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
     },
     {
       "id": "mahmoud_ramadan",
@@ -527,7 +621,9 @@
       "page": "https://github.com/AhmedAhmedEG/PyAdhan",
       "author": "Mahmoud Mohamed Ramadan",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/AhmedAhmedEG/PyAdhan"
+      "license_url": "https://github.com/AhmedAhmedEG/PyAdhan",
+      "drop": true,
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
     },
     {
       "id": "nufais",
@@ -538,7 +634,9 @@
       "page": "https://github.com/DBChoco/Muezzin",
       "author": "Ahmed Al-Nufais",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/DBChoco/Muezzin"
+      "license_url": "https://github.com/DBChoco/Muezzin",
+      "trim_start": 0.0,
+      "trim_end": 185.79
     },
     {
       "id": "raad_kurdi",
@@ -549,7 +647,9 @@
       "page": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
       "author": "Raad Al-Kurdi",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan"
+      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
+      "trim_start": 0.0,
+      "trim_end": 264.27
     },
     {
       "id": "saad_ghamdi",
@@ -560,7 +660,9 @@
       "page": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
       "author": "Saad Al-Ghamdi",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan"
+      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
+      "trim_start": 0.0,
+      "trim_end": 115.02
     },
     {
       "id": "afasy_new",
@@ -571,7 +673,9 @@
       "page": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
       "author": "Mishary Alafasy (2)",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan"
+      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
+      "trim_start": 1.93,
+      "trim_end": 225.33
     },
     {
       "id": "afasy_saba",
@@ -582,7 +686,9 @@
       "page": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
       "author": "Mishary Alafasy (Saba maqam)",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan"
+      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
+      "drop": true,
+      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: محمد رسول الله محمد رسول الله)"
     },
     {
       "id": "afasy_nice",
@@ -593,7 +699,9 @@
       "page": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
       "author": "Mishary Alafasy (3)",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan"
+      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
+      "trim_start": 0.0,
+      "trim_end": 235.35
     },
     {
       "id": "omar_kurdi",
@@ -604,7 +712,9 @@
       "page": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
       "author": "Omar Abdullah Al-Kurdi",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan"
+      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
+      "trim_start": 0.0,
+      "trim_end": 254.86
     },
     {
       "id": "saad_ramadan",
@@ -615,7 +725,9 @@
       "page": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
       "author": "Saad Ramadan",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan"
+      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
+      "trim_start": 0.0,
+      "trim_end": 171.41
     },
     {
       "id": "hendi",
@@ -626,7 +738,9 @@
       "page": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
       "author": "Abdulrahman Hendi",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan"
+      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
+      "trim_start": 0.0,
+      "trim_end": 170.64
     },
     {
       "id": "silawi",
@@ -637,7 +751,9 @@
       "page": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
       "author": "Ebrahim Silawi",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan"
+      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
+      "trim_start": 0.0,
+      "trim_end": 166.26
     },
     {
       "id": "salemi",
@@ -648,7 +764,9 @@
       "page": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
       "author": "Mansour Al-Salemi",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan"
+      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
+      "trim_start": 0.0,
+      "trim_end": 147.91
     },
     {
       "id": "madina_1952",
@@ -659,7 +777,9 @@
       "page": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
       "author": "Madinah adhan (1952)",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan"
+      "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
+      "drop": true,
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
     },
     {
       "id": "madinah",
@@ -670,7 +790,9 @@
       "page": "https://github.com/MohamedAbulgasem/Taqwa",
       "author": "Madinah adhan",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/MohamedAbulgasem/Taqwa"
+      "license_url": "https://github.com/MohamedAbulgasem/Taqwa",
+      "trim_start": 0.0,
+      "trim_end": 185.18
     },
     {
       "id": "fatani",
@@ -681,7 +803,9 @@
       "page": "https://github.com/RyugaBahira/Waktu-Adzan",
       "author": "Abdul Karim Fatani (Makkah)",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/RyugaBahira/Waktu-Adzan"
+      "license_url": "https://github.com/RyugaBahira/Waktu-Adzan",
+      "trim_start": 0.0,
+      "trim_end": 199.92
     },
     {
       "id": "egypt",
@@ -692,7 +816,9 @@
       "page": "https://github.com/LutfiSihabudin/adzanp6",
       "author": "Egyptian adhan",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/LutfiSihabudin/adzanp6"
+      "license_url": "https://github.com/LutfiSihabudin/adzanp6",
+      "drop": true,
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
     },
     {
       "id": "first_adhan_aadam",
@@ -703,7 +829,9 @@
       "page": "https://github.com/adelpro/Openadhan",
       "author": "Masjid Aadam",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/adelpro/Openadhan"
+      "license_url": "https://github.com/adelpro/Openadhan",
+      "drop": true,
+      "drop_reason": "after cutting, it does not start with «الله أكبر» (heard: اهو اكبب الله اهو)"
     },
     {
       "id": "indonesia",
@@ -714,7 +842,9 @@
       "page": "https://github.com/Kydens/Prayer-Reminder",
       "author": "Indonesia",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/Kydens/Prayer-Reminder"
+      "license_url": "https://github.com/Kydens/Prayer-Reminder",
+      "trim_start": 0.0,
+      "trim_end": 266.58
     },
     {
       "id": "malaysia",
@@ -725,7 +855,9 @@
       "page": "https://github.com/azrihafez/azan-audio",
       "author": "Malaysia",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/azrihafez/azan-audio"
+      "license_url": "https://github.com/azrihafez/azan-audio",
+      "trim_start": 0.0,
+      "trim_end": 251.52
     },
     {
       "id": "zaili",
@@ -736,7 +868,9 @@
       "page": "https://github.com/dzikirqu/dzikirqu-android",
       "author": "Abdullah Al-Zaili",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/dzikirqu/dzikirqu-android"
+      "license_url": "https://github.com/dzikirqu/dzikirqu-android",
+      "trim_start": 0.0,
+      "trim_end": 248.24
     },
     {
       "id": "myazan10",
@@ -747,7 +881,9 @@
       "page": "https://github.com/ahmed217/MyAzan",
       "author": "recording 1",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/ahmed217/MyAzan"
+      "license_url": "https://github.com/ahmed217/MyAzan",
+      "trim_start": 0.0,
+      "trim_end": 281.15
     },
     {
       "id": "myazan14",
@@ -758,7 +894,9 @@
       "page": "https://github.com/ahmed217/MyAzan",
       "author": "recording 2",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/ahmed217/MyAzan"
+      "license_url": "https://github.com/ahmed217/MyAzan",
+      "trim_start": 0.0,
+      "trim_end": 210.22
     },
     {
       "id": "piprayer5",
@@ -769,7 +907,9 @@
       "page": "https://github.com/kamranzafar/piprayer",
       "author": "recording 3",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/kamranzafar/piprayer"
+      "license_url": "https://github.com/kamranzafar/piprayer",
+      "trim_start": 0.0,
+      "trim_end": 154.17
     },
     {
       "id": "piprayer14",
@@ -780,7 +920,9 @@
       "page": "https://github.com/kamranzafar/piprayer",
       "author": "recording 4",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/kamranzafar/piprayer"
+      "license_url": "https://github.com/kamranzafar/piprayer",
+      "drop": true,
+      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: هيا علي الصلاه هيا علي الصلاه)"
     },
     {
       "id": "noor65",
@@ -791,7 +933,9 @@
       "page": "https://github.com/khasawn2-dotcom/noor-adhan-audio",
       "author": "recording 5",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/khasawn2-dotcom/noor-adhan-audio"
+      "license_url": "https://github.com/khasawn2-dotcom/noor-adhan-audio",
+      "trim_start": 0.0,
+      "trim_end": 247.95
     },
     {
       "id": "noor59",
@@ -802,7 +946,9 @@
       "page": "https://github.com/khasawn2-dotcom/noor-adhan-audio",
       "author": "recording 6",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/khasawn2-dotcom/noor-adhan-audio"
+      "license_url": "https://github.com/khasawn2-dotcom/noor-adhan-audio",
+      "trim_start": 0.0,
+      "trim_end": 148.84
     },
     {
       "id": "noor5",
@@ -813,7 +959,9 @@
       "page": "https://github.com/khasawn2-dotcom/noor-adhan-audio",
       "author": "recording 7",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/khasawn2-dotcom/noor-adhan-audio"
+      "license_url": "https://github.com/khasawn2-dotcom/noor-adhan-audio",
+      "trim_start": 0.0,
+      "trim_end": 125.12
     },
     {
       "id": "doha_1",
@@ -824,7 +972,9 @@
       "page": "https://github.com/mohsalvi/adhan-audio",
       "author": "Doha adhan (1)",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/mohsalvi/adhan-audio"
+      "license_url": "https://github.com/mohsalvi/adhan-audio",
+      "trim_start": 0.0,
+      "trim_end": 157.16
     },
     {
       "id": "doha_2",
@@ -835,7 +985,9 @@
       "page": "https://github.com/mohsalvi/adhan-audio",
       "author": "Doha adhan (2)",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/mohsalvi/adhan-audio"
+      "license_url": "https://github.com/mohsalvi/adhan-audio",
+      "drop": true,
+      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: ان لا اله الا الله وحده)"
     },
     {
       "id": "doha_3",
@@ -846,7 +998,9 @@
       "page": "https://github.com/mohsalvi/adhan-audio",
       "author": "Doha adhan (3)",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/mohsalvi/adhan-audio"
+      "license_url": "https://github.com/mohsalvi/adhan-audio",
+      "trim_start": 0.0,
+      "trim_end": 155.92
     },
     {
       "id": "afasy_4",
@@ -857,7 +1011,9 @@
       "page": "https://github.com/mohsalvi/adhan-audio",
       "author": "Mishary Alafasy (4)",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/mohsalvi/adhan-audio"
+      "license_url": "https://github.com/mohsalvi/adhan-audio",
+      "trim_start": 1.78,
+      "trim_end": 232.73
     },
     {
       "id": "patel2",
@@ -868,7 +1024,9 @@
       "page": "https://github.com/pateljunaid/adhan-player",
       "author": "recording 8",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/pateljunaid/adhan-player"
+      "license_url": "https://github.com/pateljunaid/adhan-player",
+      "trim_start": 0.0,
+      "trim_end": 150.7
     },
     {
       "id": "tamimi",
@@ -879,7 +1037,9 @@
       "page": "https://github.com/pateljunaid/adhan-player",
       "author": "Shaya Al-Tamimi",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/pateljunaid/adhan-player"
+      "license_url": "https://github.com/pateljunaid/adhan-player",
+      "drop": true,
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
     },
     {
       "id": "belbachir",
@@ -890,7 +1050,9 @@
       "page": "https://github.com/samaneng2002/zadi-athan-sounds",
       "author": "Belbachir Abdelkader",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/samaneng2002/zadi-athan-sounds"
+      "license_url": "https://github.com/samaneng2002/zadi-athan-sounds",
+      "trim_start": 0.0,
+      "trim_end": 113.6
     },
     {
       "id": "haddad",
@@ -901,7 +1063,9 @@
       "page": "https://github.com/samaneng2002/zadi-athan-sounds",
       "author": "Ahmed Al-Haddad",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/samaneng2002/zadi-athan-sounds"
+      "license_url": "https://github.com/samaneng2002/zadi-athan-sounds",
+      "trim_start": 0.0,
+      "trim_end": 151.56
     },
     {
       "id": "ali_hassan_qatar",
@@ -912,7 +1076,9 @@
       "page": "https://github.com/samaneng2002/zadi-athan-sounds",
       "author": "Ali Hassan Abdul Khaliq (Qatar)",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/samaneng2002/zadi-athan-sounds"
+      "license_url": "https://github.com/samaneng2002/zadi-athan-sounds",
+      "trim_start": 0.0,
+      "trim_end": 132.34
     },
     {
       "id": "mohamed_adel",
@@ -923,7 +1089,9 @@
       "page": "https://github.com/samaneng2002/zadi-athan-sounds",
       "author": "Mohamed Adel",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/samaneng2002/zadi-athan-sounds"
+      "license_url": "https://github.com/samaneng2002/zadi-athan-sounds",
+      "drop": true,
+      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: الفلاح اشهد ان محمد الرسول الله)"
     },
     {
       "id": "majdi",
@@ -934,7 +1102,9 @@
       "page": "https://github.com/samaneng2002/zadi-athan-sounds",
       "author": "Abdulrahman Majdi",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/samaneng2002/zadi-athan-sounds"
+      "license_url": "https://github.com/samaneng2002/zadi-athan-sounds",
+      "trim_start": 0.0,
+      "trim_end": 163.43
     },
     {
       "id": "hawai",
@@ -945,7 +1115,9 @@
       "page": "https://github.com/sitijulianti/P6-Mobile-Programming-2",
       "author": "recording 9",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/sitijulianti/P6-Mobile-Programming-2"
+      "license_url": "https://github.com/sitijulianti/P6-Mobile-Programming-2",
+      "trim_start": 0.0,
+      "trim_end": 231.61
     },
     {
       "id": "bilal_rast",
@@ -956,7 +1128,9 @@
       "page": "https://github.com/yousef-nasser-daaboul/alkannani-audio",
       "author": "Bilal Abdulaziz (Rast maqam)",
       "license": "No licence stated; shared publicly by the repository author",
-      "license_url": "https://github.com/yousef-nasser-daaboul/alkannani-audio"
+      "license_url": "https://github.com/yousef-nasser-daaboul/alkannani-audio",
+      "trim_start": 0.0,
+      "trim_end": 245.95
     }
   ]
 }
