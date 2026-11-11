@@ -40,8 +40,16 @@ def find(words, phrase):
     return out
 
 
+def load_audio(path):
+    """16 kHz mono float samples via ffmpeg (the PyAV in the runner does not accept faster-whisper's options)."""
+    import numpy as np
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-f", "s16le", "-ac", "1", "-ar", "16000", "-"],
+                         check=True, capture_output=True).stdout
+    return np.frombuffer(raw, np.int16).astype(np.float32) / 32768.0
+
+
 def transcribe(model, path):
-    segs, _ = model.transcribe(path, language="ar", word_timestamps=True, beam_size=5, vad_filter=False)
+    segs, _ = model.transcribe(load_audio(path), language="ar", word_timestamps=True, beam_size=5, vad_filter=False)
     words = []
     for s in segs:
         for w in (s.words or []):

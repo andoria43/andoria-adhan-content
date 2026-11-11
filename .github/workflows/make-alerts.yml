@@ -27,7 +27,7 @@ jobs:
         run: |
           git config user.name "build-bot"
           git config user.email "build-bot@users.noreply.github.com"
-          git add audio adhans.json CREDITS.md alerts-report.txt
+          git add audio adhans.json CREDITS.md; [ -f alerts-report.txt ] && git add alerts-report.txt || true
           git commit -m "Alert tones cut from the library recordings" || echo "nothing to commit"
           git pull --rebase origin main || true
           git push
