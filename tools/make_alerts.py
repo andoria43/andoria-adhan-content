@@ -88,6 +88,7 @@ def main(part=0, parts=1):
             if fajr_only and not src.get("fajr"):
                 continue
             hits = find(words, phrase)
+            all_hits = list(hits)
             if kind in ("takbir", "takbir4"):
                 hits = hits[:1]                      # the adhan opens with it
             if kind == "end":
@@ -101,7 +102,7 @@ def main(part=0, parts=1):
             end = words[i + n - 1][2]
             # include the immediate repetition ("... ... " said twice in a row)
             for _ in range(repeat - 1):
-                nxt = [h for h in hits if h >= i + n and words[h][1] - end < 2.5]
+                nxt = [h for h in all_hits if h >= i + n and words[h][1] - end < 3.5]
                 if nxt:
                     i = nxt[0]
                     end = words[i + n - 1][2]
