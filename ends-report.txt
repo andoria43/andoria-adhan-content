@@ -1,0 +1,73 @@
+aalian_fajr: end already complete
+abdelmoneim_fajr: end moved 0.8 s later (135.9 -> 136.7 s)
+abdulbasit: end already complete
+abdulwali_arkani_fajr: end already complete
+abu_rahiq_fajr: end moved 0.3 s later (289.7 -> 290.0 s)
+afasy3_fajr: end already complete
+afasy_4: end already complete
+afasy_hejaz_fajr: the voice doesn't stop within 8 s after the end, left as it is
+afasy_kurd_fajr: the voice doesn't stop within 8 s after the end, left as it is
+afasy_new: end moved 0.2 s later (223.4 -> 223.7 s)
+afasy_nice: end moved 0.5 s later (235.3 -> 235.8 s)
+alafasy3_fajr: end moved 0.3 s later (180.6 -> 180.9 s)
+alafasy: end moved 6.2 s later (227.8 -> 233.9 s)
+ali_hassan_qatar: end moved 0.3 s later (132.3 -> 132.5 s)
+arkani: the voice doesn't stop within 8 s after the end, left as it is
+belbachir: the voice doesn't stop within 8 s after the end, left as it is
+bilal_fajr: end moved 0.3 s later (230.9 -> 231.3 s)
+bilal_rast: end already complete
+deghreri: end already complete
+doha_1: the voice doesn't stop within 8 s after the end, left as it is
+doha_3: the voice doesn't stop within 8 s after the end, left as it is
+doha_fajr: end moved 0.2 s later (165.6 -> 165.8 s)
+fatani: the voice doesn't stop within 8 s after the end, left as it is
+first_adhan_aadam: the voice doesn't stop within 8 s after the end, left as it is
+haddad: end moved 0.2 s later (151.6 -> 151.8 s)
+hamathani: end already complete
+harak: end moved 0.3 s later (218.4 -> 218.7 s)
+hawai: end already complete
+hendi: the voice doesn't stop within 8 s after the end, left as it is
+indonesia: end moved 0.5 s later (266.5 -> 267.0 s)
+islam_sobhi_fajr: end moved 0.8 s later (207.7 -> 208.5 s)
+jsholat_fajr: end moved 0.7 s later (267.5 -> 268.2 s)
+khalaf_1: end already complete
+khalaf_2: the voice doesn't stop within 8 s after the end, left as it is
+khalaf_fajr: the voice doesn't stop within 8 s after the end, left as it is
+madinah: end already complete
+mahmoud_ramadan: end already complete
+majdi: end already complete
+makkah: end moved 0.2 s later (200.7 -> 200.9 s)
+malaysia: end moved 6.6 s later (251.5 -> 258.1 s)
+malek_fajr: end already complete
+meqat_afasy_fajr: end moved 0.8 s later (181.5 -> 182.3 s)
+mohamed_adel: end already complete
+myazan10: end moved 0.3 s later (281.1 -> 281.4 s)
+myazan14: end already complete
+naqshbandi: end moved 0.6 s later (169.9 -> 170.4 s)
+noor121_fajr: end moved 0.3 s later (161.7 -> 162.0 s)
+noor59: the voice doesn't stop within 8 s after the end, left as it is
+noor5: end already complete
+noor65: end moved 0.2 s later (247.9 -> 248.1 s)
+nuaina: end already complete
+nufais: end moved 0.7 s later (185.8 -> 186.4 s)
+omar_kurdi: the voice doesn't stop within 8 s after the end, left as it is
+opencore_fajr: end moved 5.9 s later (211.8 -> 217.8 s)
+patel2: the voice doesn't stop within 8 s after the end, left as it is
+patel3_fajr: end already complete
+piprayer14: end already complete
+piprayer5: end already complete
+qatami: end already complete
+raad_kurdi: end moved 0.3 s later (264.2 -> 264.5 s)
+rehan_fajr: end already complete
+saad_ghamdi: end already complete
+saad_ramadan: end moved 0.3 s later (171.4 -> 171.7 s)
+salemi: end already complete
+sameer_fajr: end already complete
+silawi: end already complete
+suhaib: the voice doesn't stop within 8 s after the end, left as it is
+suraihi: end already complete
+tamimi: end moved 5.6 s later (252.3 -> 257.9 s)
+taqi_maliki_fajr: end moved 7.0 s later (286.1 -> 293.1 s)
+zahrani: end moved 0.3 s later (182.8 -> 183.2 s)
+zahrani_fajr: end moved 0.4 s later (182.4 -> 182.8 s)
+zaili: end moved 0.2 s later (248.2 -> 248.4 s)
