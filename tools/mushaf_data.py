@@ -47,12 +47,13 @@ with open(f"{OUT}/meta.txt", "w", encoding="utf-8") as f:
             sj = 1 if (sj is True or isinstance(sj, dict)) else 0
             f.write(f'{s["number"]}|{a["numberInSurah"]}|{a["page"]}|{a["juz"]}|{a["hizbQuarter"]}|{sj}\n')
 
-for ed, name in (("ar.muyassar", "muyassar"), ("en.sahih", "en")):
+for ed, name in (("ar.muyassar", "muyassar"), ("en.sahih", "en"), ("quran-tajweed", "tajweed")):
     d = get(f"https://api.alquran.cloud/v1/quran/{ed}")["data"]["surahs"]
     with open(f"{OUT}/{name}.txt", "w", encoding="utf-8") as f:
         for s in d:
             for a in s["ayahs"]:
-                f.write(f'{s["number"]}|{a["numberInSurah"]}|{one_line(a["text"])}\n')
+                txt = a["text"].replace("\n", " ").replace("|", "/") if name == "tajweed" else one_line(a["text"])
+                f.write(f'{s["number"]}|{a["numberInSurah"]}|{txt}\n')
 
 # 2) Al-Sa'di (91) and the short tafsir with word glosses (16) from quran.com, chapter by chapter
 def tafsir(rid, ch):
@@ -149,5 +150,5 @@ with open(f"{OUT}/words.txt", "w", encoding="utf-8") as f:
         print("words chapter", ch, flush=True)
 
 print("words with an Arabic meaning:", sum(1 for l in open(f"{OUT}/words.txt", encoding="utf-8") if not l.rstrip("\n").endswith("|")))
-for n in ("meta", "muyassar", "saddi", "en", "words"):
+for n in ("meta", "muyassar", "saddi", "en", "words", "tajweed"):
     print(n, sum(1 for _ in open(f"{OUT}/{n}.txt", encoding="utf-8")))
