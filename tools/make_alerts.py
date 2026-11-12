@@ -114,19 +114,17 @@ def main(part=0, parts=1):
                     start = words[j - 4][1]
             if kind.startswith("khayr") and i - 0 > 0:
                 start = words[hits[0] - 1][1]           # include «الصلاة» just before (often misheard)
-            # cut only in pauses, never inside a word (so nothing is clipped at either end)
-            from audio_cut import pauses, pause_before, pause_after
-            if "ps" not in locals() or ps_for != sid:
-                ps, ps_for = pauses(path), sid
-            s0, e0 = pause_before(ps, start, 3.0), pause_after(ps, end, 3.0)
-            # no clear pause (echo or music under the voice): cut between the neighbouring words instead;
-            # the clip is listened to again below and kept only if its words are exactly complete
-            if s0 is None:
-                prev_end = max([w[2] for w in words if w[2] <= start + 0.01] or [0.0])
-                s0 = max(prev_end + 0.03, start - 0.35)
-            if e0 is None:
-                nxt = [w[1] for w in words if w[1] >= end - 0.01]
-                e0 = min(min(nxt) - 0.03, end + 0.7) if nxt else end + 0.7
+            # cut in the quiet between this phrase and the words around it (the voice is followed
+            # until it has really stopped: muezzins stretch the last syllable and the hall echoes it)
+            from audio_cut import envelope, valley, voice_end
+            if "env" not in locals() or env_for != sid:
+                env, env_for = envelope(path), sid
+            prev_end = max([w[2] for w in words if w[2] <= start - 0.05] or [max(0.0, start - 4.0)])
+            nxt = [w[1] for w in words if w[1] >= end + 0.05]
+            next_start = min(nxt) if nxt else end + 8.0
+            s0, s_db = valley(env, max(prev_end, start - 4.0), start - 0.02)
+            e0 = voice_end(env, end, next_start - 0.05)
+            e0 = min(e0 + 0.15, next_start - 0.05)
             if end - start > 20:
                 report.append("  %s: DROPPED, too long for an alert (%.1f s)" % (kind, end - start))
                 continue
@@ -134,8 +132,13 @@ def main(part=0, parts=1):
             clip_id = "alert_%s_%s" % (kind, sid)
             out = os.path.join("audio", clip_id + ".mp3")
             subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", "%.2f" % start, "-t", "%.2f" % (end - start), "-i", path,
-                            "-af", "afade=t=in:d=0.06,afade=t=out:st=%.2f:d=0.25" % max(0.0, end - start - 0.25),
+                            "-af", "afade=t=in:d=0.03,afade=t=out:st=%.2f:d=0.12" % max(0.0, end - start - 0.12),
                             "-c:a", "libmp3lame", "-b:a", "96k", out], check=True)
+            from audio_cut import quiet_cut
+            if not quiet_cut(env, start, end):
+                report.append("  %s: DROPPED, the voice touches the start or the end of the clip" % kind)
+                os.remove(out)
+                continue
             check = transcribe(model, out)
             # the clip must say exactly the words of the tone, complete, and nothing else
             want = [norm(p) for p in phrase] * repeat
