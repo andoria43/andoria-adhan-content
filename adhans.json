@@ -120,9 +120,9 @@
    "en": "Fajr alert: As-salatu khayrun min an-nawm · Fajr adhan · Ahmed Khalaf",
    "fajr": true,
    "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/alert_khayr_khalaf_fajr.mp3",
-   "seconds": 6,
-   "note_ar": "6 ث",
-   "note_en": "6 s",
+   "seconds": 5,
+   "note_ar": "5 ث",
+   "note_en": "5 s",
    "author": "Ahmed Khalaf",
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0/",
@@ -159,6 +159,36 @@
    "page": "https://github.com/nandxorandor/Athan"
   },
   {
+   "id": "alert_takbir_prophet_mosque",
+   "type": "alert",
+   "ar": "تنبيه: الله أكبر الله أكبر · أذان المسجد النبوي",
+   "en": "Alert: Allahu akbar, Allahu akbar · Adhan · The Prophet's Mosque",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/alert_takbir_prophet_mosque.mp3",
+   "seconds": 18,
+   "note_ar": "18 ث",
+   "note_en": "18 s",
+   "author": "ejaz215",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:33937_ejaz215_call-to-prayer-from-the-prophet-s-mo.ogg"
+  },
+  {
+   "id": "alert_hayya1_khalaf_2",
+   "type": "alert",
+   "ar": "تنبيه: حيّ على الصلاة · أحمد خلف (2)",
+   "en": "Alert: Hayya ala-s-salah · Ahmed Khalaf (2)",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/alert_hayya1_khalaf_2.mp3",
+   "seconds": 20,
+   "note_ar": "20 ث",
+   "note_en": "20 s",
+   "author": "Ahmed Khalaf",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "page": "https://github.com/nandxorandor/Athan"
+  },
+  {
    "id": "alert_end_khalaf_1",
    "type": "alert",
    "ar": "تنبيه: الله أكبر الله أكبر، لا إله إلا الله · أحمد خلف (1)",
@@ -187,6 +217,21 @@
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0/",
    "page": "https://github.com/nandxorandor/Athan"
+  },
+  {
+   "id": "alert_end_sabah_fakhri",
+   "type": "alert",
+   "ar": "تنبيه: الله أكبر الله أكبر، لا إله إلا الله · صباح فخري",
+   "en": "Alert: Allahu akbar, la ilaha illa-llah · Sabah Fakhri",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/alert_end_sabah_fakhri.mp3",
+   "seconds": 21,
+   "note_ar": "21 ث",
+   "note_en": "21 s",
+   "author": "Sabah Fakhri",
+   "license": "Public domain (Wikimedia Commons)",
+   "license_url": "https://commons.wikimedia.org/wiki/File:Call_to_prayer_by_Sabah_Fakhry.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Call_to_prayer_by_Sabah_Fakhry.mp3"
   }
  ]
 }

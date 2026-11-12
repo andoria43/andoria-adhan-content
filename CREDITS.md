@@ -19,5 +19,8 @@ Short clips cut from the recordings above (same authors and licences):
 - Fajr alert: As-salatu khayrun min an-nawm · Fajr adhan · Ahmed Khalaf: Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
 - Alert: Allahu akbar, Allahu akbar · Ahmed Khalaf (2): Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
 - Alert: Allahu akbar, Allahu akbar · Fajr adhan · Ahmed Khalaf: Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
+- Alert: Allahu akbar, Allahu akbar · Adhan · The Prophet's Mosque: ejaz215, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). Source: https://commons.wikimedia.org/wiki/File:33937_ejaz215_call-to-prayer-from-the-prophet-s-mo.ogg.
+- Alert: Hayya ala-s-salah · Ahmed Khalaf (2): Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
 - Alert: Allahu akbar, la ilaha illa-llah · Ahmed Khalaf (1): Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
 - Alert: Allahu akbar, la ilaha illa-llah · Fajr adhan · Ahmed Khalaf: Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
+- Alert: Allahu akbar, la ilaha illa-llah · Sabah Fakhri: Sabah Fakhri, [Public domain (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Call_to_prayer_by_Sabah_Fakhry.mp3). Source: https://commons.wikimedia.org/wiki/File:Call_to_prayer_by_Sabah_Fakhry.mp3.
