@@ -16,6 +16,20 @@
    "page": "https://github.com/abodehq/Athan-MP3"
   },
   {
+   "id": "abdulbasit",
+   "ar": "عبد الباسط عبد الصمد",
+   "en": "Abdul Basit Abdul Samad",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/abdulbasit.mp3",
+   "seconds": 200,
+   "note_ar": "3:20",
+   "note_en": "3:20",
+   "author": "Abdul Basit Abdul Samad",
+   "license": "No licence stated; shared publicly by the repository author",
+   "license_url": "https://github.com/abodehq/Athan-MP3",
+   "page": "https://github.com/abodehq/Athan-MP3"
+  },
+  {
    "id": "alafasy",
    "ar": "مشاري العفاسي",
    "en": "Mishary Alafasy",
@@ -58,6 +72,20 @@
    "page": "https://github.com/abodehq/Athan-MP3"
   },
   {
+   "id": "zahrani",
+   "ar": "منصور الزهراني",
+   "en": "Mansour Al-Zahrani",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/zahrani.mp3",
+   "seconds": 183,
+   "note_ar": "3:03",
+   "note_en": "3:03",
+   "author": "Mansour Al-Zahrani",
+   "license": "No licence stated; shared publicly by the repository author",
+   "license_url": "https://github.com/abodehq/Athan-MP3",
+   "page": "https://github.com/abodehq/Athan-MP3"
+  },
+  {
    "id": "arkani",
    "ar": "إبراهيم الأركاني",
    "en": "Ibrahim Al-Arkani",
@@ -81,6 +109,20 @@
    "note_ar": "3:38",
    "note_en": "3:38",
    "author": "Majed Al-Hamathani",
+   "license": "No licence stated; shared publicly by the repository author",
+   "license_url": "https://github.com/abodehq/Athan-MP3",
+   "page": "https://github.com/abodehq/Athan-MP3"
+  },
+  {
+   "id": "deghreri",
+   "ar": "حمد الدغريري",
+   "en": "Hamad Al-Deghreri",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/deghreri.mp3",
+   "seconds": 154,
+   "note_ar": "2:34",
+   "note_en": "2:34",
+   "author": "Hamad Al-Deghreri",
    "license": "No licence stated; shared publicly by the repository author",
    "license_url": "https://github.com/abodehq/Athan-MP3",
    "page": "https://github.com/abodehq/Athan-MP3"
@@ -126,6 +168,20 @@
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0/",
    "page": "https://github.com/nandxorandor/Athan"
+  },
+  {
+   "id": "malmo_fajr",
+   "ar": "أذان الفجر · مسجد مالمو (بسيم عزمي)",
+   "en": "Fajr adhan · Malmö Mosque (Besim Azemi)",
+   "fajr": true,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/malmo_fajr.mp3",
+   "seconds": 64,
+   "note_ar": "1:04 · CC BY 3.0",
+   "note_en": "1:04 · CC BY 3.0",
+   "author": "Islamic Center Malmö",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Eid_al-Fitr_Fajr_azan_at_Malm%C3%B6_Mosque_-_19_August_2012.webm"
   },
   {
    "id": "aaqib_azeez",
@@ -366,6 +422,20 @@
    "page": "https://github.com/if12is/islamic-app"
   },
   {
+   "id": "noor121_fajr",
+   "ar": "أذان الفجر · تسجيل 7",
+   "en": "Fajr adhan · recording 7",
+   "fajr": true,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/noor121_fajr.mp3",
+   "seconds": 162,
+   "note_ar": "2:42",
+   "note_en": "2:42",
+   "author": "recording 7",
+   "license": "No licence stated; shared publicly by the repository author",
+   "license_url": "https://github.com/khasawn2-dotcom/noor-adhan-audio",
+   "page": "https://github.com/khasawn2-dotcom/noor-adhan-audio"
+  },
+  {
    "id": "doha_fajr",
    "ar": "أذان الفجر · الدوحة",
    "en": "Fajr adhan · Doha",
@@ -406,6 +476,20 @@
    "license": "No licence stated; shared publicly by the repository author",
    "license_url": "https://github.com/pateljunaid/adhan-player",
    "page": "https://github.com/pateljunaid/adhan-player"
+  },
+  {
+   "id": "rehan_fajr",
+   "ar": "أذان الفجر · تسجيل 9",
+   "en": "Fajr adhan · recording 9",
+   "fajr": true,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/rehan_fajr.mp3",
+   "seconds": 232,
+   "note_ar": "3:52",
+   "note_en": "3:52",
+   "author": "recording 9",
+   "license": "No licence stated; shared publicly by the repository author",
+   "license_url": "https://github.com/rehanhaider/adhan",
+   "page": "https://github.com/rehanhaider/adhan"
   },
   {
    "id": "abdelmoneim_fajr",
@@ -450,6 +534,34 @@
    "page": "https://github.com/yousef-nasser-daaboul/alkannani-audio"
   },
   {
+   "id": "malaysia_fajr",
+   "ar": "أذان الفجر · ماليزيا",
+   "en": "Fajr adhan · Malaysia",
+   "fajr": true,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/malaysia_fajr.mp3",
+   "seconds": 54,
+   "note_ar": "0:54",
+   "note_en": "0:54",
+   "author": "Malaysia",
+   "license": "No licence stated; shared publicly by the repository author",
+   "license_url": "https://github.com/zubir2k/HomeAssistantAdzan",
+   "page": "https://github.com/zubir2k/HomeAssistantAdzan"
+  },
+  {
+   "id": "muhsin_kara",
+   "ar": "محسن قره (أذان تركي)",
+   "en": "Muhsin Kara (Turkish)",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/muhsin_kara.mp3",
+   "seconds": 66,
+   "note_ar": "1:06",
+   "note_en": "1:06",
+   "author": "Muhsin Kara (Turkish)",
+   "license": "No licence stated; shared publicly by the repository author",
+   "license_url": "https://github.com/07halilgunay-art/azan-audio",
+   "page": "https://github.com/07halilgunay-art/azan-audio"
+  },
+  {
    "id": "suraihi",
    "ar": "عبد المجيد السريحي",
    "en": "Abdul Majeed Al-Suraihi",
@@ -476,6 +588,34 @@
    "license": "No licence stated; shared publicly by the repository author",
    "license_url": "https://github.com/0xzer0x/athany",
    "page": "https://github.com/0xzer0x/athany"
+  },
+  {
+   "id": "naqshbandi",
+   "ar": "سيد النقشبندي",
+   "en": "Sayed Al-Naqshbandi",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/naqshbandi.mp3",
+   "seconds": 170,
+   "note_ar": "2:50",
+   "note_en": "2:50",
+   "author": "Sayed Al-Naqshbandi",
+   "license": "No licence stated; shared publicly by the repository author",
+   "license_url": "https://github.com/0xzer0x/athany",
+   "page": "https://github.com/0xzer0x/athany"
+  },
+  {
+   "id": "mahmoud_ramadan",
+   "ar": "محمود محمد رمضان",
+   "en": "Mahmoud Mohamed Ramadan",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/mahmoud_ramadan.mp3",
+   "seconds": 215,
+   "note_ar": "3:35",
+   "note_en": "3:35",
+   "author": "Mahmoud Mohamed Ramadan",
+   "license": "No licence stated; shared publicly by the repository author",
+   "license_url": "https://github.com/AhmedAhmedEG/PyAdhan",
+   "page": "https://github.com/AhmedAhmedEG/PyAdhan"
   },
   {
    "id": "nufais",
@@ -646,6 +786,20 @@
    "page": "https://github.com/RyugaBahira/Waktu-Adzan"
   },
   {
+   "id": "first_adhan_aadam",
+   "ar": "الأذان الأول · مسجد آدم",
+   "en": "First adhan · Masjid Aadam",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/first_adhan_aadam.mp3",
+   "seconds": 206,
+   "note_ar": "3:26",
+   "note_en": "3:26",
+   "author": "Masjid Aadam",
+   "license": "No licence stated; shared publicly by the repository author",
+   "license_url": "https://github.com/adelpro/Openadhan",
+   "page": "https://github.com/adelpro/Openadhan"
+  },
+  {
    "id": "indonesia",
    "ar": "أذان · إندونيسيا",
    "en": "Adhan · Indonesia",
@@ -725,6 +879,20 @@
    "note_ar": "2:34",
    "note_en": "2:34",
    "author": "recording 3",
+   "license": "No licence stated; shared publicly by the repository author",
+   "license_url": "https://github.com/kamranzafar/piprayer",
+   "page": "https://github.com/kamranzafar/piprayer"
+  },
+  {
+   "id": "piprayer14",
+   "ar": "أذان · تسجيل 4",
+   "en": "Adhan · recording 4",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/piprayer14.mp3",
+   "seconds": 132,
+   "note_ar": "2:12",
+   "note_en": "2:12",
+   "author": "recording 4",
    "license": "No licence stated; shared publicly by the repository author",
    "license_url": "https://github.com/kamranzafar/piprayer",
    "page": "https://github.com/kamranzafar/piprayer"
@@ -828,6 +996,20 @@
    "page": "https://github.com/pateljunaid/adhan-player"
   },
   {
+   "id": "tamimi",
+   "ar": "شايع التميمي",
+   "en": "Shaya Al-Tamimi",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/tamimi.mp3",
+   "seconds": 252,
+   "note_ar": "4:12",
+   "note_en": "4:12",
+   "author": "Shaya Al-Tamimi",
+   "license": "No licence stated; shared publicly by the repository author",
+   "license_url": "https://github.com/pateljunaid/adhan-player",
+   "page": "https://github.com/pateljunaid/adhan-player"
+  },
+  {
    "id": "belbachir",
    "ar": "بلبشير عبد القادر",
    "en": "Belbachir Abdelkader",
@@ -865,6 +1047,20 @@
    "note_ar": "2:12",
    "note_en": "2:12",
    "author": "Ali Hassan Abdul Khaliq (Qatar)",
+   "license": "No licence stated; shared publicly by the repository author",
+   "license_url": "https://github.com/samaneng2002/zadi-athan-sounds",
+   "page": "https://github.com/samaneng2002/zadi-athan-sounds"
+  },
+  {
+   "id": "mohamed_adel",
+   "ar": "محمد عادل",
+   "en": "Mohamed Adel",
+   "fajr": false,
+   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/mohamed_adel.mp3",
+   "seconds": 145,
+   "note_ar": "2:25",
+   "note_en": "2:25",
+   "author": "Mohamed Adel",
    "license": "No licence stated; shared publicly by the repository author",
    "license_url": "https://github.com/samaneng2002/zadi-athan-sounds",
    "page": "https://github.com/samaneng2002/zadi-athan-sounds"

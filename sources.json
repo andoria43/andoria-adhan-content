@@ -23,8 +23,9 @@
       "author": "Abdul Basit Abdul Samad",
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/abodehq/Athan-MP3",
-      "drop": true,
-      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard",
+      "trim_start": 0.0,
+      "trim_end": 200.36
     },
     {
       "id": "alafasy",
@@ -50,7 +51,7 @@
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/abodehq/Athan-MP3",
       "drop": true,
-      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
+      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: اكبر اكبر الله اكبر الله اكبر) (large model)"
     },
     {
       "id": "refaat",
@@ -63,7 +64,7 @@
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/abodehq/Athan-MP3",
       "drop": true,
-      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard (large model)"
     },
     {
       "id": "nuaina",
@@ -101,8 +102,9 @@
       "author": "Mansour Al-Zahrani",
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/abodehq/Athan-MP3",
-      "drop": true,
-      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard",
+      "trim_start": 0.0,
+      "trim_end": 182.83
     },
     {
       "id": "arkani",
@@ -128,7 +130,7 @@
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/abodehq/Athan-MP3",
       "drop": true,
-      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
+      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: الا هو الله اشهد ان لا) (large model)"
     },
     {
       "id": "hamathani",
@@ -153,8 +155,9 @@
       "author": "Hamad Al-Deghreri",
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/abodehq/Athan-MP3",
-      "drop": true,
-      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard",
+      "trim_start": 0.0,
+      "trim_end": 154.18
     },
     {
       "id": "suhaib",
@@ -201,13 +204,13 @@
       "en": "Fajr adhan · Malmö Mosque (Besim Azemi)",
       "fajr": true,
       "source": "commons:Eid al-Fitr Fajr azan at Malmö Mosque - 19 August 2012.webm",
-      "trim_end": 224,
+      "trim_end": 67.04,
       "page": "https://commons.wikimedia.org/wiki/File:Eid_al-Fitr_Fajr_azan_at_Malm%C3%B6_Mosque_-_19_August_2012.webm",
       "author": "Islamic Center Malmö",
       "license": "CC BY 3.0",
       "license_url": "https://creativecommons.org/licenses/by/3.0/",
-      "drop": true,
-      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard",
+      "trim_start": 3.51
     },
     {
       "id": "aaqib_azeez",
@@ -415,7 +418,7 @@
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/adeeonline/azaan-clock",
       "drop": true,
-      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: اكبر الله اكبر محمد رسول الله)"
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard (large model)"
     },
     {
       "id": "jsholat_fajr",
@@ -453,8 +456,9 @@
       "author": "recording 7",
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/khasawn2-dotcom/noor-adhan-audio",
-      "drop": true,
-      "drop_reason": "after cutting, too few words heard"
+      "drop_reason": "after cutting, too few words heard",
+      "trim_start": 0.0,
+      "trim_end": 161.71
     },
     {
       "id": "doha_fajr",
@@ -505,8 +509,9 @@
       "author": "recording 9",
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/rehanhaider/adhan",
-      "drop": true,
-      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: اكبر الله لاها الا الله صلاه)"
+      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: اكبر الله لاها الا الله صلاه)",
+      "trim_start": 0.0,
+      "trim_end": 232.38
     },
     {
       "id": "abdelmoneim_fajr",
@@ -557,8 +562,9 @@
       "author": "Malaysia",
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/zubir2k/HomeAssistantAdzan",
-      "drop": true,
-      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard",
+      "trim_start": 0.0,
+      "trim_end": 54.1
     },
     {
       "id": "muhsin_kara",
@@ -570,8 +576,9 @@
       "author": "Muhsin Kara (Turkish)",
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/07halilgunay-art/azan-audio",
-      "drop": true,
-      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard",
+      "trim_start": 0.0,
+      "trim_end": 65.8
     },
     {
       "id": "suraihi",
@@ -609,8 +616,9 @@
       "author": "Sayed Al-Naqshbandi",
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/0xzer0x/athany",
-      "drop": true,
-      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard",
+      "trim_start": 0.0,
+      "trim_end": 169.88
     },
     {
       "id": "mahmoud_ramadan",
@@ -622,8 +630,9 @@
       "author": "Mahmoud Mohamed Ramadan",
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/AhmedAhmedEG/PyAdhan",
-      "drop": true,
-      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard",
+      "trim_start": 0.0,
+      "trim_end": 215.52
     },
     {
       "id": "nufais",
@@ -688,7 +697,7 @@
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
       "drop": true,
-      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: محمد رسول الله محمد رسول الله)"
+      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: اكبر الله اكبر اشتركوا في القناه) (large model)"
     },
     {
       "id": "afasy_nice",
@@ -779,7 +788,7 @@
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/IslamAlorabI/SalatTimes-MP3Adhan",
       "drop": true,
-      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
+      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: الله اشهد ان محمد رفور الله) (large model)"
     },
     {
       "id": "madinah",
@@ -818,7 +827,7 @@
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/LutfiSihabudin/adzanp6",
       "drop": true,
-      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
+      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: ترجمه نانسي قنقر ترجمه نانسي قنقر) (large model)"
     },
     {
       "id": "first_adhan_aadam",
@@ -830,8 +839,9 @@
       "author": "Masjid Aadam",
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/adelpro/Openadhan",
-      "drop": true,
-      "drop_reason": "after cutting, it does not start with «الله أكبر» (heard: اهو اكبب الله اهو)"
+      "drop_reason": "after cutting, it does not start with «الله أكبر» (heard: اهو اكبب الله اهو)",
+      "trim_start": 5.56,
+      "trim_end": 211.92
     },
     {
       "id": "indonesia",
@@ -921,8 +931,9 @@
       "author": "recording 4",
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/kamranzafar/piprayer",
-      "drop": true,
-      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: هيا علي الصلاه هيا علي الصلاه)"
+      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: هيا علي الصلاه هيا علي الصلاه)",
+      "trim_start": 0.0,
+      "trim_end": 131.8
     },
     {
       "id": "noor65",
@@ -987,7 +998,7 @@
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/mohsalvi/adhan-audio",
       "drop": true,
-      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: ان لا اله الا الله وحده)"
+      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: ان لا اله الا الله وحده) (large model)"
     },
     {
       "id": "doha_3",
@@ -1038,8 +1049,9 @@
       "author": "Shaya Al-Tamimi",
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/pateljunaid/adhan-player",
-      "drop": true,
-      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
+      "drop_reason": "opening «الله أكبر» or closing «لا إله إلا الله» not heard",
+      "trim_start": 0.0,
+      "trim_end": 252.28
     },
     {
       "id": "belbachir",
@@ -1090,8 +1102,9 @@
       "author": "Mohamed Adel",
       "license": "No licence stated; shared publicly by the repository author",
       "license_url": "https://github.com/samaneng2002/zadi-athan-sounds",
-      "drop": true,
-      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: الفلاح اشهد ان محمد الرسول الله)"
+      "drop_reason": "after cutting, it does not end with «لا إله إلا الله» (heard: الفلاح اشهد ان محمد الرسول الله)",
+      "trim_start": 0.0,
+      "trim_end": 144.83
     },
     {
       "id": "majdi",
