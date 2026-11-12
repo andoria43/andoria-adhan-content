@@ -1,18 +1,18 @@
-total 98464
-drwxr-xr-x  2 runner runner     4096 Nov 12 06:59 .
-drwxr-xr-x 13 runner runner     4096 Nov 12 06:59 ..
--rw-r--r--  1 runner runner  2234103 Nov 12 06:59 ayahinfo_1260.zip
--rw-r--r--  1 runner runner   897724 Nov 12 06:59 en.txt
--rw-r--r--  1 runner runner   281150 Nov 12 06:59 en.txt.gz
--rw-r--r--  1 runner runner 81122332 Nov 12 06:59 images_1260.zip
--rw-r--r--  1 runner runner   113439 Nov 12 06:59 meta.txt
--rw-r--r--  1 runner runner    13738 Nov 12 06:59 meta.txt.gz
--rw-r--r--  1 runner runner  2536012 Nov 12 06:59 muyassar.txt
--rw-r--r--  1 runner runner   555789 Nov 12 06:59 muyassar.txt.gz
--rw-r--r--  1 runner runner  5966391 Nov 12 06:59 saddi.txt
--rw-r--r--  1 runner runner  1603159 Nov 12 06:59 saddi.txt.gz
--rw-r--r--  1 runner runner  4274828 Nov 12 06:59 words.txt
--rw-r--r--  1 runner runner  1193410 Nov 12 06:59 words.txt.gz
+total 98436
+drwxr-xr-x  2 runner runner     4096 Nov 12 07:23 .
+drwxr-xr-x 13 runner runner     4096 Nov 12 07:23 ..
+-rw-r--r--  1 runner runner  2234103 Nov 12 07:23 ayahinfo_1260.zip
+-rw-r--r--  1 runner runner   897724 Nov 12 07:23 en.txt
+-rw-r--r--  1 runner runner   281150 Nov 12 07:23 en.txt.gz
+-rw-r--r--  1 runner runner 81122332 Nov 12 07:23 images_1260.zip
+-rw-r--r--  1 runner runner   113439 Nov 12 07:23 meta.txt
+-rw-r--r--  1 runner runner    13738 Nov 12 07:23 meta.txt.gz
+-rw-r--r--  1 runner runner  2536012 Nov 12 07:23 muyassar.txt
+-rw-r--r--  1 runner runner   555789 Nov 12 07:23 muyassar.txt.gz
+-rw-r--r--  1 runner runner  5966391 Nov 12 07:23 saddi.txt
+-rw-r--r--  1 runner runner  1603159 Nov 12 07:23 saddi.txt.gz
+-rw-r--r--  1 runner runner  4248333 Nov 12 07:23 words.txt
+-rw-r--r--  1 runner runner  1190321 Nov 12 07:23 words.txt.gz
 1|1|1|بِسْمِ|In (the) name|أَيْ: أَبْتَدِئُ قِرَاءَتِي مُسْتَعِينًا بِاسْمِ اللهِ.
 1|1|2|ٱللَّهِ|(of) Allah|أَيْ: أَبْتَدِئُ قِرَاءَتِي مُسْتَعِينًا بِاسْمِ اللهِ.
 1|1|3|ٱلرَّحْمَـٰنِ|the Most Gracious|الَّذِي وَسِعَتْ رَحْمَتُهُ جَمِيعَ الْخَلْقِ.
