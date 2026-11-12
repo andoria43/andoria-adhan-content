@@ -1,15 +1,25 @@
 #!/usr/bin/env python3
 """Lists the adhan recordings on Wikimedia Commons with their licence and length."""
-import json, urllib.parse, urllib.request
+import json, urllib.error, urllib.parse, urllib.request
 
 API = "https://commons.wikimedia.org/w/api.php"
-UA = {"User-Agent": "AndoriaAdhanBot/1.0 (library check)"}
+UA = {"User-Agent": "AndoriaAdhanLibraryCheck/1.0 (https://github.com/andoria43/andoria-adhan-content)"}
 
 
 def get(params):
-    params = dict(params, format="json")
-    req = urllib.request.Request(API + "?" + urllib.parse.urlencode(params), headers=UA)
-    return json.load(urllib.request.urlopen(req, timeout=60))
+    import time
+    params = dict(params, format="json", maxlag=5)
+    for attempt in range(8):
+        time.sleep(1.5)
+        try:
+            req = urllib.request.Request(API + "?" + urllib.parse.urlencode(params), headers=UA)
+            return json.load(urllib.request.urlopen(req, timeout=60))
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 503):
+                time.sleep(10 * (attempt + 1))
+                continue
+            raise
+    raise RuntimeError("Commons kept refusing")
 
 
 files = set()
