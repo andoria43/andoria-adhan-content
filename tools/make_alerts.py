@@ -114,43 +114,53 @@ def main(part=0, parts=1):
                     start = words[j - 4][1]
             if kind.startswith("khayr") and i - 0 > 0:
                 start = words[hits[0] - 1][1]           # include «الصلاة» just before (often misheard)
-            # cut in the quiet between this phrase and the words around it (the voice is followed
-            # until it has really stopped: muezzins stretch the last syllable and the hall echoes it)
-            from audio_cut import envelope, valley, voice_end
-            if "env" not in locals() or env_for != sid:
-                env, env_for = envelope(path), sid
-            prev_end = max([w[2] for w in words if w[2] <= start - 0.05] or [max(0.0, start - 4.0)])
-            nxt = [w[1] for w in words if w[1] >= end + 0.05]
-            next_start = min(nxt) if nxt else end + 8.0
-            s0, s_db = valley(env, max(prev_end, start - 4.0), start - 0.02)
-            e0 = voice_end(env, end, next_start - 0.05)
-            e0 = min(e0 + 0.15, next_start - 0.05)
             if end - start > 20:
                 report.append("  %s: DROPPED, too long for an alert (%.1f s)" % (kind, end - start))
                 continue
-            start, end = max(0.0, s0), e0
-            clip_id = "alert_%s_%s" % (kind, sid)
-            out = os.path.join("audio", clip_id + ".mp3")
-            subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", "%.2f" % start, "-t", "%.2f" % (end - start), "-i", path,
-                            "-af", "afade=t=in:d=0.03,afade=t=out:st=%.2f:d=0.12" % max(0.0, end - start - 0.12),
-                            "-c:a", "libmp3lame", "-b:a", "96k", out], check=True)
-            from audio_cut import quiet_cut
-            if not quiet_cut(env, start, end):
-                report.append("  %s: DROPPED, the voice touches the start or the end of the clip" % kind)
-                os.remove(out)
-                continue
-            check = transcribe(model, out)
-            # the clip must say exactly the words of the tone, complete, and nothing else
+            # cut in the quiet between this phrase and the words around it. Several cuts are tried, each
+            # must be quiet at both ends (nothing clipped) and say exactly the words, else the next is tried
+            from audio_cut import envelope, valley, voice_end, quiet_cut, pauses, pause_before, pause_after
+            if "env" not in locals() or env_for != sid:
+                env, env_for = envelope(path), sid
+                ps = pauses(path)
+            prev_end = max([w[2] for w in words if w[2] <= start - 0.05] or [max(0.0, start - 4.0)])
+            nxt = [w[1] for w in words if w[1] >= end + 0.05]
+            next_start = min(nxt) if nxt else end + 8.0
+            vs = valley(env, max(prev_end, start - 4.0), start - 0.02)[0]
+            cands = []
+            for floor in (28.0, 22.0, 16.0):
+                e1 = voice_end(env, end, next_start + 1.5, floor)
+                cands.append((vs, e1 + 0.12))
+            ps0, pe0 = pause_before(ps, start, 3.0), pause_after(ps, end, 3.0)
+            if ps0 is not None and pe0 is not None:
+                cands.append((ps0, pe0))
             want = [norm(p) for p in phrase] * repeat
             if kind.startswith("khayr"):
                 want = ([norm("الصلاه")] + [norm(p) for p in phrase]) * repeat
             if kind == "end":
                 want = [norm(p) for p in ["الله", "اكبر", "الله", "اكبر"]] + want
-            heard = [w[0] for w in check]
-            exact = len(heard) == len(want) and all(same(h, w) for h, w in zip(heard, want))
-            if not exact:
-                report.append("  %s: DROPPED, not exactly the words (heard: %s)" % (kind, " ".join(heard)))
+            clip_id = "alert_%s_%s" % (kind, sid)
+            out = os.path.join("audio", clip_id + ".mp3")
+            done, why, seen = False, "no quiet place to cut", set()
+            for c0, c1 in cands:
+                c0, c1 = max(0.0, c0), c1
+                key = (round(c0, 1), round(c1, 1))
+                if key in seen or c1 - c0 < 0.8 or c1 - c0 > 22:
+                    continue
+                seen.add(key)
+                if not quiet_cut(env, c0, c1):
+                    continue
+                subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", "%.2f" % c0, "-t", "%.2f" % (c1 - c0), "-i", path,
+                                "-af", "afade=t=in:d=0.03,afade=t=out:st=%.2f:d=0.12" % max(0.0, c1 - c0 - 0.12),
+                                "-c:a", "libmp3lame", "-b:a", "96k", out], check=True)
+                heard = [w[0] for w in transcribe(model, out)]
+                if len(heard) == len(want) and all(same(h, w) for h, w in zip(heard, want)):
+                    start, end, done = c0, c1, True
+                    break
+                why = "not exactly the words (heard: %s)" % " ".join(heard)
                 os.remove(out)
+            if not done:
+                report.append("  %s: DROPPED, %s" % (kind, why))
                 continue
             secs = max(1, round(end - start))
             alerts.append({

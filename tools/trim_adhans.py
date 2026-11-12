@@ -25,22 +25,47 @@ def is_(w, word):
 
 
 def find_bounds(words):
-    """(start time, end time, extra words before, extra words after) or None."""
+    """(index of the first «الله», index of the «لا» of the closing «لا اله الا الله») or None."""
     first = None
     for i in range(len(words) - 1):
         if is_(words[i][0], "الله") and is_(words[i + 1][0], "اكبر"):
             first = i
             break
     last = None
+    span = (words[0][1], words[-1][2]) if words else (0, 0)
     for i in range(len(words) - 4, -1, -1):
         if all(is_(words[i + k][0], TAIL[k]) for k in range(4)):
-            # the closing one: «الله اكبر الله اكبر» just before
-            if i >= 4 and is_(words[i - 4][0], "الله") and is_(words[i - 2][0], "الله"):
+            # the closing one: comes after «اكبر» (not «اشهد ان»), in the last part of the recording
+            near = [words[j][0] for j in range(max(0, i - 3), i)]
+            if any(is_(w, "اكبر") for w in near) and not any(is_(w, "اشهد") for w in near) \
+                    and words[i][1] > span[0] + 0.6 * (span[1] - span[0]):
                 last = i
                 break
     if first is None or last is None:
         return None
-    return first, last + 3
+    return first, last
+
+
+def first_gap(env, t, limit, below=28.0, min_len=0.35):
+    """Start of the first quiet stretch after t (or None)."""
+    import numpy as np
+    db, hop = env
+    thr = float(np.percentile(db, 98)) - below
+    i, stop, need, run = int(t / hop), min(len(db), int(limit / hop)), int(min_len / hop), 0
+    while i < stop:
+        run = run + 1 if db[i] < thr else 0
+        if run >= need:
+            return (i - need + 1) * hop
+        i += 1
+    return None
+
+
+def loud_after(env, t, below=22.0):
+    """Seconds of loud sound after time t."""
+    import numpy as np
+    db, hop = env
+    thr = float(np.percentile(db, 98)) - below
+    return float((db[int(t / hop):] > thr).sum()) * hop
 
 
 def trim_one(model, sid, src, out_dir, report):
@@ -50,18 +75,27 @@ def trim_one(model, sid, src, out_dir, report):
     if not b:
         report.append("%s: adhan words not found, left as it is (heard: %s)" % (sid, " ".join(w[0] for w in words[-12:])))
         return None
-    i0, i1 = b
-    before, after = words[:i0], words[i1 + 1:]
+    i0, la = b
+    before = words[:i0]
     env = envelope(src)
-    start, end = words[i0][1], words[i1][2]
-    prev_end = before[-1][2] if before else 0.0
-    next_start = after[0][1] if after else total
-    s = 0.0 if not before else valley(env, max(prev_end, start - 6.0), start - 0.02)[0]
-    e = voice_end(env, end, min(next_start - 0.05, end + 12.0))
-    e = min(e + 0.3, next_start - 0.05, total)
-    cut_head, cut_tail = s > 0.6, total - e > 1.5
-    if not (cut_head or cut_tail) or (not before and not after and total - e < 4.0):
+    start = words[i0][1]
+    # the end: the first real silence once «لا اله الا الله» has begun
+    gap = first_gap(env, words[la][1] + 2.5, min(total, words[la][1] + 25.0))
+    e = min(total, gap + 0.25) if gap is not None else total
+    after = [w for w in words if w[1] > e]
+    s = 0.0
+    if len(before) >= 3:   # real words before the first «الله اكبر» (not a misheard takbir)
+        prev_end = before[-1][2]
+        s = valley(env, max(prev_end, start - 6.0), start - 0.02)[0]
+    cut_tail = gap is not None and (loud_after(env, e) >= 1.5 or after)
+    if not cut_tail:
+        e = total
+    cut_head = s > 0.6
+    if not (cut_head or cut_tail):
         report.append("%s: clean (%.0f s)" % (sid, total))
+        return None
+    if e - s < 90 or e - s < 0.6 * total:
+        report.append("%s: NOT TRIMMED, the cut would leave too little (%.1f-%.1f of %.0f s)" % (sid, s, e, total))
         return None
     out = os.path.join(out_dir, sid + ".mp3")
     fade = "afade=t=in:d=0.05," if cut_head else ""
