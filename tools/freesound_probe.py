@@ -32,10 +32,13 @@ for q in QUERIES:
         if not found: break
 print(len(ids), "sounds to check", flush=True)
 
+SHARD, SHARDS = int(os.environ.get("SHARD", 0)), int(os.environ.get("SHARDS", 1))
+ids = ids[:96][SHARD::SHARDS]
+OUT = "freesound-report-%d.json" % SHARD
 m = WhisperModel("small", device="cpu", compute_type="int8")
 os.makedirs("freesound_raw", exist_ok=True)
 report = []
-for sid in ids[:90]:
+for sid in ids:
     html = get("https://freesound.org/s/%d/" % sid)
     time.sleep(1)
     if not html: report.append({"id": sid, "error": "page"}); continue
@@ -60,7 +63,8 @@ for sid in ids[:90]:
             fr = y[: len(y) // 2205 * 2205].reshape(-1, 2205)
             db = 20 * np.log10(np.sqrt((fr ** 2).mean(1)) + 1e-9)
             row["range_db"] = round(float(np.percentile(db, 95) - np.percentile(db, 10)), 1)  # small = constant noise
-            segs, _ = m.transcribe(y, language="ar", word_timestamps=True, vad_filter=False)
+            row["seconds"] = round(len(y) / 44100)
+            segs, _ = m.transcribe(y[: 44100 * 50], language="ar", word_timestamps=True, vad_filter=False)
             words = [(round(w.start, 1), round(w.end, 1), w.word.strip()) for s in segs for w in (s.words or [])]
             row["text"] = " ".join(w[2] for w in words)
             row["words"] = words
@@ -69,5 +73,5 @@ for sid in ids[:90]:
     elif free:
         row["error"] = "no preview"
     report.append(row)
+    json.dump(report, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(sid, lic, row.get("range_db"), (row.get("text") or "")[:80], flush=True)
-json.dump(report, open("freesound-report.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
