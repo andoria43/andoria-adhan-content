@@ -19,6 +19,11 @@ jobs:
             echo "$code $u" | tee -a probe-out/urls.txt
             cat /tmp/x | tr -d '\000' > "probe-out/$(echo "$u" | md5sum | cut -c1-8).head" || true
           done < .probe/urls.txt
+          curl -sL -o /tmp/m.gz https://quranpedia.net/dumps/meanings.json.gz && python3 -c "
+          import gzip,json; d=json.load(gzip.open('/tmp/m.gz'));
+          print(type(d), (list(d.keys())[:10] if isinstance(d,dict) else len(d)));
+          s=json.dumps(d,ensure_ascii=False); print(s[:3000])" > probe-out/meanings.txt 2>&1 || true
+          ls -la /tmp/m.gz >> probe-out/meanings.txt
           curl -sL -o probe-out/page003.png https://android.quran.com/data/width_1260/page003.png || true
           curl -sL -o probe-out/page050.png https://android.quran.com/data/width_1260/page050.png || true
           curl -sL -o /tmp/ai.zip https://android.quran.com/data/databases/ayahinfo/ayahinfo_1260.zip && cd /tmp && unzip -o -q ai.zip && ls -la /tmp | tee -a $GITHUB_WORKSPACE/probe-out/ayahinfo.txt && for f in /tmp/*.db; do sqlite3 "$f" ".schema" "select * from glyphs where page_number=3 limit 12;" >> $GITHUB_WORKSPACE/probe-out/ayahinfo.txt; done || true

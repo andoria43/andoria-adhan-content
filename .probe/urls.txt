@@ -1,4 +1,1 @@
-https://api.quran.com/api/v4/resources/tafsirs?language=ar
-https://api.quran.com/api/v4/verses/by_page/3?words=true&word_fields=text_uthmani,line_number&per_page=50&fields=text_uthmani
-https://api.quran.com/api/v4/quran/translations/20?chapter_number=1
-https://api.quran.com/api/v4/resources/translations
+https://quranpedia.net/dumps/LICENSE.md
