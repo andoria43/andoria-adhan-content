@@ -166,6 +166,10 @@ def main(part=0, parts=1):
 def merge():
     """Joins the parts of a parallel run (alerts-part-*.json) into adhans.json."""
     import glob
+    parts = glob.glob("alerts-part-*.json")
+    if not parts:   # nothing was cut (a failed or cancelled run): leave the catalogue as it is
+        print("no alert parts, nothing changed")
+        return
     cat = json.load(open("adhans.json", encoding="utf-8"))
     keep = [a for a in cat["adhans"] if a.get("type") != "alert"]
     alerts, report = [], []

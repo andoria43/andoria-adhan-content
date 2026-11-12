@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Builds the muezzin library: downloads each freely licensed recording listed in sources.json,
+"""Builds the muezzin library (adhans shorter than 90 s after cutting are incomplete and dropped): downloads each freely licensed recording listed in sources.json,
 converts it to a normalised MP3 in audio/, and writes adhans.json (read by the app) and CREDITS.md."""
 import glob, json, os, re, shutil, subprocess, sys, tempfile, urllib.parse, urllib.request
 
