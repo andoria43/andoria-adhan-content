@@ -1,0 +1,13 @@
+200 81122332 application/zip https://android.quran.com/data/zips/images_1260.zip
+200 63441877 application/zip https://android.quran.com/data/zips/images_1024.zip
+200 2234103 application/zip https://android.quran.com/data/databases/ayahinfo/ayahinfo_1260.zip
+200 119225 image/png https://android.quran.com/data/width_1260/page003.png
+200 5338 application/json https://api.alquran.cloud/v1/surah/1/ar.muyassar
+200 1546 application/json https://api.alquran.cloud/v1/surah/1/en.sahih
+200 9078 application/json; charset=utf-8 https://api.quran.com/api/v4/tafsirs/91/by_chapter/1
+200 4599 application/json; charset=utf-8 https://api.quran.com/api/v4/tafsirs/16/by_chapter/1
+200 4052 application/json; charset=utf-8 https://api.quran.com/api/v4/resources/tafsirs
+200 3336 application/json; charset=utf-8 https://api.quran.com/api/v4/verses/by_chapter/2?words=true&word_fields=text_uthmani&language=ar&per_page=2
+200 25590 application/json; charset=utf-8 https://api.quran.com/api/v4/resources/translations?language=ar
+200 3341 text/plain; charset=utf-8 https://raw.githubusercontent.com/quran/quran.com-images/master/README.md
+200 5792 application/json https://api.alquran.cloud/v1/page/3/quran-uthmani
