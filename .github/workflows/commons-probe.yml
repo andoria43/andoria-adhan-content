@@ -1,0 +1,16 @@
+name: Wikimedia Commons adhan list
+on:
+  push:
+    paths: ['.commons-probe/**']
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/commons_probe.py
+      - run: |
+          git config user.name build-bot; git config user.email build-bot@users.noreply.github.com
+          git add commons-adhan.json; git commit -m "Wikimedia Commons adhan list" || true
+          git pull --rebase origin main && git push
