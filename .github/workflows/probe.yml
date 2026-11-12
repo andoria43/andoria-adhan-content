@@ -22,7 +22,7 @@ jobs:
           curl -sL -o /tmp/m.gz https://quranpedia.net/dumps/meanings.json.gz && python3 -c "
           import gzip,json; d=json.load(gzip.open('/tmp/m.gz'));
           print(type(d), (list(d.keys())[:10] if isinstance(d,dict) else len(d)));
-          s=json.dumps(d,ensure_ascii=False); print(s[:3000])" > probe-out/meanings.txt 2>&1 || true
+          print(json.dumps(d['data'][:2],ensure_ascii=False,indent=1)[:6000]); print(json.dumps(d['data'][100],ensure_ascii=False)[:1500]); print(len(d['data']))" > probe-out/meanings.txt 2>&1 || true
           ls -la /tmp/m.gz >> probe-out/meanings.txt
           curl -sL -o probe-out/page003.png https://android.quran.com/data/width_1260/page003.png || true
           curl -sL -o probe-out/page050.png https://android.quran.com/data/width_1260/page050.png || true
