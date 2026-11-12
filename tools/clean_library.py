@@ -27,7 +27,12 @@ def analyse(model, path):
     if len(words) < 12:
         return None, "too few words heard"
     first = next((i for i in range(len(words)) if seq_at(words, i, OPEN)), None)
-    last = max((i for i in range(len(words)) if seq_at(words, i, CLOSE)), default=None)
+    # the closing «لا إله إلا الله» is the one said right after «الله أكبر الله أكبر» (not the one inside the shahada)
+    last = max((i for i in range(len(words)) if seq_at(words, i, CLOSE) and i >= 4
+                and seq_at(words, i - 4, OPEN) and seq_at(words, i - 2, OPEN)), default=None)
+    if last is None:
+        last = max((i for i in range(len(words)) if seq_at(words, i, CLOSE)
+                    and not (i >= 2 and same(words[i - 1][0], norm("ان")))), default=None)
     if first is None or last is None or last <= first:
         return None, "opening «الله أكبر» or closing «لا إله إلا الله» not heard"
     ps = pauses(path)
@@ -44,7 +49,11 @@ def analyse(model, path):
     return (max(0.0, start), end), "ok"
 
 
-def verify(model, path, start, end):
+def has(words, phrase):
+    return any(seq_at(words, i, phrase) for i in range(len(words)))
+
+
+def verify(model, path, start, end, fajr=False):
     with tempfile.TemporaryDirectory() as d:
         out = os.path.join(d, "c.mp3")
         subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", "%.2f" % start, "-to", "%.2f" % end, "-i", path,
@@ -56,6 +65,16 @@ def verify(model, path, start, end):
         return "after cutting, it does not start with «الله أكبر» (heard: %s)" % " ".join(x[0] for x in w[:4])
     if not seq_at(w, len(w) - len(CLOSE), CLOSE):
         return "after cutting, it does not end with «لا إله إلا الله» (heard: %s)" % " ".join(x[0] for x in w[-6:])
+    # the whole adhan must be there: both «حيّ على», and the closing takbir right before the end
+    n = len(w) - len(CLOSE)
+    if not (n >= 4 and seq_at(w, n - 4, OPEN) and seq_at(w, n - 2, OPEN)):
+        return "after cutting, the last «الله أكبر الله أكبر» is missing (heard: %s)" % " ".join(x[0] for x in w[-8:])
+    if not has(w, ["حي", "على", "الصلاه"]):
+        return "after cutting, «حيّ على الصلاة» is missing"
+    if not has(w, ["حي", "على", "الفلاح"]):
+        return "after cutting, «حيّ على الفلاح» is missing"
+    if fajr and not has(w, ["خير", "من", "النوم"]):
+        return "after cutting, «الصلاة خير من النوم» is missing (Fajr adhan)"
     return None
 
 
@@ -73,7 +92,7 @@ def main(part, parts):
             continue
         cut, why = analyse(model, path)
         if cut:
-            bad = verify(model, path, *cut)
+            bad = verify(model, path, *cut, fajr=bool(a.get("fajr")))
             if bad:
                 cut, why = None, bad
         base = a.get("trim_start", 0.0)   # audio/ already starts at trim_start of the source

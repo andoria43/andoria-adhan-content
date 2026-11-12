@@ -16,13 +16,13 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        part: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        part: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
     steps:
       - uses: actions/checkout@v4
       - run: |
           which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
           pip install faster-whisper
-      - run: python3 tools/rescue_library.py ${{ matrix.part }} 11
+      - run: ALL=1 python3 tools/rescue_library.py ${{ matrix.part }} 16
       - uses: actions/upload-artifact@v4
         with:
           name: clean-${{ matrix.part }}
@@ -48,7 +48,7 @@ jobs:
         run: |
           git config user.name "build-bot"; git config user.email "build-bot@users.noreply.github.com"
           git add -A audio adhans.json sources.json CREDITS.md build-report.txt clean-report.txt
-          git commit -m "Library: dropped adhans checked again with the large model" || echo nothing
+          git commit -m "Library: every adhan checked again (large model, whole adhan required)" || echo nothing
           git pull --rebase origin main || true
           git push
 

@@ -17,7 +17,8 @@ def main(part, parts):
     from faster_whisper import WhisperModel
     model = WhisperModel(os.environ.get("WHISPER", "large-v3"), device="cpu", compute_type="int8")
     src = json.load(open("sources.json", encoding="utf-8"))
-    todo = [a for a in src["adhans"] if a.get("drop")]
+    # ALL=1: every recording again from its original (the full check), otherwise only the dropped ones
+    todo = src["adhans"] if os.environ.get("ALL") == "1" else [a for a in src["adhans"] if a.get("drop")]
     res = []
     tmp = tempfile.mkdtemp()
     for n, a in enumerate(todo):
@@ -31,7 +32,7 @@ def main(part, parts):
                             "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-c:a", "libmp3lame", "-b:a", "128k", path], check=True)
             cut, why = analyse(model, path)
             if cut:
-                bad = verify(model, path, *cut)
+                bad = verify(model, path, *cut, fajr=bool(a.get("fajr")))
                 if bad:
                     cut, why = None, bad
             r = {"id": a["id"], "ok": bool(cut), "why": (why if cut else why + " (large model)")}
