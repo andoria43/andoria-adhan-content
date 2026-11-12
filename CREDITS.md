@@ -11,3 +11,13 @@ Converted to MP3, loudness-normalised, silence and anything said after the adhan
 - **Adhan · Andrewler** (أذان · أندرولر): Andrewler, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source: https://commons.wikimedia.org/wiki/File:Azan.ogg
 - **Adhan · Adam** (أذان · آدم): Adam-synagda, [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Source: https://commons.wikimedia.org/wiki/File:Beautiful_adhan.ogg
 - **Sabah Fakhri** (صباح فخري): Sabah Fakhri, [Public domain (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Call_to_prayer_by_Sabah_Fakhry.mp3). Source: https://commons.wikimedia.org/wiki/File:Call_to_prayer_by_Sabah_Fakhry.mp3
+
+## Alert tones
+
+Short clips cut from the recordings above (same authors and licences):
+
+- Fajr alert: As-salatu khayrun min an-nawm · Fajr adhan · Ahmed Khalaf: Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
+- Alert: Allahu akbar, Allahu akbar · Ahmed Khalaf (2): Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
+- Alert: Allahu akbar, Allahu akbar · Fajr adhan · Ahmed Khalaf: Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
+- Alert: Allahu akbar, la ilaha illa-llah · Ahmed Khalaf (1): Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
+- Alert: Allahu akbar, la ilaha illa-llah · Fajr adhan · Ahmed Khalaf: Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
