@@ -1,0 +1,38 @@
+name: Mushaf data
+on:
+  push:
+    paths: ['.mushaf-run/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Text data (tafsir, meaning, words, page of each ayah)
+        run: python3 tools/mushaf_data.py
+      - name: Page images and ayah boxes
+        run: |
+          cd out
+          curl -sSL --retry 5 -o images_1260.zip https://android.quran.com/data/zips/images_1260.zip
+          curl -sSL --retry 5 -o ayahinfo_1260.zip https://android.quran.com/data/databases/ayahinfo/ayahinfo_1260.zip
+          unzip -l images_1260.zip | tail -3
+          n=$(unzip -l images_1260.zip | grep -c 'page[0-9]*\.png'); echo "pages: $n"; test "$n" -ge 604
+          for f in meta muyassar saddi en words; do gzip -9 -k "$f.txt"; done
+          ls -la
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd out
+          gh release delete mushaf-v1 -y --cleanup-tag 2>/dev/null || true
+          gh release create mushaf-v1 images_1260.zip ayahinfo_1260.zip meta.txt.gz muyassar.txt.gz saddi.txt.gz en.txt.gz words.txt.gz \
+            --title "Mushaf data v1" --notes "Madani page images and ayah boxes (Quran Android / quran images project, android.quran.com), Al-Muyassar (King Fahd Complex, via alquran.cloud), Al-Sa'di and word meanings (quran.com API), Saheeh International. For free, non-commercial use." --latest=false
+          ls -la > ../mushaf-report.txt; head -3 words.txt >> ../mushaf-report.txt
+      - name: Save report
+        run: |
+          git config user.name "mushaf-bot"; git config user.email "mushaf-bot@users.noreply.github.com"
+          git pull -q || true
+          git add mushaf-report.txt && git commit -m "Mushaf data report" && git push || true
