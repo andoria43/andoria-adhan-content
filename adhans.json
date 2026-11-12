@@ -170,34 +170,6 @@
    "page": "https://github.com/nandxorandor/Athan"
   },
   {
-   "id": "malmo_fajr",
-   "ar": "أذان الفجر · مسجد مالمو (بسيم عزمي)",
-   "en": "Fajr adhan · Malmö Mosque (Besim Azemi)",
-   "fajr": true,
-   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/malmo_fajr.mp3",
-   "seconds": 64,
-   "note_ar": "1:04 · CC BY 3.0",
-   "note_en": "1:04 · CC BY 3.0",
-   "author": "Islamic Center Malmö",
-   "license": "CC BY 3.0",
-   "license_url": "https://creativecommons.org/licenses/by/3.0/",
-   "page": "https://commons.wikimedia.org/wiki/File:Eid_al-Fitr_Fajr_azan_at_Malm%C3%B6_Mosque_-_19_August_2012.webm"
-  },
-  {
-   "id": "aaqib_azeez",
-   "ar": "عاقب عزيز",
-   "en": "Aaqib Azeez",
-   "fajr": false,
-   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/aaqib_azeez.mp3",
-   "seconds": 84,
-   "note_ar": "1:24 · CC BY-SA 4.0",
-   "note_en": "1:24 · CC BY-SA 4.0",
-   "author": "Aaqib Azeez (Atcovi)",
-   "license": "CC BY-SA 4.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-   "page": "https://commons.wikimedia.org/wiki/File:The_Adhan_-_Muslim_Call_to_Prayer_-_Aaqib_Azeez.mp3"
-  },
-  {
    "id": "khalaf_1",
    "ar": "أحمد خلف (1)",
    "en": "Ahmed Khalaf (1)",
@@ -224,20 +196,6 @@
    "license": "CC BY 4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0/",
    "page": "https://github.com/nandxorandor/Athan"
-  },
-  {
-   "id": "short_adhan",
-   "ar": "أذان قصير",
-   "en": "Short adhan",
-   "fajr": false,
-   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/short_adhan.mp3",
-   "seconds": 26,
-   "note_ar": "0:26 · CC BY-SA 2.5",
-   "note_en": "0:26 · CC BY-SA 2.5",
-   "author": "Jarih",
-   "license": "CC BY-SA 2.5",
-   "license_url": "https://creativecommons.org/licenses/by-sa/2.5/",
-   "page": "https://commons.wikimedia.org/wiki/File:Adhan_wiki.oga"
   },
   {
    "id": "alafasy3_fajr",
@@ -380,20 +338,6 @@
    "page": "https://github.com/OpenCore-Lab/IslamicHomepage"
   },
   {
-   "id": "fatani_fajr",
-   "ar": "أذان الفجر · عبد الكريم فطاني (مكة)",
-   "en": "Fajr adhan · Abdul Karim Fatani (Makkah)",
-   "fajr": true,
-   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/fatani_fajr.mp3",
-   "seconds": 65,
-   "note_ar": "1:05",
-   "note_en": "1:05",
-   "author": "Abdul Karim Fatani (Makkah)",
-   "license": "No licence stated; shared publicly by the repository author",
-   "license_url": "https://github.com/RyugaBahira/Waktu-Adzan",
-   "page": "https://github.com/RyugaBahira/Waktu-Adzan"
-  },
-  {
    "id": "jsholat_fajr",
    "ar": "أذان الفجر · تسجيل 5",
    "en": "Fajr adhan · recording 5",
@@ -532,34 +476,6 @@
    "license": "No licence stated; shared publicly by the repository author",
    "license_url": "https://github.com/yousef-nasser-daaboul/alkannani-audio",
    "page": "https://github.com/yousef-nasser-daaboul/alkannani-audio"
-  },
-  {
-   "id": "malaysia_fajr",
-   "ar": "أذان الفجر · ماليزيا",
-   "en": "Fajr adhan · Malaysia",
-   "fajr": true,
-   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/malaysia_fajr.mp3",
-   "seconds": 54,
-   "note_ar": "0:54",
-   "note_en": "0:54",
-   "author": "Malaysia",
-   "license": "No licence stated; shared publicly by the repository author",
-   "license_url": "https://github.com/zubir2k/HomeAssistantAdzan",
-   "page": "https://github.com/zubir2k/HomeAssistantAdzan"
-  },
-  {
-   "id": "muhsin_kara",
-   "ar": "محسن قره (أذان تركي)",
-   "en": "Muhsin Kara (Turkish)",
-   "fajr": false,
-   "url": "https://raw.githubusercontent.com/andoria43/andoria-adhan-content/main/audio/muhsin_kara.mp3",
-   "seconds": 66,
-   "note_ar": "1:06",
-   "note_en": "1:06",
-   "author": "Muhsin Kara (Turkish)",
-   "license": "No licence stated; shared publicly by the repository author",
-   "license_url": "https://github.com/07halilgunay-art/azan-audio",
-   "page": "https://github.com/07halilgunay-art/azan-audio"
   },
   {
    "id": "suraihi",
