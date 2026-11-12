@@ -1,3 +1,156 @@
 <class 'dict'> ['license', 'schema', 'data']
-{"license": {"source": "https://quranpedia.net", "version": "2026-11-07", "en": "Ownership: the classical works in this data (Quran text, canonical qira'at, classical tafsirs) are the shared heritage of the Muslim ummah. The digitization, structuring, verification, diacritical correction (dabt), linking, and metadata are the work of the Quranpedia.net team, compiled and continuously corrected over years; translations and contemporary works remain the property of their authors and publishers. License: free to use inside apps, websites, and research tools with no attribution required (a link is appreciated). Republishing this data — in full or in part — as a downloadable database/dataset requires crediting Quranpedia.net with a link and stating this dump's version. Content is continuously corrected: keep copies current via /api/v1/changes?since=<version>. Provided as-is, without warranty.", "ar": "الملكية: النصوص التراثية المضمَّنة في هذه البيانات — من نصِّ القرآن الكريم بقراءاته المتواترة، وكتبِ التفسير — تراثٌ مشترك للأمة لا يدَّعي أحدٌ ملكيته، أما الرقمنة والهيكلة والتدقيق وضبط النص وربط البيانات وبياناتها الوصفية فهي عمل فريق «الموسوعة القرآنية»، جُمعت وصُحِّحت على مدى سنوات، وما تزال تُصحَّح باستمرار؛ وتبقى الترجمات والأعمال المعاصرة ملكًا لأصحابها وناشريها. الرخصة: يجوز استعمال البيانات داخل التطبيقات والمواقع والأدوات البحثية مجانًا من غير اشتراط ذكر المصدر (وذكرُه محلُّ تقدير)، أما نشرها نفسِها — كاملةً أو بعضَها — في صورة قاعدة بيانات قابلة للتنزيل فيلزم فيه ذكرُ «الموسوعة القرآنية quranpedia.net» مصدرًا، مع رابط الموقع وبيان تاريخ هذه النسخة. والمحتوى يخضع لتصحيح مستمر؛ فمَن نشر نسخةً، فعليه تحديثها عبر ‎/v1/changes، والعهدة في نشر نصٍّ قديم على ناشره. وتُقدَّم البيانات كما هي من غير ضمان، والتثبُّت واجبُ المستفيد.", "sources": [{"fields": "word morphology — part of speech, root, lemma, case, mood, verb form", "source": "Quranic Arabic Corpus, version 0.4 — Dr. Kais Dukes (may Allah have mercy on him), University of Leeds", "url": "https://corpus.quran.com", "license": "GNU General Public License", "requires": "Any use must clearly indicate the Quranic Arabic Corpus as the source, with a link to https://corpus.quran.com."}, {"fields": "i'rab syntax — dependency relations, heads, constituents", "source": "The Quranic Treebank (NoorBayan), building on the Quranic Arabic Corpus of Dr. Kais Dukes (may Allah have mercy on him)", "url": "https://github.com/NoorBayan/Quranic", "license": "MIT", "requires": "The MIT copyright notice must accompany redistribution."}], "contact": "quranpedia.help@gmail.com", "usage_policy": "https://quranpedia.net/api-docs#usage-policy", "resync": "https://quranpedia.net/api/v1/changes?since=2026-11-07"}, "schema": "/v1/ayah/{surah}/{ayah}/meanings", "data": [{"surah": 1, "ayah": 1, "meanings": [{"book_info": {"id": 491, "name": "السراج في بيان غريب القرآن", "category": "ألفاظ القرآن", "author": "محمد بن عبد العزيز الخضيري", "inspector": null, "reviewer": null, "translator": null, "parts": 1, "publish_year": null, 
--rw-r--r-- 1 runner runner 748521 Nov 12 06:57 /tmp/m.gz
+[
+ {
+  "surah": 1,
+  "ayah": 1,
+  "meanings": [
+   {
+    "book_info": {
+     "id": 491,
+     "name": "السراج في بيان غريب القرآن",
+     "category": "ألفاظ القرآن",
+     "author": "محمد بن عبد العزيز الخضيري",
+     "inspector": null,
+     "reviewer": null,
+     "translator": null,
+     "parts": 1,
+     "publish_year": null,
+     "edition": "الأولى، 1429 ه - 2008 م",
+     "nasher": "مكتبة الملك فهد الوطنية، المملكة العربية السعودية",
+     "about": null
+    },
+    "words": [
+     {
+      "text": "بِسْمِ اللهِ",
+      "meaning": "أَيْ: أَبْتَدِئُ قِرَاءَتِي مُسْتَعِينًا بِاسْمِ اللهِ."
+     },
+     {
+      "text": "الرَّحْمنِ",
+      "meaning": "الَّذِي وَسِعَتْ رَحْمَتُهُ جَمِيعَ الْخَلْقِ."
+     },
+     {
+      "text": "الرَّحِيمِ",
+      "meaning": "الَّذِي يَرْحَمُ المُؤمِنِينَ."
+     }
+    ]
+   },
+   {
+    "book_info": {
+     "id": 327,
+     "name": "التبيان في تفسير غريب القرآن",
+     "category": "ألفاظ القرآن",
+     "author": "ابن الهائم",
+     "inspector": "ضاحي عبد الباقي محمد",
+     "reviewer": null,
+     "translator": null,
+     "parts": 1,
+     "publish_year": "1423",
+     "edition": "الأولى",
+     "nasher": "دار الغرب الإسلامي",
+     "about": null
+    },
+    "words": [
+     {
+      "text": "بِسْمِ اللَّهِ",
+      "meaning": "اختصار، المعنى: أبدأ باسم الله، أو بدأت باسم الله  أو باسم الله أبدأ، أو ابتدأت، أو ابتدائي، أو أتلو [أو قرأت]  ."
+     },
+     {
+      "text": "الرَّحْمنِ",
+      "meaning": "ذي الرّحمة ولا يوصف به غير الله."
+     },
+     {
+      "text": "الرَّحِيمِ",
+      "meaning": "الراحم  [والرّحمة]  تظهر في القلب، وهي هنا إرادة الخير بالعباد. وقيل: الإنعام على المحتاج."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "surah": 1,
+  "ayah": 2,
+  "meanings": [
+   {
+    "book_info": {
+     "id": 491,
+     "name": "السراج في بيان غريب القرآن",
+     "category": "ألفاظ القرآن",
+     "author": "محمد بن عبد العزيز الخضيري",
+     "inspector": null,
+     "reviewer": null,
+     "translator": null,
+     "parts": 1,
+     "publish_year": null,
+     "edition": "الأولى، 1429 ه - 2008 م",
+     "nasher": "مكتبة الملك فهد الوطنية، المملكة العربية السعودية",
+     "about": null
+    },
+    "words": [
+     {
+      "text": "رَبِّ",
+      "meaning": "الرَّبُّ: المُرَبِّي لِخَلْقِهِ بِنِعَمِهِ."
+     },
+     {
+      "text": "الْعَالَمِينَ",
+      "meaning": "كُلِّ مَنْ سِوَى اللهِ تَعَالَى."
+     }
+    ]
+   },
+   {
+    "book_info": {
+     "id": 327,
+     "name": "التبيان في تفسير غريب القرآن",
+     "category": "ألفاظ القرآن",
+     "author": "ابن الهائم",
+     "inspector": "ضاحي عبد الباقي محمد",
+     "reviewer": null,
+     "translator": null,
+     "parts": 1,
+     "publish_year": "1423",
+     "edition": "الأولى",
+     "nasher": "دار الغرب الإسلامي",
+     "about": null
+    },
+    "words": [
+     {
+      "text": "الْحَمْدُ",
+      "meaning": "الثناء بالجميل على جهة التّفضيل."
+     },
+     {
+      "text": "رَبِّ",
+      "meaning": "السّيّد، والمالك، وزوج المرأة  والمصلح، والمربّي، والملك، والمعبود. ولا يستعمل معرّفا بأل إلا معه تعالى."
+     },
+     {
+      "text": "الْعالَمِينَ",
+      "meaning": "أصناف الخلق، كلّ صنف منهم عالم  والمشهور أنه جمع عالم، وقيل: اسم جمع."
+     }
+    ]
+   },
+   {
+    "book_info": {
+     "id": 1424,
+     "name": "كلمات القرآن",
+     "category": "ألفاظ القرآن",
+     "author": "حسنين محمد مخلوف",
+     "inspector": null,
+     "reviewer": null,
+     "translator": null,
+     "parts": 1,
+     "publish_year": null,
+     "edition": "",
+     "nasher": "",
+     "about": null
+    },
+    "words": [
+     {
+      "text": "ربّ العالمين",
+      "meaning": "مربّيهم ومالكهم ومدبر أمورهم"
+     }
+    ]
+   }
+  ]
+ }
+]
+{"surah": 101, "ayah": 4, "meanings": [{"book_info": {"id": 491, "name": "السراج في بيان غريب القرآن", "category": "ألفاظ القرآن", "author": "محمد بن عبد العزيز الخضيري", "inspector": null, "reviewer": null, "translator": null, "parts": 1, "publish_year": null, "edition": "الأولى، 1429 ه - 2008 م", "nasher": "مكتبة الملك فهد الوطنية، المملكة العربية السعودية", "about": null}, "words": [{"text": "الْمَبْثُوثِ", "meaning": "المُنْتَشِرِ."}]}, {"book_info": {"id": 327, "name": "التبيان في تفسير غريب القرآن", "category": "ألفاظ القرآن", "author": "ابن الهائم", "inspector": "ضاحي عبد الباقي محمد", "reviewer": null, "translator": null, "parts": 1, "publish_year": "1423", "edition": "الأولى", "nasher": "دار الغرب الإسلامي", "about": null}, "words": [{"text": "كَالْفَراشِ", "meaning": "هو شبيه بالبعوض يتهافت في النار."}]}, {"book_info": {"id": 1424, "name": "كلمات القرآن", "category": "ألفاظ القرآن", "author": "حسنين محمد مخلوف", "inspector": null, "reviewer": null, "translator": null, "parts": 1, "publish_year": null, "edition": "", "nasher": "", "about": null}, "words": [{"text": "كالفراش", "meaning": "هوَ طيْرٌ كالبَعوض يَتهافتُ في النّار"}, {"text": "المبْثوث", "meaning": "المُتـفـرّق المُـنـتـَـشِر"}]}]}
+4799
+-rw-r--r-- 1 runner runner 748521 Nov 12 06:58 /tmp/m.gz
