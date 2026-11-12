@@ -11,3 +11,7 @@
 200 25590 application/json; charset=utf-8 https://api.quran.com/api/v4/resources/translations?language=ar
 200 3341 text/plain; charset=utf-8 https://raw.githubusercontent.com/quran/quran.com-images/master/README.md
 200 5792 application/json https://api.alquran.cloud/v1/page/3/quran-uthmani
+200 4139 application/json; charset=utf-8 https://api.quran.com/api/v4/resources/tafsirs?language=ar
+200 48086 application/json; charset=utf-8 https://api.quran.com/api/v4/verses/by_page/3?words=true&word_fields=text_uthmani,line_number&per_page=50&fields=text_uthmani
+200 879 application/json; charset=utf-8 https://api.quran.com/api/v4/quran/translations/20?chapter_number=1
+200 25539 application/json; charset=utf-8 https://api.quran.com/api/v4/resources/translations

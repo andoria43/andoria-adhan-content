@@ -46,3 +46,51 @@ CREATE INDEX page_idx on glyphs(page_number);
 332|3|2|2|6|10|1137|1182|172|241
 333|3|2|2|6|11|983|1137|177|254
 334|3|2|2|6|12|872|979|162|265
+total 8040
+drwxrwxrwt 11 root   root      4096 Nov 12 06:42 .
+drwxr-xr-x 20 root   root      4096 Nov 12 06:41 ..
+drwxrwxrwt  2 root   root      4096 Nov  1 21:38 .ICE-unix
+drwxrwxrwt  2 root   root      4096 Nov  1 21:38 .X11-unix
+drwxrwxrwt  2 root   root      4096 Nov  1 21:38 .XIM-unix
+drwxrwxrwt  2 root   root      4096 Nov  1 21:38 .font-unix
+-rw-r--r--  1 runner runner 2234103 Nov 12 06:42 ai.zip
+-rw-r--r--  1 runner runner 5922816 Oct 20  2024 ayahinfo_1260.db
+prwx------  1 runner runner       0 Nov 12 06:42 clr-debug-pipe-2036-8270-in
+prwx------  1 runner runner       0 Nov 12 06:42 clr-debug-pipe-2036-8270-out
+prwx------  1 runner runner       0 Nov 12 06:42 clr-debug-pipe-2056-8395-in
+prwx------  1 runner runner       0 Nov 12 06:42 clr-debug-pipe-2056-8395-out
+srw-------  1 runner runner       0 Nov 12 06:42 dotnet-diagnostic-2036-8270-socket
+srw-------  1 runner runner       0 Nov 12 06:42 dotnet-diagnostic-2056-8395-socket
+drwx------  2 root   root      4096 Nov  1 22:05 snap-private-tmp
+drwx------  3 root   root      4096 Nov 12 06:41 systemd-private-6600c33348ae4364848a7b9c8538df05-ModemManager.service-sL0F68
+drwx------  3 root   root      4096 Nov 12 06:41 systemd-private-6600c33348ae4364848a7b9c8538df05-chrony.service-vFAe2D
+drwx------  3 root   root      4096 Nov 12 06:41 systemd-private-6600c33348ae4364848a7b9c8538df05-polkit.service-QQkp63
+drwx------  3 root   root      4096 Nov 12 06:41 systemd-private-6600c33348ae4364848a7b9c8538df05-systemd-logind.service-3ogs0Y
+-rw-r--r--  1 runner runner   25539 Nov 12 06:42 x
+CREATE TABLE glyphs(
+   glyph_id int not null,
+   page_number int not null,
+   line_number int not null,
+   sura_number int not null,
+   ayah_number int not null,
+   position int not null,
+   min_x int not null,
+   max_x int not null,
+   min_y int not null,
+   max_y int not null,
+   primary key(glyph_id)
+);
+CREATE INDEX sura_ayah_idx on glyphs(sura_number, ayah_number);
+CREATE INDEX page_idx on glyphs(page_number);
+323|3|1|2|6|1|1128|1176|38|125
+324|3|1|2|6|2|953|1125|30|120
+325|3|1|2|6|3|818|948|33|119
+326|3|1|2|6|4|701|813|45|119
+327|3|1|2|6|5|545|696|40|131
+328|3|1|2|6|6|312|545|31|136
+329|3|1|2|6|7|268|308|32|131
+330|3|1|2|6|8|220|262|32|136
+331|3|1|2|6|9|91|216|33|145
+332|3|2|2|6|10|1137|1182|172|241
+333|3|2|2|6|11|983|1137|177|254
+334|3|2|2|6|12|872|979|162|265
