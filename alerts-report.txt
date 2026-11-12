@@ -1,54 +1,54 @@
-makkah: 42 words heard: الله اكبر الله اكبر الله اكبر الله اكبر اشهد ان لا اله الا الله اشهد ان لا اله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله حيا الصلا حيا الصلا حيا للزلا حيا للزلا الله اكبر الله اكبر
-  takbir: kept 0.0-11.4 s
+makkah: 48 words heard: الله اكبر الله اكبر الله اكبر الله اكبر اشهد ان لا اله الا الله اشهد ان لا اله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان لا اله الا الله يا صلام حيا للفلاح حيا للفلاح اشهد ان لا اله الا الله
+  takbir: kept 0.0-11.0 s
+  takbir4: DROPPED, not exactly the words (heard: الله اكبر)
+  hayya: phrase not found
+  hayya1: phrase not found
+  falah: phrase not found
+  end: DROPPED, no quiet place to cut
+nuaina: 46 words heard: الله اكبر الله واكبر الله اكبر الله لا اله الا الله اشهد الله الا الله الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله حيا رسول الله حيا رسول الله حيا رسول الله حيا رسول الله الله اكبر الله اكبر لا اله الا الله
+  takbir: kept 0.0-3.8 s
   takbir4: DROPPED, not exactly the words (heard: الله اكبر الله اكبر)
   hayya: phrase not found
   hayya1: phrase not found
   falah: phrase not found
-  end: DROPPED, the voice touches the start or the end of the clip
-nuaina: 38 words heard: الله اكبر الله واكبر الله اكبر الله لا اله الا الله اشهد الله الا الله الله اشهد ان محمد رسول الله الله اشهد ان محمد رسول الله حيا لصلام الله الله حيا لصلام الله حيا لصلام الله الله
-  takbir: DROPPED, not exactly the words (heard: الله اكبر الله واكبر الله)
-  takbir4: DROPPED, not exactly the words (heard: الله اكبر الله واكبر الله)
-  hayya: phrase not found
-  hayya1: phrase not found
-  falah: phrase not found
-  end: DROPPED, the voice touches the start or the end of the clip
-alafasy3_fajr: 48 words heard: الله اكبر الله اكبر اشهد ان لا اله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله حيا علي الصلاه حيا علي الصلاه حيا علي الفلاح حيا علي الفلاح الصلاه خير من النوم الصلاه خير من النوم الله اكبر الله اكبر لا اله الا الله
-  takbir: DROPPED, the voice touches the start or the end of the clip
-  takbir4: DROPPED, the voice touches the start or the end of the clip
+  end: kept 191.0-209.3 s
+alafasy3_fajr: 54 words heard: الله اكبر الله اكبر اشهد ان لا اله الا الله اشهد ان لا اله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله حيا علي الصلاه حيا علي الصلاه حيا علي الفلاح حيا علي الفلاح الصلاه خير من النوم الصلاه خير من النوم الله اكبر الله اكبر لا اله الا الله
+  takbir: DROPPED, no quiet place to cut
+  takbir4: DROPPED, no quiet place to cut
   hayya: DROPPED, not exactly the words (heard: حيا علي الصلاه)
-  hayya1: kept 79.7-92.2 s
+  hayya1: kept 79.7-92.4 s
   falah: DROPPED, too long for an alert (23.0 s)
   khayr: kept 128.2-139.6 s
-  khayr2: DROPPED, not exactly the words (heard: الصلاه خير من النون)
-  end: kept 156.6-180.7 s
+  khayr2: DROPPED, not exactly the words (heard: الصلاه خير من النوم)
+  end: DROPPED, no quiet place to cut
 madinah: 47 words heard: الله اكبر الله اكبر الله اكبر الله اكبر اشهد ان لا اله الا الله اشهد ان لا اله الا الله اشهد ان محمل رسول الله اشهد ان محمل رسول الله حيا علي الصلاه حيا علي الصلاه حيا علي الصلاه الله اكبر الله اكبر لا اله الا الله
-  takbir: DROPPED, the voice touches the start or the end of the clip
-  takbir4: DROPPED, the voice touches the start or the end of the clip
-  hayya: DROPPED, not exactly the words (heard: هيا امصلا هيا امصلا)
-  hayya1: DROPPED, not exactly the words (heard: هيا ارصالاااااااااااااااااااااا)
+  takbir: DROPPED, no quiet place to cut
+  takbir4: DROPPED, no quiet place to cut
+  hayya: DROPPED, no quiet place to cut
+  hayya1: DROPPED, not exactly the words (heard: هيا ارصلان)
   falah: phrase not found
-  end: kept 160.3-185.0 s
-fatani: 53 words heard: الله اكبر الله اكبر الله اكبر الله اكبر اشهد ان لا اله الا الله اشهد ان محمد اشهد ان لا اله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله حيا علي الصلام حيا علي الفلام حيا علي الفلام حيا علي الفلام حيا علي الفلام
-  takbir: kept 0.0-10.1 s
+  end: DROPPED, no quiet place to cut
+fatani: 50 words heard: الله اكبر الله اكبر الله اكبر الله اكبر اشهد ان لا اله الا الله اشهد ان محمد اشهد ان محمد رسول الله اشهد ان محمد رسول الله حيا علي الصلام حيا علي الصلام حيا علي الصلام حيا علي الصلام حيا علي الصلام الله اكبر الله اكبر لا اله الا الله
+  takbir: kept 0.0-10.0 s
   takbir4: DROPPED, not exactly the words (heard: الله اكبر الله اكبر)
-  hayya: DROPPED, not exactly the words (heard: حيا عن الصلاه)
-  hayya1: DROPPED, not exactly the words (heard: حيا عن الصلاه)
-  falah: DROPPED, not exactly the words (heard: حيا علي الفلاف)
-  end: DROPPED, the voice touches the start or the end of the clip
+  hayya: DROPPED, not exactly the words (heard: حيا علي فلام)
+  hayya1: DROPPED, not exactly the words (heard: حيا علي فلام)
+  falah: phrase not found
+  end: DROPPED, too long for an alert (20.4 s)
 afasy_hejaz_fajr: 58 words heard: الله اكبر الله اكبر الله اكبر الله اكبر اشهد ان لا اله الا الله الله اشهد ان لا اله الا الله الله اشهد ان محمد رسول الله الله اشهد ان محمد رسول الله حي علي صلام حي علي صلام حي علي الفلاح اصلاك خير من النوم اصلاك خير من النوم الله اكبر الله اكبر لا اله الا الله
-  takbir: kept 0.0-5.6 s
+  takbir: kept 0.0-5.5 s
   takbir4: DROPPED, not exactly the words (heard: الله اكبر الله اكبر)
   hayya: phrase not found
   hayya1: phrase not found
   falah: DROPPED, not exactly the words (heard: حي علي الفلاح)
-  khayr: DROPPED, the voice touches the start or the end of the clip
-  khayr2: DROPPED, the voice touches the start or the end of the clip
+  khayr: DROPPED, no quiet place to cut
+  khayr2: DROPPED, no quiet place to cut
   end: kept 201.1-221.0 s
 alafasy: 57 words heard: الله اكبر الله اكبر الله اكبر اشهد ان لا اله الا الله اشهد ان لا اله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان لا اله الا الله حي علي الصلاه حي علي الفلا حي علي الفلا اشهد ان لا اله الا الله الله اكبر الله اكبر لا اله الا الله
   takbir: DROPPED, not exactly the words (heard: الله اكبر)
   takbir4: DROPPED, not exactly the words (heard: الله اكبر)
   hayya: DROPPED, not exactly the words (heard: حي علي الصلاه)
-  hayya1: kept 140.6-160.8 s
+  hayya1: kept 140.6-161.7 s
   falah: DROPPED, not exactly the words (heard: حي علي الفلال)
   end: DROPPED, too long for an alert (31.0 s)
 suraihi: 46 words heard: الله اكره الله اكره الله اكره اشهد ولا اله الا الله اشهد ولا اله الا الله الله اكره اشهد ان محمد الرسول الله اشهد ان محمد الرسول الله حيا رسول الله حيا رسول الله حيا علي الفلا حيا علي الفلا الله اكره لا اله الا الله
@@ -57,7 +57,7 @@ suraihi: 46 words heard: الله اكره الله اكره الله اكره �
   hayya: DROPPED, not exactly the words (heard: حيا علي الفلا)
   hayya1: kept 140.9-156.6 s
   falah: DROPPED, not exactly the words (heard: حيا علي الفلا)
-  end: DROPPED, the voice touches the start or the end of the clip
+  end: DROPPED, no quiet place to cut
 taqi_maliki_fajr: 60 words heard: الله اكبر الله اكبر الله اكبر الله اكبر اشهد ان لا اله الا الله الله اشهد ان لا اله الا الله اشهد ان محهم مدر وسول الله الله اشهد ان محهم مدر وسول الله حيا علي الصلاه حيا علي الصلاه حيا علي الفلاح حيا علي الفلاح الصلاه خير من النوم الصلاه خير من النوم الله اكبر لا اله الا الله
   takbir: DROPPED, not exactly the words (heard: الله اكبر)
   takbir4: DROPPED, not exactly the words (heard: الله اكبر)
@@ -67,7 +67,7 @@ taqi_maliki_fajr: 60 words heard: الله اكبر الله اكبر الله �
   khayr: kept 220.1-236.3 s
   khayr2: DROPPED, not exactly the words (heard: الصلاه خير من النوم)
   end: DROPPED, not exactly the words (heard: لا اله الا الله)
-abdulbasit: 54 words heard: الله عكبه الله عكب الله عكب الله عكب اشهد ان لا اله الا الله اشهد ان لا اله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله لا اله الا الله
+abdulbasit: 54 words heard: الله عكب الله عكب الله عكب الله عكب اشهد ان لا اله الا الله اشهد ان لا اله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله لا اله الا الله
   takbir: phrase not found
   takbir4: phrase not found
   hayya: phrase not found
@@ -75,28 +75,28 @@ abdulbasit: 54 words heard: الله عكبه الله عكب الله عكب ا
   falah: phrase not found
   end: DROPPED, not exactly the words (heard: لا اله الا الله)
 nufais: 48 words heard: الله اكبر الله اكبر الله اكبر اشهد ان لا اله الا الله الله اشهد ان لا اله الا الله اشهد ان محمد رسول الله الله اشهد ان محمد رسول الله حي علي الصلاح حي علي الصلاح حي علي الفلاح حي علي الفلاح الله اكبر لا اله الا الله
-  takbir: DROPPED, the voice touches the start or the end of the clip
+  takbir: DROPPED, no quiet place to cut
   takbir4: DROPPED, too long for an alert (26.2 s)
   hayya: DROPPED, too long for an alert (32.6 s)
-  hayya1: kept 93.2-110.1 s
+  hayya1: DROPPED, not exactly the words (heard: هيا علي الصلاه)
   falah: DROPPED, too long for an alert (32.6 s)
-  end: DROPPED, the voice touches the start or the end of the clip
+  end: DROPPED, no quiet place to cut
 islam_sobhi_fajr: 49 words heard: الله اكبر الله اكبر الله اكبر الله اشهد ان لا اله الا الله الله اشهد ان محمد رسول الله الله اشهد ان محمد رسول الله الله حي علي صلا حي علي صلا حي علي الفلا الله حي علي الفلا اصلا تخير من النوم اصلا تخير من النوم الله اكبر
-  takbir: DROPPED, not exactly the words (heard: الله اكبر)
-  takbir4: DROPPED, not exactly the words (heard: الله اكبر)
-  hayya: DROPPED, not exactly the words (heard: حيعل فلا حيعل فلا)
-  hayya1: DROPPED, not exactly the words (heard: حيعل فلا حيعل فلا)
-  falah: DROPPED, not exactly the words (heard: حيعل فلا حيعل فلا)
-  khayr: kept 157.8-168.2 s
-  khayr2: DROPPED, not exactly the words (heard: الصلاه خير من النوم)
-  end: DROPPED, the voice touches the start or the end of the clip
+  takbir: kept 0.0-16.5 s
+  takbir4: DROPPED, not exactly the words (heard: الله اكبر الله اكبر)
+  hayya: DROPPED, not exactly the words (heard: حي علي الفلا)
+  hayya1: kept 129.3-140.2 s
+  falah: DROPPED, not exactly the words (heard: حي علي الفلا)
+  khayr: kept 157.8-168.3 s
+  khayr2: DROPPED, not exactly the words (heard: اصلاه خير من النوم)
+  end: DROPPED, no quiet place to cut
 qatami: 32 words heard: الله اكبر اشهد ان لا اله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله هيا علي الصلاح هيا علي الفلاح الله اكبر الله اكبر لا اله الا الله
   takbir: DROPPED, too long for an alert (25.0 s)
   takbir4: DROPPED, too long for an alert (25.0 s)
   hayya: phrase not found
   hayya1: phrase not found
   falah: phrase not found
-  end: kept 108.8-129.8 s
+  end: kept 108.8-129.7 s
 saad_ghamdi: 40 words heard: الله اكبر الله اكبر اشهد ان لا اله الا الله اشهد ان لا اله الا الله اشهد ان محمد الرسول الله اشهد ان محمد الرسول الله حيا علي الصلاه حيا علي الفلاح الله اكبر الله اكبر لا اله الا الله
   takbir: kept 0.0-18.2 s
   takbir4: DROPPED, not exactly the words (heard: الله اكبر الله اكبر)
@@ -107,82 +107,82 @@ saad_ghamdi: 40 words heard: الله اكبر الله اكبر اشهد ان �
 zahrani_fajr: 42 words heard: الله اكبر الله اكبر اشهد الله اله الا الله اشهد الله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله حيا علي الصلاه حيا علي الصلاه حيا علي الصلاه حيا علي الصلاه الصلاه الله اكبر لا اله الا الله
   takbir: DROPPED, too long for an alert (21.8 s)
   takbir4: DROPPED, too long for an alert (21.8 s)
-  hayya: DROPPED, the voice touches the start or the end of the clip
-  hayya1: DROPPED, the voice touches the start or the end of the clip
+  hayya: DROPPED, not exactly the words (heard: حيا علي الصلاه)
+  hayya1: kept 69.6-83.0 s
   falah: phrase not found
   khayr: phrase not found
   khayr2: phrase not found
   end: DROPPED, too long for an alert (68.9 s)
-zahrani: 45 words heard: الله اكبر الله اكبر اشهد الله اله الا الله اشهد الله اله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله حيا علي الصلاه حيا علي الصلاه حيا علي الصلاه اصلاه خير من النار اصلاه خير من النار الله اكبر الا الله
+zahrani: 47 words heard: الله اكبر الله اكبر اشهد الله اله الا الله اشهد الله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله حيا علي الصلاه حيا علي الصلاه حيا علي الصلاه حيا علي الصلاه اصلات خير من النار اصلات خير من النار الله اكبر الا الله
   takbir: DROPPED, too long for an alert (22.7 s)
   takbir4: DROPPED, too long for an alert (22.7 s)
-  hayya: DROPPED, the voice touches the start or the end of the clip
-  hayya1: DROPPED, the voice touches the start or the end of the clip
+  hayya: DROPPED, not exactly the words (heard: حيا علي الصلاه)
+  hayya1: kept 69.6-83.0 s
   falah: phrase not found
   end: phrase not found
-naqshbandi: 56 words heard: الله عثم الله عثم الله عثم الله عثم اشهد ان لا اله الا الله اشهد ان لا اله الا الله اشهد ان رحمد رسول الله اشهد ان محمد رسول الله اشهد ان رحمد رسول الله اشهد ان رحمد رسول الله رحمد رسول الله اشهد ان رحمد رسول الله الله عثم الله عثم لا اله الا الله
+naqshbandi: 59 words heard: الله عثم الله عثم الله عثم الله عثم اشهد ان لا اله الا الله اشهد ان لا اله الا الله اشهد ان رحمد رسول الله اشهد ان محمد رسول الله اشهد ان رحمد رسول الله اشهد ان رحمد رسول الله اشهد ان رحمد رسول الله حيا علي الفلا حيا علي الفلا الله عثم الله عثم لا اله الا الله
   takbir: phrase not found
   takbir4: phrase not found
-  hayya: phrase not found
-  hayya1: phrase not found
-  falah: phrase not found
-  end: DROPPED, not exactly the words (heard: الله الله لا اله الا الله)
-doha_fajr: 53 words heard: الله اكبر الله اكبر الله اكبر اشهد ان لا اله الا الله اشهد ان لا اله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله حيا علي الصلاه حيا علي الصلاه حيا علي الفلاح اصلاه خير من النوم اصلاه خير من النوم الله اكبر الله اكبر لا اله الا الله
-  takbir: DROPPED, the voice touches the start or the end of the clip
+  hayya: DROPPED, not exactly the words (heard: حيا علي الفنا)
+  hayya1: DROPPED, not exactly the words (heard: حيا علي الفنا)
+  falah: DROPPED, not exactly the words (heard: حيا علي الفنا)
+  end: DROPPED, no quiet place to cut
+doha_fajr: 50 words heard: الله اكبر الله اكبر الله اكبر اشهد ان لا اله الا الله اشهد ان لا اله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله حيا علي الفلاح اصلات خير من النوم اصلات خير من النوم الله اكبر لا اله الا الله
+  takbir: DROPPED, no quiet place to cut
   takbir4: DROPPED, not exactly the words (heard: الله اكبر)
-  hayya: DROPPED, not exactly the words (heard: حي علي الصلاه)
-  hayya1: kept 70.6-78.2 s
-  falah: DROPPED, not exactly the words (heard: حيا علي الفلاح)
-  khayr: kept 117.7-128.4 s
-  khayr2: DROPPED, not exactly the words (heard: افلاه خير من النوم)
-  end: kept 141.1-165.7 s
-khalaf_1: 42 words heard: الله اكبر الله اكبر الله اكبر اشهد الله الا الله اشهد الله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله حي علي الصلاه حي علي الصلاه حي علي الفاح حي علي الفاح الله اكبر لا اله الا الله
-  takbir: DROPPED, not exactly the words (heard: الله اكبر)
-  takbir4: DROPPED, not exactly the words (heard: الله اكبر)
-  hayya: DROPPED, not exactly the words (heard: هيا للصلاه)
-  hayya1: DROPPED, not exactly the words (heard: حيا رصا)
-  falah: DROPPED, not exactly the words (heard: حي علي الفاح)
-  end: DROPPED, not exactly the words (heard: الله اكبر لا اله الا الله)
-malek_fajr: 58 words heard: الله اكبر الله اكبر الله اكبر اشهد ان لا اله الا الله اشهد ان لا اله الا الله اشهد ان محمد وسول الله اشهد ان محمد وسول الله الله اكبر حين علي خلال حين علي الفلاء حين علي الفلاء حين علي الفلاء افلات خير من النوم افلات خير من النوم الله اكبر الله اكبر لا اله الا الله
-  takbir: DROPPED, not exactly the words (heard: الله اكبر)
-  takbir4: DROPPED, not exactly the words (heard: الله اكبر)
-  hayya: phrase not found
-  hayya1: phrase not found
-  falah: DROPPED, not exactly the words (heard: حين يعلفنا)
-  khayr: DROPPED, not exactly the words (heard: افلا تخير من النوم)
-  khayr2: DROPPED, not exactly the words (heard: افلا تخير من النوم)
-  end: DROPPED, the voice touches the start or the end of the clip
-bilal_fajr: 64 words heard: الله عكبر الله عكب الله عكبر الله عكب اشهد ان لا اله الا الله اشهد ان لا اله الا الله اشهد ان محمد رسول الله الله اشهد ان محمد رسول الله اشهد ان اشهد ان محمد رسول الله حيا لصلام اشهد ان محمد رسول الله حيا علي الفلاح اصلاه خير من النوم اصلاه خير من النوم الله عكبر الله عكبر
-  takbir: DROPPED, the voice touches the start or the end of the clip
-  takbir4: DROPPED, the voice touches the start or the end of the clip
   hayya: phrase not found
   hayya1: phrase not found
   falah: DROPPED, not exactly the words (heard: حي علي الفلاح)
+  khayr: kept 117.7-128.3 s
+  khayr2: DROPPED, not exactly the words (heard: افلاه خير من النوم)
+  end: DROPPED, not exactly the words (heard: لا اله الا الله)
+khalaf_1: 36 words heard: الله اكبر الله اكبر الله اكبر الله اكبر اشهد الله الا الله اشهد الله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله
+  takbir: DROPPED, not exactly the words (heard: الله اكبر)
+  takbir4: DROPPED, not exactly the words (heard: الله اكبر)
+  hayya: phrase not found
+  hayya1: phrase not found
+  falah: phrase not found
+  end: phrase not found
+malek_fajr: 55 words heard: اهوا اكبر الله اكبر الله اكبر الله اكبر اشهد ان لا اله الا الله اشهد ان لا اله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله حي علي خلال حي علي الفلح حي علي الفلح اصلا تخير من النوم افلا تخير من النوم الله اكبر الله اكبر لا اله الا الله
+  takbir: DROPPED, not exactly the words (heard: اكبر الله اكبر)
+  takbir4: DROPPED, not exactly the words (heard: اكبر الله اكبر)
+  hayya: phrase not found
+  hayya1: phrase not found
+  falah: DROPPED, not exactly the words (heard: حين يعلي الفلاح)
+  khayr: DROPPED, not exactly the words (heard: افخلات خير من النوم)
+  khayr2: DROPPED, not exactly the words (heard: افخلات خير من النوم)
+  end: DROPPED, no quiet place to cut
+bilal_fajr: 59 words heard: الله اكبر الله اكبر الله اكبر الله اكبر اشهد ان لا اله الا الله اشهد ان لا اله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله حيا لصلام حيا علي الفلاح حيا علي الفلاح اصلاه خير من النوم اصلاه خير من النوم الله اكبر الله اكبر لا اله الا الله
+  takbir: kept 0.0-5.2 s
+  takbir4: DROPPED, not exactly the words (heard: الله انكبر الله انكبر)
+  hayya: phrase not found
+  hayya1: phrase not found
+  falah: DROPPED, too long for an alert (30.1 s)
   khayr: kept 173.2-186.0 s
-  khayr2: DROPPED, not exactly the words (heard: تصلاه خير من النوم)
+  khayr2: DROPPED, not exactly the words (heard: تصلاه خير من النور)
   end: DROPPED, too long for an alert (23.8 s)
-khalaf_2: 56 words heard: الله اكبر الله اكبر اشهد والله الا الله اشهد والله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان لا اله الا الله اشهد ان لا اله الا الله الا الله
+khalaf_2: 65 words heard: الله اكبر الله اكبر اشهد والله الا الله اشهد والله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ان لا اله الا الله الله و اكبر الله و اكبر اشهد ان لا اله الا الله
   takbir: kept 0.0-12.9 s
   takbir4: DROPPED, not exactly the words (heard: الله اكبر الله اكبر)
   hayya: phrase not found
   hayya1: phrase not found
   falah: phrase not found
-  end: DROPPED, the voice touches the start or the end of the clip
-khalaf_fajr: 49 words heard: الله اكبر الله اكبر اشهد ولا اله الا الله اشهد ولا اله الا الله اشهد ان محمد رسول الله اشهد ولا اله الا الله هيا علي الصلاه هيا علي الصلاه هيا علي الفلاح الصلاه خير من النوم الصلاه خير من النوم الله اكبر الله اكبر لا اله الا الله
+  end: DROPPED, no quiet place to cut
+khalaf_fajr: 41 words heard: الله اكبر الله اكبر اشهد ولا اله الا الله اشهد ولا اله الا الله اشهد ان محمد رسول الله هيا علي الصلاه هيا علي الصلاه الصلاه خير من النوم الصلاه خير من النوم الله اكبر الله اكبر لا اله الا الله
   takbir: kept 0.0-14.1 s
   takbir4: DROPPED, not exactly the words (heard: الله اكبر الله اكبر)
   hayya: phrase not found
   hayya1: phrase not found
   falah: phrase not found
-  khayr: kept 73.7-79.8 s
+  khayr: kept 74.6-79.8 s
   khayr2: DROPPED, not exactly the words (heard: الصلاه خير من النوم)
-  end: kept 86.4-99.4 s
+  end: kept 86.3-99.3 s
 abdulwali_arkani_fajr: 44 words heard: الله اكبر الله اكبر اشهد ولا اله الا الله اشهد ولا اله الا الله اشهد ان محمد رسول الله اشهد ان محمد رسول الله اشهد ولا اله الا الله حي علي الفلاح اصلات خير من النوم الله اكبر الله اكبر لا اله الا الله
   takbir: DROPPED, too long for an alert (21.2 s)
   takbir4: DROPPED, too long for an alert (21.2 s)
   hayya: phrase not found
   hayya1: phrase not found
   falah: DROPPED, not exactly the words (heard: حي علي الفلاح)
-  khayr: DROPPED, the voice touches the start or the end of the clip
-  khayr2: DROPPED, the voice touches the start or the end of the clip
+  khayr: DROPPED, no quiet place to cut
+  khayr2: DROPPED, no quiet place to cut
   end: DROPPED, too long for an alert (21.9 s)
