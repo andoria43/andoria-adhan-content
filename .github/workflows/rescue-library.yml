@@ -1,0 +1,99 @@
+name: Rescue dropped adhans and recut the tones (large model)
+
+on:
+  push:
+    paths:
+      - '.rescue-run/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        part: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+          pip install faster-whisper
+      - run: python3 tools/rescue_library.py ${{ matrix.part }} 11
+      - uses: actions/upload-artifact@v4
+        with:
+          name: clean-${{ matrix.part }}
+          path: clean-part-${{ matrix.part }}.json
+
+  rebuild:
+    needs: clean
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: /tmp/parts
+      - name: Apply the cuts and rebuild the audio
+        run: |
+          which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+          cp /tmp/parts/*/clean-part-*.json .
+          python3 tools/clean_library.py merge
+          rm -f clean-part-*.json
+          python3 tools/build_library.py
+      - name: Commit
+        run: |
+          git config user.name "build-bot"; git config user.email "build-bot@users.noreply.github.com"
+          git add -A audio adhans.json sources.json CREDITS.md build-report.txt clean-report.txt
+          git commit -m "Library: dropped adhans checked again with the large model" || echo nothing
+          git pull --rebase origin main || true
+          git push
+
+  alerts:
+    needs: rebuild
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        part: [0, 1, 2, 3, 4, 5, 6, 7]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: |
+          which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+          pip install faster-whisper
+      - run: rm -f audio/alert_*.mp3 && WHISPER=large-v3 python3 tools/make_alerts.py ${{ matrix.part }} 8
+      - uses: actions/upload-artifact@v4
+        with:
+          name: alerts-${{ matrix.part }}
+          path: |
+            alerts-part-${{ matrix.part }}.json
+            audio/alert_*.mp3
+
+  alerts-merge:
+    needs: alerts
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/download-artifact@v4
+        with:
+          path: /tmp/parts
+      - run: |
+          git rm -q --cached audio/alert_*.mp3 2>/dev/null || true
+          rm -f audio/alert_*.mp3
+          for d in /tmp/parts/alerts-*/; do cp "$d"/alerts-part-*.json . 2>/dev/null || true; cp "$d"/audio/alert_*.mp3 audio/ 2>/dev/null || true; done
+          python3 tools/make_alerts.py merge
+          rm -f alerts-part-*.json
+          git config user.name "build-bot"; git config user.email "build-bot@users.noreply.github.com"
+          git add -A audio adhans.json CREDITS.md alerts-report.txt
+          git commit -m "Alert tones cut again: complete phrases only, cut in pauses" || echo nothing
+          git pull --rebase origin main || true
+          git push

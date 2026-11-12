@@ -40,6 +40,26 @@ def duration(path):
         return 0
 
 
+def source_input(a, tmp):
+    """Downloads (or finds) the original recording of an entry and returns its path."""
+    s = a["source"]
+    if s.startswith("commons:"):
+        name = s[len("commons:"):]
+        url = "https://commons.wikimedia.org/wiki/Special:FilePath/" + urllib.parse.quote(name.replace(" ", "_"))
+        inp = os.path.join(tmp, a["id"] + os.path.splitext(name)[1])
+        get(url, inp)
+        return inp
+    if s.startswith("ghfile:"):
+        _, repo, path = s.split(":", 2)
+        d = os.path.join(tmp, "gh_" + repo.replace("/", "_"))
+        if not os.path.isdir(d):
+            subprocess.run(["git", "clone", "--depth", "1", "https://github.com/" + repo, d], check=True)
+        return os.path.join(d, path)
+    if s.startswith("github:"):
+        return from_github(s, tmp)
+    raise RuntimeError("unknown source " + s)
+
+
 def main():
     src = json.load(open("sources.json", encoding="utf-8"))
     os.makedirs("audio", exist_ok=True)
@@ -54,22 +74,7 @@ def main():
                 os.remove(out)
             continue
         try:
-            s = a["source"]
-            if s.startswith("commons:"):
-                name = s[len("commons:"):]
-                url = "https://commons.wikimedia.org/wiki/Special:FilePath/" + urllib.parse.quote(name.replace(" ", "_"))
-                inp = os.path.join(tmp, a["id"] + os.path.splitext(name)[1])
-                get(url, inp)
-            elif s.startswith("ghfile:"):
-                _, repo, path = s.split(":", 2)
-                d = os.path.join(tmp, "gh_" + repo.replace("/", "_"))
-                if not os.path.isdir(d):
-                    subprocess.run(["git", "clone", "--depth", "1", "https://github.com/" + repo, d], check=True)
-                inp = os.path.join(d, path)
-            elif s.startswith("github:"):
-                inp = from_github(s, tmp)
-            else:
-                raise RuntimeError("unknown source " + s)
+            inp = source_input(a, tmp)
             af = "loudnorm=I=-16:TP=-1.5:LRA=11"
             cmd = ["ffmpeg", "-y", "-v", "error", "-i", inp, "-vn", "-ac", "1", "-ar", "44100"]
             if a.get("trim_start"):

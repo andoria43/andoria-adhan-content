@@ -18,7 +18,8 @@ SOURCES = ["makkah", "madinah", "alafasy", "abdulbasit", "minshawi", "qatami", "
 KINDS = [
     ("takbir", ["الله", "اكبر"], 2, "تنبيه: الله أكبر الله أكبر", "Alert: Allahu akbar, Allahu akbar", False),
     ("takbir4", ["الله", "اكبر"], 4, "تنبيه: التكبير كاملاً", "Alert: the four takbirs", False),
-    ("hayya", ["حي", "على", "الصلاه"], 2, "تنبيه: حيّ على الصلاة", "Alert: Hayya ala-s-salah", False),
+    ("hayya", ["حي", "على", "الصلاه"], 2, "تنبيه: حيّ على الصلاة (مرتين)", "Alert: Hayya ala-s-salah (twice)", False),
+    ("hayya1", ["حي", "على", "الصلاه"], 1, "تنبيه: حيّ على الصلاة", "Alert: Hayya ala-s-salah", False),
     ("falah", ["حي", "على", "الفلاح"], 2, "تنبيه: حيّ على الفلاح", "Alert: Hayya ala-l-falah", False),
     ("khayr", ["خير", "من", "النوم"], 1, "تنبيه الفجر: الصلاة خير من النوم", "Fajr alert: As-salatu khayrun min an-nawm", True),
     ("khayr2", ["خير", "من", "النوم"], 2, "تنبيه الفجر: الصلاة خير من النوم (مرتين)", "Fajr alert: As-salatu khayrun min an-nawm (twice)", True),
