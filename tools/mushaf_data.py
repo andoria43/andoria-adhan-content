@@ -125,7 +125,7 @@ with open(f"{OUT}/words.txt", "w", encoding="utf-8") as f:
                     if not pp:
                         continue
                     for i in range(len(plains) - len(pp) + 1):
-                        if all(plains[i + k] == pp[k] or (len(pp[k]) > 2 and (pp[k] in plains[i + k] or plains[i + k] in pp[k])) for k in range(len(pp))):
+                        if all(plains[i + k] == pp[k] or (min(len(pp[k]), len(plains[i + k])) > 2 and (pp[k] in plains[i + k] or plains[i + k] in pp[k])) for k in range(len(pp))):
                             for k in range(len(pp)):
                                 if not ar_of[i + k]:
                                     ar_of[i + k] = meaning
@@ -138,7 +138,7 @@ with open(f"{OUT}/words.txt", "w", encoding="utf-8") as f:
                         pw = plains[i]
                         for gw, gm in g:
                             pg = plain(gw)
-                            if pg and (pg == pw or (len(pg) > 2 and (pg in pw or pw in pg))):
+                            if pg and (pg == pw or (min(len(pg), len(pw)) > 2 and (pg in pw or pw in pg))):
                                 ar = gm
                                 break
                     f.write(f'{s}|{a}|{w["position"]}|{txt}|{en.replace("|","/")}|{ar.replace("|","/")}\n')
