@@ -1,0 +1,20 @@
+name: Freesound adhans check
+on:
+  push:
+    paths: ['.freesound-probe/**']
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+          pip install faster-whisper
+      - run: python3 tools/freesound_probe.py
+      - run: |
+          git config user.name build-bot; git config user.email build-bot@users.noreply.github.com
+          git add freesound-report.json freesound_raw; git commit -m "Freesound adhans: licences checked and heard" || true
+          git pull --rebase origin main && git push
