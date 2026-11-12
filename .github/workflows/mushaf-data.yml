@@ -29,7 +29,7 @@ jobs:
           cd out
           gh release delete mushaf-v1 -y --cleanup-tag 2>/dev/null || true
           gh release create mushaf-v1 images_1260.zip ayahinfo_1260.zip meta.txt.gz muyassar.txt.gz saddi.txt.gz en.txt.gz words.txt.gz \
-            --title "Mushaf data v1" --notes "Madani page images and ayah boxes (Quran Android / quran images project, android.quran.com), Al-Muyassar (King Fahd Complex, via alquran.cloud), Al-Sa'di and word meanings (quran.com API), Saheeh International. For free, non-commercial use." --latest=false
+            --title "Mushaf data v1" --notes "Madani page images and ayah boxes (Quran Android / quran images project, android.quran.com), Al-Muyassar (King Fahd Complex, via alquran.cloud), Al-Sa'di and English word meanings (quran.com API), Arabic word meanings from Quranpedia.net (السراج في بيان غريب القرآن / التبيان; dump version in the build log, https://quranpedia.net), Saheeh International. For free, non-commercial use." --latest=false
           ls -la > ../mushaf-report.txt; head -3 words.txt >> ../mushaf-report.txt
       - name: Save report
         run: |
