@@ -24,7 +24,7 @@ jobs:
           which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
           pip install faster-whisper
       - name: Trim
-        run: python3 tools/trim_adhans.py ${{ matrix.part }} 8
+        run: python3 tools/talk_trim.py ${{ matrix.part }} 8
       - uses: actions/upload-artifact@v4
         with:
           name: trim-${{ matrix.part }}
@@ -43,7 +43,7 @@ jobs:
         run: |
           mkdir -p trimmed
           for d in /tmp/parts/*/; do cp "$d"/trim-part-*.json . 2>/dev/null || true; cp "$d"/trimmed/*.mp3 trimmed/ 2>/dev/null || true; done
-          python3 tools/trim_adhans.py merge
+          python3 tools/talk_trim.py merge
           rm -rf trim-part-*.json trimmed
           git config user.name "build-bot"; git config user.email "build-bot@users.noreply.github.com"
           git add -A audio adhans.json trim-report.txt
