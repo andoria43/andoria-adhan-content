@@ -1,0 +1,20 @@
+name: Licensed adhans check
+on:
+  push:
+    paths: ['.licensed-probe/**']
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+          pip install faster-whisper
+      - run: python3 tools/licensed_probe.py
+      - run: |
+          git config user.name build-bot; git config user.email build-bot@users.noreply.github.com
+          git add licensed-words.txt licensed_raw; git commit -m "Licensed adhans: downloaded and heard" || true
+          git pull --rebase origin main && git push

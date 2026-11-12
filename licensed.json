@@ -1,0 +1,101 @@
+[
+ {
+  "id": "prophet_mosque",
+  "file": "33937 ejaz215 call-to-prayer-from-the-prophet-s-mo.ogg",
+  "ar": "أذان المسجد النبوي",
+  "en": "Adhan · The Prophet's Mosque",
+  "fajr": false,
+  "author": "ejaz215",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "page": "https://commons.wikimedia.org/wiki/File:33937_ejaz215_call-to-prayer-from-the-prophet-s-mo.ogg"
+ },
+ {
+  "id": "maahur",
+  "file": "AzaanMaahur.ogg",
+  "ar": "أذان · سعيد حاتم زاده",
+  "en": "Adhan · Saeed Hatamzadeh",
+  "fajr": false,
+  "author": "Saeed Hatamzadeh-Varmazyar",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "page": "https://commons.wikimedia.org/wiki/File:AzaanMaahur.ogg"
+ },
+ {
+  "id": "azan_andrewler",
+  "file": "Azan.ogg",
+  "ar": "أذان · أندرولر",
+  "en": "Adhan · Andrewler",
+  "fajr": false,
+  "author": "Andrewler",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "page": "https://commons.wikimedia.org/wiki/File:Azan.ogg"
+ },
+ {
+  "id": "beautiful_adhan",
+  "file": "Beautiful adhan.ogg",
+  "ar": "أذان · آدم",
+  "en": "Adhan · Adam",
+  "fajr": false,
+  "author": "Adam-synagda",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page": "https://commons.wikimedia.org/wiki/File:Beautiful_adhan.ogg"
+ },
+ {
+  "id": "sabah_fakhri",
+  "file": "Call to prayer by Sabah Fakhry.mp3",
+  "ar": "صباح فخري",
+  "en": "Sabah Fakhri",
+  "fajr": false,
+  "author": "Sabah Fakhri",
+  "license": "Public domain (Wikimedia Commons)",
+  "license_url": "https://commons.wikimedia.org/wiki/File:Call_to_prayer_by_Sabah_Fakhry.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Call_to_prayer_by_Sabah_Fakhry.mp3"
+ },
+ {
+  "id": "malmo_fajr",
+  "file": "Eid al-Fitr Fajr azan at Malmö Mosque - 19 August 2012.webm",
+  "ar": "أذان الفجر · مسجد مالمو",
+  "en": "Fajr adhan · Malmö Mosque",
+  "fajr": true,
+  "author": "Islamic Center Malmö",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "page": "https://commons.wikimedia.org/wiki/File:Eid_al-Fitr_Fajr_azan_at_Malmö_Mosque_-_19_August_2012.webm"
+ },
+ {
+  "id": "mahfoudou",
+  "file": "Islamic call to worship.oga",
+  "ar": "أذان · محفوظ",
+  "en": "Adhan · Mahfoudou",
+  "fajr": false,
+  "author": "Mahfoudou",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "page": "https://commons.wikimedia.org/wiki/File:Islamic_call_to_worship.oga"
+ },
+ {
+  "id": "hassan2",
+  "file": "Llamada a oración Mezquita Hassan II.wav",
+  "ar": "أذان مسجد الحسن الثاني (الدار البيضاء)",
+  "en": "Adhan · Hassan II Mosque (Casablanca)",
+  "fajr": false,
+  "author": "Fraguando",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "page": "https://commons.wikimedia.org/wiki/File:Llamada_a_oración_Mezquita_Hassan_II.wav"
+ },
+ {
+  "id": "iqamah",
+  "file": "Iqamah.ogg",
+  "ar": "الإقامة",
+  "en": "Iqamah",
+  "fajr": false,
+  "author": "Aishatu98",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page": "https://commons.wikimedia.org/wiki/File:Iqamah.ogg"
+ }
+]
