@@ -15,3 +15,4 @@
 200 48086 application/json; charset=utf-8 https://api.quran.com/api/v4/verses/by_page/3?words=true&word_fields=text_uthmani,line_number&per_page=50&fields=text_uthmani
 200 879 application/json; charset=utf-8 https://api.quran.com/api/v4/quran/translations/20?chapter_number=1
 200 25539 application/json; charset=utf-8 https://api.quran.com/api/v4/resources/translations
+200 4227 text/plain; charset=utf-8 https://quranpedia.net/dumps/LICENSE.md
