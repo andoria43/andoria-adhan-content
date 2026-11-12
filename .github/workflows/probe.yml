@@ -17,7 +17,7 @@ jobs:
             [ -z "$u" ] && continue
             code=$(curl -sL -o /tmp/x -w '%{http_code} %{size_download} %{content_type}' --max-time 120 "$u")
             echo "$code $u" | tee -a probe-out/urls.txt
-            head -c 600 /tmp/x | tr -d '\000' > "probe-out/$(echo "$u" | md5sum | cut -c1-8).head" || true
+            cat /tmp/x | tr -d '\000' > "probe-out/$(echo "$u" | md5sum | cut -c1-8).head" || true
           done < .probe/urls.txt
           curl -sL -o probe-out/page003.png https://android.quran.com/data/width_1260/page003.png || true
           curl -sL -o probe-out/page050.png https://android.quran.com/data/width_1260/page050.png || true

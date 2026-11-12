@@ -1,13 +1,4 @@
-https://android.quran.com/data/zips/images_1260.zip
-https://android.quran.com/data/zips/images_1024.zip
-https://android.quran.com/data/databases/ayahinfo/ayahinfo_1260.zip
-https://android.quran.com/data/width_1260/page003.png
-https://api.alquran.cloud/v1/surah/1/ar.muyassar
-https://api.alquran.cloud/v1/surah/1/en.sahih
-https://api.quran.com/api/v4/tafsirs/91/by_chapter/1
-https://api.quran.com/api/v4/tafsirs/16/by_chapter/1
-https://api.quran.com/api/v4/resources/tafsirs
-https://api.quran.com/api/v4/verses/by_chapter/2?words=true&word_fields=text_uthmani&language=ar&per_page=2
-https://api.quran.com/api/v4/resources/translations?language=ar
-https://raw.githubusercontent.com/quran/quran.com-images/master/README.md
-https://api.alquran.cloud/v1/page/3/quran-uthmani
+https://api.quran.com/api/v4/resources/tafsirs?language=ar
+https://api.quran.com/api/v4/verses/by_page/3?words=true&word_fields=text_uthmani,line_number&per_page=50&fields=text_uthmani
+https://api.quran.com/api/v4/quran/translations/20?chapter_number=1
+https://api.quran.com/api/v4/resources/translations
