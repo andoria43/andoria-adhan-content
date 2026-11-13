@@ -1,0 +1,22 @@
+name: Adhkar voice samples
+on:
+  push:
+    paths: ['.azkar-sample/**']
+permissions:
+  contents: write
+jobs:
+  get:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p azkar_samples
+          for p in 2025/12/0001 2025/12/0001-1 2025/12/0001-2 2026/01/0001 2026/01/0002 2025/12/0002; do
+            n=$(echo $p | tr '/' '_')
+            curl -sfL -A "Mozilla/5.0" "https://cdn.binwahaf.com/uploads/$p.mp3" -o azkar_samples/$n.mp3 || rm -f azkar_samples/$n.mp3
+          done
+          ls -la azkar_samples
+          for f in azkar_samples/*.mp3; do ffprobe -v error -show_entries format=duration:format_tags=title,artist -of compact "$f" || true; done
+          git config user.name build-bot; git config user.email build-bot@users.noreply.github.com
+          git add azkar_samples; git commit -m "Adhkar voice samples" || true
+          git pull --rebase origin main && git push
