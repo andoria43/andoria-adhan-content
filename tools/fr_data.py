@@ -8,7 +8,8 @@ for s in range(1, 115):
     url = f"https://quranenc.com/api/v1/translation/sura/french_hameedullah/{s}"
     for t in range(6):
         try:
-            d = json.load(urllib.request.urlopen(url, timeout=60)); break
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Android) AndoriaAdhan/1.0", "Accept": "application/json"})
+            d = json.load(urllib.request.urlopen(req, timeout=60)); break
         except Exception as e:
             print("retry", s, e); time.sleep(5)
     else:
