@@ -1,0 +1,7 @@
+total 1284
+drwxr-xr-x  2 runner runner   4096 Nov 21 13:31 .
+drwxr-xr-x 22 runner runner   4096 Nov 21 13:31 ..
+-rw-r--r--  1 runner runner 976360 Nov 21 13:31 fr.txt
+-rw-r--r--  1 runner runner 324378 Nov 21 13:31 fr.txt.gz
+1|1|Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.[1]
+1|2|Louange à Allah, Seigneur de l’Univers.
