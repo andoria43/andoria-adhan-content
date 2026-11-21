@@ -1,7 +1,7 @@
-total 1284
-drwxr-xr-x  2 runner runner   4096 Nov 21 13:31 .
-drwxr-xr-x 22 runner runner   4096 Nov 21 13:31 ..
--rw-r--r--  1 runner runner 976360 Nov 21 13:31 fr.txt
--rw-r--r--  1 runner runner 324378 Nov 21 13:31 fr.txt.gz
-1|1|Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.[1]
+total 1476
+drwxr-xr-x  2 runner runner    4096 Nov 21 13:33 .
+drwxr-xr-x 22 runner runner    4096 Nov 21 13:33 ..
+-rw-r--r--  1 runner runner 1122290 Nov 21 13:33 fr.txt
+-rw-r--r--  1 runner runner  380768 Nov 21 13:33 fr.txt.gz
+1|1|Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.[1]\n\n[1] C’est la formule que prononce le Musulman au commencement de tout acte, se rappelant ainsi de son Créateur et de son Guide et Lui demandant Son aide pour bien l’accomplir. Selon les commentateurs, il faut sous-entendre: «Je commence» par le nom d’Allah, etc. Mais comme «par le nom» donne une ambiguïté et peut également signifier «Je jure par le nom d’Allah», il est préférable d’écarter ici la formule «Par le nom». Qu’on entende seulement «Je commence par le nom d’Allah». Les adjectifs Rahman et Rahim sont tous deux d’une même racine, signifiant Miséricordieux (le premier étant plus intense que l’autre). Nous traduisons donc par «le Tout Miséricordieux, le Très Miséricordieux».
 1|2|Louange à Allah, Seigneur de l’Univers.
