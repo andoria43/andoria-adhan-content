@@ -1,0 +1,27 @@
+name: French meanings
+on:
+  push:
+    paths: ['.fr-run/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download from QuranEnc
+        run: python3 tools/fr_data.py
+      - name: Add to mushaf-v1
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd out && gzip -9 -k fr.txt && ls -la
+          gh release upload mushaf-v1 fr.txt.gz --clobber
+          (ls -la; head -2 fr.txt) > ../fr-report.txt
+      - name: Save report
+        run: |
+          git config user.name "mushaf-bot"; git config user.email "mushaf-bot@users.noreply.github.com"
+          git pull -q || true
+          git add fr-report.txt && git commit -m "French meanings report" && git push || true

@@ -24,3 +24,6 @@ Short clips cut from the recordings above (same authors and licences):
 - Alert: Allahu akbar, la ilaha illa-llah · Ahmed Khalaf (1): Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
 - Alert: Allahu akbar, la ilaha illa-llah · Fajr adhan · Ahmed Khalaf: Ahmed Khalaf, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source: https://github.com/nandxorandor/Athan.
 - Alert: Allahu akbar, la ilaha illa-llah · Sabah Fakhri: Sabah Fakhri, [Public domain (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Call_to_prayer_by_Sabah_Fakhry.mp3). Source: https://commons.wikimedia.org/wiki/File:Call_to_prayer_by_Sabah_Fakhry.mp3.
+
+## French meanings (traduction des sens)
+Muhammad Hamidullah, revised by Rowwad Translation Center — from QuranEnc.com (https://quranenc.com/fr/browse/french_hameedullah), republished unchanged, without ads, under QuranEnc's terms.
