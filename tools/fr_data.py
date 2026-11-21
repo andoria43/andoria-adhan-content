@@ -16,6 +16,8 @@ for s in range(1, 115):
         raise SystemExit(f"failed surah {s}")
     for r in d["result"]:
         tx = " ".join(r["translation"].split("\n")).strip().replace("|", "/")
+        fn = "\\n".join(x.strip() for x in (r.get("footnotes") or "").split("\n") if x.strip()).replace("|", "/")
+        if fn: tx += "\\n\\n" + fn
         lines.append(f'{int(r["sura"])}|{int(r["aya"])}|{tx}')
 print("ayat:", len(lines))
 assert len(lines) == AYAHS_TOTAL, len(lines)
